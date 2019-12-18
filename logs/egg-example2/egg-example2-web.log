@@ -1,0 +1,299 @@
+2019-12-13 16:11:58,282 ERROR 88334 [-/::1/-/8ms GET /user/123/xiaoming?name=egg] nodejs.TypeError: Cannot read property 'id' of undefined
+    at Object.exports.info (/Users/jiaoyy/work/egg-example2/app/controller/user.js:2:36)
+    at Object.callFn (/Users/jiaoyy/work/egg-example2/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.objectControllerMiddleware (/Users/jiaoyy/work/egg-example2/node_modules/egg-core/lib/loader/mixin/controller.js:115:26)
+    at Object.callFn (/Users/jiaoyy/work/egg-example2/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/jiaoyy/work/egg-example2/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/jiaoyy/work/egg-example2/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/jiaoyy/work/egg-example2/node_modules/koa-compose/index.js:45:18)
+    at /Users/jiaoyy/work/egg-example2/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/jiaoyy/work/egg-example2/node_modules/koa-compose/index.js:44:32)
+    at /Users/jiaoyy/work/egg-example2/node_modules/koa-compose/index.js:36:12
+
+pid: 88334
+hostname: bogon
+
+2019-12-13 16:12:06,031 ERROR 88334 [-/::1/-/0ms GET /user/123/xiaoming] nodejs.TypeError: Cannot read property 'id' of undefined
+    at Object.exports.info (/Users/jiaoyy/work/egg-example2/app/controller/user.js:2:36)
+    at Object.callFn (/Users/jiaoyy/work/egg-example2/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.objectControllerMiddleware (/Users/jiaoyy/work/egg-example2/node_modules/egg-core/lib/loader/mixin/controller.js:115:26)
+    at Object.callFn (/Users/jiaoyy/work/egg-example2/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/jiaoyy/work/egg-example2/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/jiaoyy/work/egg-example2/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/jiaoyy/work/egg-example2/node_modules/koa-compose/index.js:45:18)
+    at /Users/jiaoyy/work/egg-example2/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/jiaoyy/work/egg-example2/node_modules/koa-compose/index.js:44:32)
+    at /Users/jiaoyy/work/egg-example2/node_modules/koa-compose/index.js:36:12
+
+pid: 88334
+hostname: bogon
+
+2019-12-13 16:12:35,930 ERROR 88351 [-/::1/-/10ms GET /user/123/xiaoming] nodejs.TypeError: Cannot read property 'id' of undefined
+    at Object.exports.info (/Users/jiaoyy/work/egg-example2/app/controller/user.js:2:36)
+    at Object.callFn (/Users/jiaoyy/work/egg-example2/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.objectControllerMiddleware (/Users/jiaoyy/work/egg-example2/node_modules/egg-core/lib/loader/mixin/controller.js:115:26)
+    at Object.callFn (/Users/jiaoyy/work/egg-example2/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/jiaoyy/work/egg-example2/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/jiaoyy/work/egg-example2/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/jiaoyy/work/egg-example2/node_modules/koa-compose/index.js:45:18)
+    at /Users/jiaoyy/work/egg-example2/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/jiaoyy/work/egg-example2/node_modules/koa-compose/index.js:44:32)
+    at /Users/jiaoyy/work/egg-example2/node_modules/koa-compose/index.js:36:12
+
+pid: 88351
+hostname: bogon
+
+2019-12-13 16:13:43,231 ERROR 88367 [-/::1/-/6ms GET /user/123/xiaoming] nodejs.TypeError: Cannot read property 'id' of undefined
+    at Object.exports.info (/Users/jiaoyy/work/egg-example2/app/controller/user.js:3:36)
+    at Object.callFn (/Users/jiaoyy/work/egg-example2/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.objectControllerMiddleware (/Users/jiaoyy/work/egg-example2/node_modules/egg-core/lib/loader/mixin/controller.js:115:26)
+    at Object.callFn (/Users/jiaoyy/work/egg-example2/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/jiaoyy/work/egg-example2/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/jiaoyy/work/egg-example2/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/jiaoyy/work/egg-example2/node_modules/koa-compose/index.js:45:18)
+    at /Users/jiaoyy/work/egg-example2/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/jiaoyy/work/egg-example2/node_modules/koa-compose/index.js:44:32)
+    at /Users/jiaoyy/work/egg-example2/node_modules/koa-compose/index.js:36:12
+
+pid: 88367
+hostname: bogon
+
+2019-12-13 16:14:06,020 ERROR 88370 [-/::1/-/11ms GET /user/123/xiaoming] nodejs.TypeError: Cannot read property 'id' of undefined
+    at Object.exports.info (/Users/jiaoyy/work/egg-example2/app/controller/user.js:4:36)
+    at Object.callFn (/Users/jiaoyy/work/egg-example2/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.objectControllerMiddleware (/Users/jiaoyy/work/egg-example2/node_modules/egg-core/lib/loader/mixin/controller.js:115:26)
+    at Object.callFn (/Users/jiaoyy/work/egg-example2/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/jiaoyy/work/egg-example2/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/jiaoyy/work/egg-example2/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/jiaoyy/work/egg-example2/node_modules/koa-compose/index.js:45:18)
+    at /Users/jiaoyy/work/egg-example2/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/jiaoyy/work/egg-example2/node_modules/koa-compose/index.js:44:32)
+    at /Users/jiaoyy/work/egg-example2/node_modules/koa-compose/index.js:36:12
+
+pid: 88370
+hostname: bogon
+
+2019-12-13 16:21:30,733 WARN 88471 [-/127.0.0.1/-/17ms POST /form] missing csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2019-12-13 16:21:30,735 WARN 88471 [-/127.0.0.1/-/19ms POST /form] nodejs.ForbiddenError: missing csrf token
+    at Object.throw (/Users/jiaoyy/work/egg-example2/node_modules/koa/lib/context.js:97:11)
+    at Object.assertCsrf (/Users/jiaoyy/work/egg-example2/node_modules/egg-security/app/extend/context.js:153:19)
+    at csrf (/Users/jiaoyy/work/egg-example2/node_modules/egg-security/lib/middlewares/csrf.js:33:9)
+    at dispatch (/Users/jiaoyy/work/egg-example2/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at /Users/jiaoyy/work/egg-example2/node_modules/egg-security/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/jiaoyy/work/egg-example2/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/jiaoyy/work/egg-example2/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/jiaoyy/work/egg-example2/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at overrideMethod (/Users/jiaoyy/work/egg-example2/node_modules/koa-override/index.js:38:12)
+    at dispatch (/Users/jiaoyy/work/egg-example2/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+message: "missing csrf token"
+pid: 88471
+hostname: bogon
+
+2019-12-13 16:22:10,899 WARN 88471 [-/127.0.0.1/-/1ms POST /form] missing csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2019-12-13 16:22:10,899 WARN 88471 [-/127.0.0.1/-/1ms POST /form] nodejs.ForbiddenError: missing csrf token
+    at Object.throw (/Users/jiaoyy/work/egg-example2/node_modules/koa/lib/context.js:97:11)
+    at Object.assertCsrf (/Users/jiaoyy/work/egg-example2/node_modules/egg-security/app/extend/context.js:153:19)
+    at csrf (/Users/jiaoyy/work/egg-example2/node_modules/egg-security/lib/middlewares/csrf.js:33:9)
+    at dispatch (/Users/jiaoyy/work/egg-example2/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at /Users/jiaoyy/work/egg-example2/node_modules/egg-security/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/jiaoyy/work/egg-example2/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/jiaoyy/work/egg-example2/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/jiaoyy/work/egg-example2/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at overrideMethod (/Users/jiaoyy/work/egg-example2/node_modules/koa-override/index.js:38:12)
+    at dispatch (/Users/jiaoyy/work/egg-example2/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+message: "missing csrf token"
+pid: 88471
+hostname: bogon
+
+2019-12-13 16:24:14,053 WARN 88566 [-/127.0.0.1/-/23ms POST /form?conferenceNo=9063290165] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2019-12-13 16:24:14,056 WARN 88566 [-/127.0.0.1/-/25ms POST /form?conferenceNo=9063290165] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (/Users/jiaoyy/work/egg-example2/node_modules/koa/lib/context.js:97:11)
+    at Object.assertCsrf (/Users/jiaoyy/work/egg-example2/node_modules/egg-security/app/extend/context.js:162:19)
+    at csrf (/Users/jiaoyy/work/egg-example2/node_modules/egg-security/lib/middlewares/csrf.js:33:9)
+    at dispatch (/Users/jiaoyy/work/egg-example2/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at /Users/jiaoyy/work/egg-example2/node_modules/egg-security/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/jiaoyy/work/egg-example2/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/jiaoyy/work/egg-example2/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/jiaoyy/work/egg-example2/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at overrideMethod (/Users/jiaoyy/work/egg-example2/node_modules/koa-override/index.js:38:12)
+    at dispatch (/Users/jiaoyy/work/egg-example2/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+message: "invalid csrf token"
+pid: 88566
+hostname: bogon
+
+2019-12-13 16:25:04,464 WARN 88566 [-/127.0.0.1/-/0ms POST /form] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2019-12-13 16:25:04,465 WARN 88566 [-/127.0.0.1/-/1ms POST /form] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (/Users/jiaoyy/work/egg-example2/node_modules/koa/lib/context.js:97:11)
+    at Object.assertCsrf (/Users/jiaoyy/work/egg-example2/node_modules/egg-security/app/extend/context.js:162:19)
+    at csrf (/Users/jiaoyy/work/egg-example2/node_modules/egg-security/lib/middlewares/csrf.js:33:9)
+    at dispatch (/Users/jiaoyy/work/egg-example2/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at /Users/jiaoyy/work/egg-example2/node_modules/egg-security/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/jiaoyy/work/egg-example2/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/jiaoyy/work/egg-example2/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/jiaoyy/work/egg-example2/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at overrideMethod (/Users/jiaoyy/work/egg-example2/node_modules/koa-override/index.js:38:12)
+    at dispatch (/Users/jiaoyy/work/egg-example2/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+message: "invalid csrf token"
+pid: 88566
+hostname: bogon
+
+2019-12-13 16:27:37,294 WARN 88618 [-/127.0.0.1/-/15ms POST /form] nodejs.SyntaxError: Unexpected string in JSON at position 17, check bodyParser config
+    at JSON.parse (<anonymous>)
+    at parse (/Users/jiaoyy/work/egg-example2/node_modules/co-body/lib/json.js:57:17)
+    at AsyncFunction.module.exports [as json] (/Users/jiaoyy/work/egg-example2/node_modules/co-body/lib/json.js:41:20)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async parseBody (/Users/jiaoyy/work/egg-example2/node_modules/koa-bodyparser/index.js:91:14)
+    at async bodyParser (/Users/jiaoyy/work/egg-example2/node_modules/koa-bodyparser/index.js:76:19)
+    at async /Users/jiaoyy/work/egg-example2/node_modules/koa-static-cache/index.js:51:63
+    at async notfound (/Users/jiaoyy/work/egg-example2/node_modules/egg/app/middleware/notfound.js:5:5)
+    at async meta (/Users/jiaoyy/work/egg-example2/node_modules/egg/app/middleware/meta.js:12:5)
+status: 400
+body: "{\n\t\"name\":\"111\"\n\t\"age\":111\n}"
+pid: 88618
+hostname: bogon
+
+2019-12-13 16:44:06,961 ERROR 89185 [-/::1/-/7ms GET /search?type=bing&q=%E4%B9%B0%E6%88%BF] nodejs.TypeError: Assignment to constant variable.
+    at Object.exports.index (/Users/jiaoyy/work/egg-example2/app/controller/search.js:4:14)
+    at Object.callFn (/Users/jiaoyy/work/egg-example2/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.objectControllerMiddleware (/Users/jiaoyy/work/egg-example2/node_modules/egg-core/lib/loader/mixin/controller.js:115:26)
+    at Object.callFn (/Users/jiaoyy/work/egg-example2/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/jiaoyy/work/egg-example2/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/jiaoyy/work/egg-example2/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/jiaoyy/work/egg-example2/node_modules/koa-compose/index.js:45:18)
+    at /Users/jiaoyy/work/egg-example2/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/jiaoyy/work/egg-example2/node_modules/koa-compose/index.js:44:32)
+    at /Users/jiaoyy/work/egg-example2/node_modules/koa-compose/index.js:36:12
+
+pid: 89185
+hostname: bogon
+
+2019-12-13 19:30:48,416 ERROR 94434 [-/::1/-/7ms GET /query] nodejs.TypeError: this.ctx.validate is not a function
+    at RouterController.query (/Users/jiaoyy/work/egg-example2/app/controller/router.js:9:18)
+    at Object.callFn (/Users/jiaoyy/work/egg-example2/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/jiaoyy/work/egg-example2/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/jiaoyy/work/egg-example2/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/jiaoyy/work/egg-example2/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/jiaoyy/work/egg-example2/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/jiaoyy/work/egg-example2/node_modules/koa-compose/index.js:45:18)
+    at /Users/jiaoyy/work/egg-example2/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/jiaoyy/work/egg-example2/node_modules/koa-compose/index.js:44:32)
+    at /Users/jiaoyy/work/egg-example2/node_modules/koa-compose/index.js:36:12
+
+pid: 94434
+hostname: bogon
+
+2019-12-13 19:31:05,791 ERROR 94434 [-/::1/-/1ms GET /query?name=11] nodejs.TypeError: this.ctx.validate is not a function
+    at RouterController.query (/Users/jiaoyy/work/egg-example2/app/controller/router.js:9:18)
+    at Object.callFn (/Users/jiaoyy/work/egg-example2/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/jiaoyy/work/egg-example2/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/jiaoyy/work/egg-example2/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/jiaoyy/work/egg-example2/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/jiaoyy/work/egg-example2/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/jiaoyy/work/egg-example2/node_modules/koa-compose/index.js:45:18)
+    at /Users/jiaoyy/work/egg-example2/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/jiaoyy/work/egg-example2/node_modules/koa-compose/index.js:44:32)
+    at /Users/jiaoyy/work/egg-example2/node_modules/koa-compose/index.js:36:12
+
+pid: 94434
+hostname: bogon
+
+2019-12-13 19:31:54,617 ERROR 94456 [-/::1/-/5ms GET /query?name=11] nodejs.TypeError: this.ctx.validate is not a function
+    at RouterController.query (/Users/jiaoyy/work/egg-example2/app/controller/router.js:9:18)
+    at Object.callFn (/Users/jiaoyy/work/egg-example2/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/jiaoyy/work/egg-example2/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/jiaoyy/work/egg-example2/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/jiaoyy/work/egg-example2/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/jiaoyy/work/egg-example2/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/jiaoyy/work/egg-example2/node_modules/koa-compose/index.js:45:18)
+    at /Users/jiaoyy/work/egg-example2/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/jiaoyy/work/egg-example2/node_modules/koa-compose/index.js:44:32)
+    at /Users/jiaoyy/work/egg-example2/node_modules/koa-compose/index.js:36:12
+
+pid: 94456
+hostname: bogon
+
+2019-12-14 11:47:26,094 WARN 98471 [-/::1/-/7ms GET /query?name=11] nodejs.UnprocessableEntityError: Validation Failed
+    at Object.throw (/Users/jiaoyy/work/egg-example2/node_modules/koa/lib/context.js:97:11)
+    at Object.validate (/Users/jiaoyy/work/egg-example2/node_modules/egg-validate/app/extend/context.js:14:17)
+    at RouterController.query (/Users/jiaoyy/work/egg-example2/app/controller/router.js:9:18)
+    at Object.callFn (/Users/jiaoyy/work/egg-example2/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/jiaoyy/work/egg-example2/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/jiaoyy/work/egg-example2/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/jiaoyy/work/egg-example2/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/jiaoyy/work/egg-example2/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/jiaoyy/work/egg-example2/node_modules/koa-compose/index.js:45:18)
+    at /Users/jiaoyy/work/egg-example2/node_modules/@eggjs/router/lib/router.js:190:18
+message: "Validation Failed"
+code: "invalid_param"
+errors: [{"message":"required","field":"name","code":"missing_field"}]
+pid: 98471
+hostname: bogon
+
+2019-12-14 11:54:15,567 WARN 98522 [-/::1/-/5ms GET /query?name=11] nodejs.UnprocessableEntityError: Validation Failed
+    at Object.throw (/Users/jiaoyy/work/egg-example2/node_modules/koa/lib/context.js:97:11)
+    at Object.validate (/Users/jiaoyy/work/egg-example2/node_modules/egg-validate/app/extend/context.js:14:17)
+    at RouterController.query (/Users/jiaoyy/work/egg-example2/app/controller/router.js:9:18)
+    at Object.callFn (/Users/jiaoyy/work/egg-example2/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/jiaoyy/work/egg-example2/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/jiaoyy/work/egg-example2/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/jiaoyy/work/egg-example2/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/jiaoyy/work/egg-example2/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/jiaoyy/work/egg-example2/node_modules/koa-compose/index.js:45:18)
+    at /Users/jiaoyy/work/egg-example2/node_modules/@eggjs/router/lib/router.js:190:18
+message: "Validation Failed"
+code: "invalid_param"
+errors: [{"message":"required","field":"name","code":"missing_field"}]
+pid: 98522
+hostname: bogon
+
+2019-12-14 12:02:57,413 WARN 98592 [-/::1/-/11ms GET /query?name=xiaoming] nodejs.UnprocessableEntityError: Validation Failed
+    at Object.throw (/Users/jiaoyy/work/egg-example2/node_modules/koa/lib/context.js:97:11)
+    at Object.validate (/Users/jiaoyy/work/egg-example2/node_modules/egg-validate/app/extend/context.js:14:17)
+    at RouterController.query (/Users/jiaoyy/work/egg-example2/app/controller/router.js:9:18)
+    at Object.callFn (/Users/jiaoyy/work/egg-example2/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/jiaoyy/work/egg-example2/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/jiaoyy/work/egg-example2/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/jiaoyy/work/egg-example2/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/jiaoyy/work/egg-example2/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/jiaoyy/work/egg-example2/node_modules/koa-compose/index.js:45:18)
+    at /Users/jiaoyy/work/egg-example2/node_modules/@eggjs/router/lib/router.js:190:18
+message: "Validation Failed"
+code: "invalid_param"
+errors: [{"message":"required","field":"name","code":"missing_field"}]
+pid: 98592
+hostname: bogon
+
+2019-12-14 12:03:00,595 WARN 98592 [-/::1/-/1ms GET /query?name=xiaoming] nodejs.UnprocessableEntityError: Validation Failed
+    at Object.throw (/Users/jiaoyy/work/egg-example2/node_modules/koa/lib/context.js:97:11)
+    at Object.validate (/Users/jiaoyy/work/egg-example2/node_modules/egg-validate/app/extend/context.js:14:17)
+    at RouterController.query (/Users/jiaoyy/work/egg-example2/app/controller/router.js:9:18)
+    at Object.callFn (/Users/jiaoyy/work/egg-example2/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/jiaoyy/work/egg-example2/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/jiaoyy/work/egg-example2/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/jiaoyy/work/egg-example2/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/jiaoyy/work/egg-example2/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/jiaoyy/work/egg-example2/node_modules/koa-compose/index.js:45:18)
+    at /Users/jiaoyy/work/egg-example2/node_modules/@eggjs/router/lib/router.js:190:18
+message: "Validation Failed"
+code: "invalid_param"
+errors: [{"message":"required","field":"name","code":"missing_field"}]
+pid: 98592
+hostname: bogon
+
+2019-12-14 12:03:06,588 WARN 98592 [-/::1/-/0ms GET /query?name=111] nodejs.UnprocessableEntityError: Validation Failed
+    at Object.throw (/Users/jiaoyy/work/egg-example2/node_modules/koa/lib/context.js:97:11)
+    at Object.validate (/Users/jiaoyy/work/egg-example2/node_modules/egg-validate/app/extend/context.js:14:17)
+    at RouterController.query (/Users/jiaoyy/work/egg-example2/app/controller/router.js:9:18)
+    at Object.callFn (/Users/jiaoyy/work/egg-example2/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/jiaoyy/work/egg-example2/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/jiaoyy/work/egg-example2/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/jiaoyy/work/egg-example2/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/jiaoyy/work/egg-example2/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/jiaoyy/work/egg-example2/node_modules/koa-compose/index.js:45:18)
+    at /Users/jiaoyy/work/egg-example2/node_modules/@eggjs/router/lib/router.js:190:18
+message: "Validation Failed"
+code: "invalid_param"
+errors: [{"message":"required","field":"name","code":"missing_field"}]
+pid: 98592
+hostname: bogon
+

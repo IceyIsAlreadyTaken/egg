@@ -1,0 +1,671 @@
+2019-12-13 11:37:42,497 ERROR 82771 nodejs.ClusterClientNoResponseError: client no response in 114799ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/jiaoyy/work/egg-example2/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 82771
+hostname: bogon
+
+2019-12-13 12:27:16,217 ERROR 82771 nodejs.ClusterClientNoResponseError: client no response in 1786897ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/jiaoyy/work/egg-example2/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 82771
+hostname: bogon
+
+2019-12-13 13:23:35,637 ERROR 82771 nodejs.ClusterClientNoResponseError: client no response in 1755996ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/jiaoyy/work/egg-example2/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 82771
+hostname: bogon
+
+2019-12-13 13:34:09,661 ERROR 82771 nodejs.ClusterClientNoResponseError: client no response in 593988ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/jiaoyy/work/egg-example2/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 82771
+hostname: bogon
+
+2019-12-13 13:56:29,685 ERROR 82771 nodejs.ClusterClientNoResponseError: client no response in 1300007ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/jiaoyy/work/egg-example2/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 82771
+hostname: bogon
+
+2019-12-13 14:08:58,708 ERROR 82771 nodejs.ClusterClientNoResponseError: client no response in 729001ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/jiaoyy/work/egg-example2/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 82771
+hostname: bogon
+
+2019-12-13 16:04:41,205 ERROR 87772 nodejs.ClusterClientNoResponseError: client no response in 120339ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/jiaoyy/work/egg-example2/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 87772
+hostname: bogon
+
+2019-12-13 16:11:58,282 ERROR 88334 [-/::1/-/8ms GET /user/123/xiaoming?name=egg] nodejs.TypeError: Cannot read property 'id' of undefined
+    at Object.exports.info (/Users/jiaoyy/work/egg-example2/app/controller/user.js:2:36)
+    at Object.callFn (/Users/jiaoyy/work/egg-example2/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.objectControllerMiddleware (/Users/jiaoyy/work/egg-example2/node_modules/egg-core/lib/loader/mixin/controller.js:115:26)
+    at Object.callFn (/Users/jiaoyy/work/egg-example2/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/jiaoyy/work/egg-example2/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/jiaoyy/work/egg-example2/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/jiaoyy/work/egg-example2/node_modules/koa-compose/index.js:45:18)
+    at /Users/jiaoyy/work/egg-example2/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/jiaoyy/work/egg-example2/node_modules/koa-compose/index.js:44:32)
+    at /Users/jiaoyy/work/egg-example2/node_modules/koa-compose/index.js:36:12
+
+pid: 88334
+hostname: bogon
+
+2019-12-13 16:12:06,030 ERROR 88334 [-/::1/-/0ms GET /user/123/xiaoming] nodejs.TypeError: Cannot read property 'id' of undefined
+    at Object.exports.info (/Users/jiaoyy/work/egg-example2/app/controller/user.js:2:36)
+    at Object.callFn (/Users/jiaoyy/work/egg-example2/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.objectControllerMiddleware (/Users/jiaoyy/work/egg-example2/node_modules/egg-core/lib/loader/mixin/controller.js:115:26)
+    at Object.callFn (/Users/jiaoyy/work/egg-example2/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/jiaoyy/work/egg-example2/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/jiaoyy/work/egg-example2/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/jiaoyy/work/egg-example2/node_modules/koa-compose/index.js:45:18)
+    at /Users/jiaoyy/work/egg-example2/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/jiaoyy/work/egg-example2/node_modules/koa-compose/index.js:44:32)
+    at /Users/jiaoyy/work/egg-example2/node_modules/koa-compose/index.js:36:12
+
+pid: 88334
+hostname: bogon
+
+2019-12-13 16:12:35,929 ERROR 88351 [-/::1/-/10ms GET /user/123/xiaoming] nodejs.TypeError: Cannot read property 'id' of undefined
+    at Object.exports.info (/Users/jiaoyy/work/egg-example2/app/controller/user.js:2:36)
+    at Object.callFn (/Users/jiaoyy/work/egg-example2/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.objectControllerMiddleware (/Users/jiaoyy/work/egg-example2/node_modules/egg-core/lib/loader/mixin/controller.js:115:26)
+    at Object.callFn (/Users/jiaoyy/work/egg-example2/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/jiaoyy/work/egg-example2/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/jiaoyy/work/egg-example2/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/jiaoyy/work/egg-example2/node_modules/koa-compose/index.js:45:18)
+    at /Users/jiaoyy/work/egg-example2/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/jiaoyy/work/egg-example2/node_modules/koa-compose/index.js:44:32)
+    at /Users/jiaoyy/work/egg-example2/node_modules/koa-compose/index.js:36:12
+
+pid: 88351
+hostname: bogon
+
+2019-12-13 16:13:43,230 ERROR 88367 [-/::1/-/6ms GET /user/123/xiaoming] nodejs.TypeError: Cannot read property 'id' of undefined
+    at Object.exports.info (/Users/jiaoyy/work/egg-example2/app/controller/user.js:3:36)
+    at Object.callFn (/Users/jiaoyy/work/egg-example2/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.objectControllerMiddleware (/Users/jiaoyy/work/egg-example2/node_modules/egg-core/lib/loader/mixin/controller.js:115:26)
+    at Object.callFn (/Users/jiaoyy/work/egg-example2/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/jiaoyy/work/egg-example2/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/jiaoyy/work/egg-example2/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/jiaoyy/work/egg-example2/node_modules/koa-compose/index.js:45:18)
+    at /Users/jiaoyy/work/egg-example2/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/jiaoyy/work/egg-example2/node_modules/koa-compose/index.js:44:32)
+    at /Users/jiaoyy/work/egg-example2/node_modules/koa-compose/index.js:36:12
+
+pid: 88367
+hostname: bogon
+
+2019-12-13 16:14:06,020 ERROR 88370 [-/::1/-/11ms GET /user/123/xiaoming] nodejs.TypeError: Cannot read property 'id' of undefined
+    at Object.exports.info (/Users/jiaoyy/work/egg-example2/app/controller/user.js:4:36)
+    at Object.callFn (/Users/jiaoyy/work/egg-example2/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.objectControllerMiddleware (/Users/jiaoyy/work/egg-example2/node_modules/egg-core/lib/loader/mixin/controller.js:115:26)
+    at Object.callFn (/Users/jiaoyy/work/egg-example2/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/jiaoyy/work/egg-example2/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/jiaoyy/work/egg-example2/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/jiaoyy/work/egg-example2/node_modules/koa-compose/index.js:45:18)
+    at /Users/jiaoyy/work/egg-example2/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/jiaoyy/work/egg-example2/node_modules/koa-compose/index.js:44:32)
+    at /Users/jiaoyy/work/egg-example2/node_modules/koa-compose/index.js:36:12
+
+pid: 88370
+hostname: bogon
+
+2019-12-13 16:44:06,961 ERROR 89185 [-/::1/-/7ms GET /search?type=bing&q=%E4%B9%B0%E6%88%BF] nodejs.TypeError: Assignment to constant variable.
+    at Object.exports.index (/Users/jiaoyy/work/egg-example2/app/controller/search.js:4:14)
+    at Object.callFn (/Users/jiaoyy/work/egg-example2/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.objectControllerMiddleware (/Users/jiaoyy/work/egg-example2/node_modules/egg-core/lib/loader/mixin/controller.js:115:26)
+    at Object.callFn (/Users/jiaoyy/work/egg-example2/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/jiaoyy/work/egg-example2/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/jiaoyy/work/egg-example2/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/jiaoyy/work/egg-example2/node_modules/koa-compose/index.js:45:18)
+    at /Users/jiaoyy/work/egg-example2/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/jiaoyy/work/egg-example2/node_modules/koa-compose/index.js:44:32)
+    at /Users/jiaoyy/work/egg-example2/node_modules/koa-compose/index.js:36:12
+
+pid: 89185
+hostname: bogon
+
+2019-12-13 18:25:42,594 ERROR 90954 nodejs.ClusterClientNoResponseError: client no response in 1245585ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/jiaoyy/work/egg-example2/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 90954
+hostname: bogon
+
+2019-12-13 19:30:48,415 ERROR 94434 [-/::1/-/7ms GET /query] nodejs.TypeError: this.ctx.validate is not a function
+    at RouterController.query (/Users/jiaoyy/work/egg-example2/app/controller/router.js:9:18)
+    at Object.callFn (/Users/jiaoyy/work/egg-example2/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/jiaoyy/work/egg-example2/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/jiaoyy/work/egg-example2/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/jiaoyy/work/egg-example2/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/jiaoyy/work/egg-example2/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/jiaoyy/work/egg-example2/node_modules/koa-compose/index.js:45:18)
+    at /Users/jiaoyy/work/egg-example2/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/jiaoyy/work/egg-example2/node_modules/koa-compose/index.js:44:32)
+    at /Users/jiaoyy/work/egg-example2/node_modules/koa-compose/index.js:36:12
+
+pid: 94434
+hostname: bogon
+
+2019-12-13 19:31:05,790 ERROR 94434 [-/::1/-/1ms GET /query?name=11] nodejs.TypeError: this.ctx.validate is not a function
+    at RouterController.query (/Users/jiaoyy/work/egg-example2/app/controller/router.js:9:18)
+    at Object.callFn (/Users/jiaoyy/work/egg-example2/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/jiaoyy/work/egg-example2/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/jiaoyy/work/egg-example2/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/jiaoyy/work/egg-example2/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/jiaoyy/work/egg-example2/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/jiaoyy/work/egg-example2/node_modules/koa-compose/index.js:45:18)
+    at /Users/jiaoyy/work/egg-example2/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/jiaoyy/work/egg-example2/node_modules/koa-compose/index.js:44:32)
+    at /Users/jiaoyy/work/egg-example2/node_modules/koa-compose/index.js:36:12
+
+pid: 94434
+hostname: bogon
+
+2019-12-13 19:31:54,617 ERROR 94456 [-/::1/-/5ms GET /query?name=11] nodejs.TypeError: this.ctx.validate is not a function
+    at RouterController.query (/Users/jiaoyy/work/egg-example2/app/controller/router.js:9:18)
+    at Object.callFn (/Users/jiaoyy/work/egg-example2/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/jiaoyy/work/egg-example2/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/jiaoyy/work/egg-example2/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/jiaoyy/work/egg-example2/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/jiaoyy/work/egg-example2/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/jiaoyy/work/egg-example2/node_modules/koa-compose/index.js:45:18)
+    at /Users/jiaoyy/work/egg-example2/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/jiaoyy/work/egg-example2/node_modules/koa-compose/index.js:44:32)
+    at /Users/jiaoyy/work/egg-example2/node_modules/koa-compose/index.js:36:12
+
+pid: 94456
+hostname: bogon
+
+2019-12-13 20:13:19,944 ERROR 91740 nodejs.ClusterClientNoResponseError: client no response in 513783ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/jiaoyy/work/egg-example2/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 91740
+hostname: bogon
+
+2019-12-13 20:34:18,425 ERROR 91740 nodejs.ClusterClientNoResponseError: client no response in 1218455ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/jiaoyy/work/egg-example2/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 91740
+hostname: bogon
+
+2019-12-13 20:52:46,562 ERROR 91740 nodejs.ClusterClientNoResponseError: client no response in 1068127ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/jiaoyy/work/egg-example2/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 91740
+hostname: bogon
+
+2019-12-13 21:07:51,974 ERROR 91740 nodejs.ClusterClientNoResponseError: client no response in 865393ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/jiaoyy/work/egg-example2/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 91740
+hostname: bogon
+
+2019-12-13 21:28:32,456 ERROR 91740 nodejs.ClusterClientNoResponseError: client no response in 1200425ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/jiaoyy/work/egg-example2/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 91740
+hostname: bogon
+
+2019-12-13 21:42:56,904 ERROR 91740 nodejs.ClusterClientNoResponseError: client no response in 844309ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/jiaoyy/work/egg-example2/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 91740
+hostname: bogon
+
+2019-12-13 22:02:38,004 ERROR 91740 nodejs.ClusterClientNoResponseError: client no response in 1141076ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/jiaoyy/work/egg-example2/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 91740
+hostname: bogon
+
+2019-12-13 22:17:40,105 ERROR 91740 nodejs.ClusterClientNoResponseError: client no response in 842077ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/jiaoyy/work/egg-example2/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 91740
+hostname: bogon
+
+2019-12-13 22:35:37,646 ERROR 91740 nodejs.ClusterClientNoResponseError: client no response in 1037508ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/jiaoyy/work/egg-example2/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 91740
+hostname: bogon
+
+2019-12-13 22:47:58,048 ERROR 91740 nodejs.ClusterClientNoResponseError: client no response in 720379ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/jiaoyy/work/egg-example2/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 91740
+hostname: bogon
+
+2019-12-13 23:05:39,763 ERROR 91740 nodejs.ClusterClientNoResponseError: client no response in 1021698ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/jiaoyy/work/egg-example2/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 91740
+hostname: bogon
+
+2019-12-13 23:18:09,298 ERROR 91740 nodejs.ClusterClientNoResponseError: client no response in 709490ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/jiaoyy/work/egg-example2/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 91740
+hostname: bogon
+
+2019-12-13 23:39:07,830 ERROR 91740 nodejs.ClusterClientNoResponseError: client no response in 1218507ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/jiaoyy/work/egg-example2/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 91740
+hostname: bogon
+
+2019-12-13 23:51:59,524 ERROR 91740 nodejs.ClusterClientNoResponseError: client no response in 751672ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/jiaoyy/work/egg-example2/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 91740
+hostname: bogon
+
+2019-12-14 00:13:17,978 ERROR 91740 nodejs.ClusterClientNoResponseError: client no response in 1218428ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/jiaoyy/work/egg-example2/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 91740
+hostname: bogon
+
+2019-12-14 00:24:31,541 ERROR 91740 nodejs.ClusterClientNoResponseError: client no response in 633546ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/jiaoyy/work/egg-example2/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 91740
+hostname: bogon
+
+2019-12-14 00:45:18,053 ERROR 91740 nodejs.ClusterClientNoResponseError: client no response in 1206494ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/jiaoyy/work/egg-example2/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 91740
+hostname: bogon
+
+2019-12-14 00:57:04,575 ERROR 91740 nodejs.ClusterClientNoResponseError: client no response in 666497ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/jiaoyy/work/egg-example2/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 91740
+hostname: bogon
+
+2019-12-14 01:18:02,802 ERROR 91740 nodejs.ClusterClientNoResponseError: client no response in 1218205ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/jiaoyy/work/egg-example2/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 91740
+hostname: bogon
+
+2019-12-14 01:29:23,348 ERROR 91740 nodejs.ClusterClientNoResponseError: client no response in 660518ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/jiaoyy/work/egg-example2/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 91740
+hostname: bogon
+
+2019-12-14 01:50:21,886 ERROR 91740 nodejs.ClusterClientNoResponseError: client no response in 1218525ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/jiaoyy/work/egg-example2/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 91740
+hostname: bogon
+
+2019-12-14 02:09:02,456 ERROR 91740 nodejs.ClusterClientNoResponseError: client no response in 1080549ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/jiaoyy/work/egg-example2/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 91740
+hostname: bogon
+
+2019-12-14 02:25:49,921 ERROR 91740 nodejs.ClusterClientNoResponseError: client no response in 967439ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/jiaoyy/work/egg-example2/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 91740
+hostname: bogon
+
+2019-12-14 02:41:20,523 ERROR 91740 nodejs.ClusterClientNoResponseError: client no response in 910585ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/jiaoyy/work/egg-example2/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 91740
+hostname: bogon
+
+2019-12-14 02:59:49,958 ERROR 91740 nodejs.ClusterClientNoResponseError: client no response in 1069371ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/jiaoyy/work/egg-example2/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 91740
+hostname: bogon
+
+2019-12-14 03:14:12,550 ERROR 91740 nodejs.ClusterClientNoResponseError: client no response in 822584ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/jiaoyy/work/egg-example2/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 91740
+hostname: bogon
+
+2019-12-14 03:30:45,779 ERROR 91740 nodejs.ClusterClientNoResponseError: client no response in 953209ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/jiaoyy/work/egg-example2/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 91740
+hostname: bogon
+
+2019-12-14 03:46:32,323 ERROR 91740 nodejs.ClusterClientNoResponseError: client no response in 906513ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/jiaoyy/work/egg-example2/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 91740
+hostname: bogon
+
+2019-12-14 04:01:25,970 ERROR 91740 nodejs.ClusterClientNoResponseError: client no response in 873630ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/jiaoyy/work/egg-example2/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 91740
+hostname: bogon
+
+2019-12-14 04:20:45,232 ERROR 91740 nodejs.ClusterClientNoResponseError: client no response in 1099242ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/jiaoyy/work/egg-example2/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 91740
+hostname: bogon
+
+2019-12-14 04:35:20,416 ERROR 91740 nodejs.ClusterClientNoResponseError: client no response in 835159ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/jiaoyy/work/egg-example2/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 91740
+hostname: bogon
+
+2019-12-14 04:55:58,804 ERROR 91740 nodejs.ClusterClientNoResponseError: client no response in 1218372ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/jiaoyy/work/egg-example2/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 91740
+hostname: bogon
+
+2019-12-14 05:10:00,356 ERROR 91740 nodejs.ClusterClientNoResponseError: client no response in 801538ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/jiaoyy/work/egg-example2/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 91740
+hostname: bogon
+
+2019-12-14 05:29:45,909 ERROR 91740 nodejs.ClusterClientNoResponseError: client no response in 1145545ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/jiaoyy/work/egg-example2/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 91740
+hostname: bogon
+
+2019-12-14 05:44:02,160 ERROR 91740 nodejs.ClusterClientNoResponseError: client no response in 816234ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/jiaoyy/work/egg-example2/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 91740
+hostname: bogon
+
+2019-12-14 06:02:50,715 ERROR 91740 nodejs.ClusterClientNoResponseError: client no response in 1088522ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/jiaoyy/work/egg-example2/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 91740
+hostname: bogon
+
+2019-12-14 06:18:06,114 ERROR 91740 nodejs.ClusterClientNoResponseError: client no response in 895383ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/jiaoyy/work/egg-example2/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 91740
+hostname: bogon
+
+2019-12-14 06:39:04,537 ERROR 91740 nodejs.ClusterClientNoResponseError: client no response in 1218405ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/jiaoyy/work/egg-example2/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 91740
+hostname: bogon
+
+2019-12-14 06:52:53,827 ERROR 91740 nodejs.ClusterClientNoResponseError: client no response in 789271ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/jiaoyy/work/egg-example2/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 91740
+hostname: bogon
+
+2019-12-14 07:13:52,346 ERROR 91740 nodejs.ClusterClientNoResponseError: client no response in 1218494ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/jiaoyy/work/egg-example2/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 91740
+hostname: bogon
+
+2019-12-14 07:30:17,724 ERROR 91740 nodejs.ClusterClientNoResponseError: client no response in 965363ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/jiaoyy/work/egg-example2/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 91740
+hostname: bogon
+
+2019-12-14 07:45:50,200 ERROR 91740 nodejs.ClusterClientNoResponseError: client no response in 892464ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/jiaoyy/work/egg-example2/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 91740
+hostname: bogon
+
+2019-12-14 08:00:44,651 ERROR 91740 nodejs.ClusterClientNoResponseError: client no response in 854433ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/jiaoyy/work/egg-example2/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 91740
+hostname: bogon
+
+2019-12-14 08:19:07,170 ERROR 91740 nodejs.ClusterClientNoResponseError: client no response in 1062499ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/jiaoyy/work/egg-example2/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 91740
+hostname: bogon
+
+2019-12-14 08:32:01,707 ERROR 91740 nodejs.ClusterClientNoResponseError: client no response in 734500ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/jiaoyy/work/egg-example2/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 91740
+hostname: bogon
+
+2019-12-14 08:52:40,237 ERROR 91740 nodejs.ClusterClientNoResponseError: client no response in 1218518ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/jiaoyy/work/egg-example2/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 91740
+hostname: bogon
+
+2019-12-14 09:08:22,622 ERROR 91740 nodejs.ClusterClientNoResponseError: client no response in 902372ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/jiaoyy/work/egg-example2/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 91740
+hostname: bogon
+
+2019-12-14 09:26:05,165 ERROR 91740 nodejs.ClusterClientNoResponseError: client no response in 1022525ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/jiaoyy/work/egg-example2/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 91740
+hostname: bogon
+
+2019-12-14 09:39:25,708 ERROR 91740 nodejs.ClusterClientNoResponseError: client no response in 760517ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/jiaoyy/work/egg-example2/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 91740
+hostname: bogon
+
+2019-12-14 10:00:04,273 ERROR 91740 nodejs.ClusterClientNoResponseError: client no response in 1218537ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/jiaoyy/work/egg-example2/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 91740
+hostname: bogon
+
+2019-12-14 10:16:49,553 ERROR 91740 nodejs.ClusterClientNoResponseError: client no response in 965266ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/jiaoyy/work/egg-example2/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 91740
+hostname: bogon
+
+2019-12-14 10:37:47,531 ERROR 91740 nodejs.ClusterClientNoResponseError: client no response in 1217956ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/jiaoyy/work/egg-example2/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 91740
+hostname: bogon
+
+2019-12-14 10:48:23,040 ERROR 91740 nodejs.ClusterClientNoResponseError: client no response in 595480ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/jiaoyy/work/egg-example2/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 91740
+hostname: bogon
+
+2019-12-14 11:09:21,573 ERROR 91740 nodejs.ClusterClientNoResponseError: client no response in 1218513ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/jiaoyy/work/egg-example2/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 91740
+hostname: bogon
+
+2019-12-14 11:22:41,970 ERROR 91740 nodejs.ClusterClientNoResponseError: client no response in 760379ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/jiaoyy/work/egg-example2/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 91740
+hostname: bogon
+
+2019-12-14 12:43:51,634 ERROR 98466 nodejs.ClusterClientNoResponseError: client no response in 77760ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/jiaoyy/work/egg-example2/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 98466
+hostname: bogon
+
+2019-12-14 13:16:45,049 ERROR 98466 nodejs.ClusterClientNoResponseError: client no response in 1814877ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/jiaoyy/work/egg-example2/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 98466
+hostname: bogon
+
+2019-12-14 13:27:24,443 ERROR 98466 nodejs.ClusterClientNoResponseError: client no response in 599339ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/jiaoyy/work/egg-example2/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 98466
+hostname: bogon
+
+2019-12-14 13:43:43,916 ERROR 98466 nodejs.ClusterClientNoResponseError: client no response in 861771ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/jiaoyy/work/egg-example2/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 98466
+hostname: bogon
+

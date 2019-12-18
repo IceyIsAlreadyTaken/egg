@@ -1,0 +1,6 @@
+2019-12-16 10:58:49,453 INFO 3711 [egg-schedule]: register schedule /Users/jiaoyy/work/egg-example2/examples/egg_router/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-12-16 10:58:49,453 INFO 3711 [egg-schedule]: register schedule /Users/jiaoyy/work/egg-example2/examples/egg_router/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-12-16 10:58:49,453 INFO 3711 [egg-schedule]: register schedule /Users/jiaoyy/work/egg-example2/examples/egg_router/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-12-16 10:58:49,591 INFO 3709 [Timer] /Users/jiaoyy/work/egg-example2/examples/egg_router/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 63070413ms at 2019-12-17 04:30:00.004
+2019-12-16 10:58:49,592 INFO 3709 [Timer] /Users/jiaoyy/work/egg-example2/examples/egg_router/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 46870409ms at 2019-12-17 00:00:00.001
+2019-12-16 10:58:49,593 INFO 3709 [Timer] /Users/jiaoyy/work/egg-example2/examples/egg_router/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 46871408ms at 2019-12-17 00:00:01.001

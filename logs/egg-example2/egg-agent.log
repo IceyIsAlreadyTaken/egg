@@ -1,0 +1,945 @@
+2019-12-13 10:44:25,678 INFO 82502 [egg:logger] init all loggers with options: {"dir":"/Users/jiaoyy/work/egg-example2/logs/egg-example2","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example2-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2019-12-13 10:44:25,686 INFO 82502 [egg:core] dump config after load, 4ms
+2019-12-13 10:44:25,726 INFO 82502 [egg-watcher] Start watching: ["/Users/jiaoyy/work/egg-example2/app","/Users/jiaoyy/work/egg-example2/config","/Users/jiaoyy/work/egg-example2/mocks","/Users/jiaoyy/work/egg-example2/mocks_proxy","/Users/jiaoyy/work/egg-example2/app.js"]
+2019-12-13 10:44:25,726 INFO 82502 [egg-watcher] Start watching: "/Users/jiaoyy/work/egg-example2/app"
+2019-12-13 10:44:25,726 INFO 82502 [egg-watcher] Start watching: "/Users/jiaoyy/work/egg-example2/config"
+2019-12-13 10:44:25,726 INFO 82502 [egg-watcher] Start watching: "/Users/jiaoyy/work/egg-example2/mocks"
+2019-12-13 10:44:25,726 INFO 82502 [egg-watcher] Start watching: "/Users/jiaoyy/work/egg-example2/mocks_proxy"
+2019-12-13 10:44:25,726 INFO 82502 [egg-watcher] Start watching: "/Users/jiaoyy/work/egg-example2/app.js"
+2019-12-13 10:44:25,727 INFO 82502 [egg-watcher:agent] watcher start success
+2019-12-13 10:44:25,768 INFO 82502 [egg:core] dump config after ready, 26ms
+2019-12-13 10:44:26,380 INFO 82502 [egg-watcher] Recieved a change event from eventSource: {"event":"rename","path":"/Users/jiaoyy/work/egg-example2/app/public","stat":{"dev":16777220,"mode":16877,"nlink":2,"uid":501,"gid":20,"rdev":0,"blksize":4194304,"ino":37203100,"size":64,"blocks":0,"atimeMs":1576205066366.7166,"mtimeMs":1576205066366.7166,"ctimeMs":1576205066366.7166,"birthtimeMs":1576205066366.7166,"atime":"2019-12-13T02:44:26.367Z","mtime":"2019-12-13T02:44:26.367Z","ctime":"2019-12-13T02:44:26.367Z","birthtime":"2019-12-13T02:44:26.367Z"},"remove":false,"isDirectory":true,"isFile":false}
+2019-12-13 10:50:32,604 WARN 82502 [agent:development] reload worker because /Users/jiaoyy/work/egg-example2/config/plugin.js rename
+2019-12-13 10:50:32,403 INFO 82502 [egg-watcher] Recieved a change event from eventSource: {"event":"rename","path":"/Users/jiaoyy/work/egg-example2/config/plugin.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4194304,"ino":37203515,"size":0,"blocks":0,"atimeMs":1576205432322.3523,"mtimeMs":1576205432322.3523,"ctimeMs":1576205432322.3523,"birthtimeMs":1576205432322.3523,"atime":"2019-12-13T02:50:32.322Z","mtime":"2019-12-13T02:50:32.322Z","ctime":"2019-12-13T02:50:32.322Z","birthtime":"2019-12-13T02:50:32.322Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-12-13 10:51:36,896 WARN 82502 [agent:development] reload worker because /Users/jiaoyy/work/egg-example2/config/plugin.js change
+2019-12-13 10:51:36,691 INFO 82502 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/jiaoyy/work/egg-example2/config/plugin.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4194304,"ino":37203515,"size":73,"blocks":8,"atimeMs":1576205496579.2632,"mtimeMs":1576205496632.313,"ctimeMs":1576205496632.313,"birthtimeMs":1576205432322.3523,"atime":"2019-12-13T02:51:36.579Z","mtime":"2019-12-13T02:51:36.632Z","ctime":"2019-12-13T02:51:36.632Z","birthtime":"2019-12-13T02:50:32.322Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-12-13 10:52:56,741 WARN 82502 [agent:development] reload worker because /Users/jiaoyy/work/egg-example2/config/config.default.js change
+2019-12-13 10:52:56,537 INFO 82502 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/jiaoyy/work/egg-example2/config/config.default.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4194304,"ino":37183163,"size":142,"blocks":8,"atimeMs":1576205576475.5215,"mtimeMs":1576205576476.0813,"ctimeMs":1576205576476.0813,"birthtimeMs":1576204475387.3086,"atime":"2019-12-13T02:52:56.476Z","mtime":"2019-12-13T02:52:56.476Z","ctime":"2019-12-13T02:52:56.476Z","birthtime":"2019-12-13T02:34:35.387Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-12-13 10:53:42,096 INFO 82502 [egg-watcher] Recieved a change event from eventSource: {"event":"rename","path":"/Users/jiaoyy/work/egg-example2/app/view","stat":{"dev":16777220,"mode":16877,"nlink":2,"uid":501,"gid":20,"rdev":0,"blksize":4194304,"ino":37203675,"size":64,"blocks":0,"atimeMs":1576205622095.3015,"mtimeMs":1576205622000.8354,"ctimeMs":1576205622000.8354,"birthtimeMs":1576205622000.8354,"atime":"2019-12-13T02:53:42.095Z","mtime":"2019-12-13T02:53:42.001Z","ctime":"2019-12-13T02:53:42.001Z","birthtime":"2019-12-13T02:53:42.001Z"},"remove":false,"isDirectory":true,"isFile":false}
+2019-12-13 10:53:52,887 INFO 82502 [egg-watcher] Recieved a change event from eventSource: {"event":"rename","path":"/Users/jiaoyy/work/egg-example2/app/view/news","stat":{"dev":16777220,"mode":16877,"nlink":2,"uid":501,"gid":20,"rdev":0,"blksize":4194304,"ino":37203688,"size":64,"blocks":0,"atimeMs":1576205632886.578,"mtimeMs":1576205632875.6921,"ctimeMs":1576205632875.6921,"birthtimeMs":1576205632875.6921,"atime":"2019-12-13T02:53:52.887Z","mtime":"2019-12-13T02:53:52.876Z","ctime":"2019-12-13T02:53:52.876Z","birthtime":"2019-12-13T02:53:52.876Z"},"remove":false,"isDirectory":true,"isFile":false}
+2019-12-13 10:54:03,562 INFO 82502 [egg-watcher] Recieved a change event from eventSource: {"event":"rename","path":"/Users/jiaoyy/work/egg-example2/app/view/news/list.tpl","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4194304,"ino":37203703,"size":0,"blocks":0,"atimeMs":1576205643551.4783,"mtimeMs":1576205643551.4783,"ctimeMs":1576205643551.4783,"birthtimeMs":1576205643551.4783,"atime":"2019-12-13T02:54:03.551Z","mtime":"2019-12-13T02:54:03.551Z","ctime":"2019-12-13T02:54:03.551Z","birthtime":"2019-12-13T02:54:03.551Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-12-13 10:55:00,774 INFO 82502 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/jiaoyy/work/egg-example2/app/view/news/list.tpl","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4194304,"ino":37203703,"size":14,"blocks":8,"atimeMs":1576205700710.8086,"mtimeMs":1576205700712.5063,"ctimeMs":1576205700712.5063,"birthtimeMs":1576205643551.4783,"atime":"2019-12-13T02:55:00.711Z","mtime":"2019-12-13T02:55:00.713Z","ctime":"2019-12-13T02:55:00.713Z","birthtime":"2019-12-13T02:54:03.551Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-12-13 10:56:41,228 INFO 82502 [egg-watcher] Recieved a change event from eventSource: {"event":"rename","path":"/Users/jiaoyy/work/egg-example2/app/public/css","stat":{"dev":16777220,"mode":16877,"nlink":2,"uid":501,"gid":20,"rdev":0,"blksize":4194304,"ino":37203806,"size":64,"blocks":0,"atimeMs":1576205801228.3499,"mtimeMs":1576205801138.568,"ctimeMs":1576205801138.568,"birthtimeMs":1576205801138.568,"atime":"2019-12-13T02:56:41.228Z","mtime":"2019-12-13T02:56:41.139Z","ctime":"2019-12-13T02:56:41.139Z","birthtime":"2019-12-13T02:56:41.139Z"},"remove":false,"isDirectory":true,"isFile":false}
+2019-12-13 10:56:46,719 INFO 82502 [egg-watcher] Recieved a change event from eventSource: {"event":"rename","path":"/Users/jiaoyy/work/egg-example2/app/public/css/news.css","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4194304,"ino":37203813,"size":0,"blocks":0,"atimeMs":1576205806708.3892,"mtimeMs":1576205806708.3892,"ctimeMs":1576205806708.3892,"birthtimeMs":1576205806708.3892,"atime":"2019-12-13T02:56:46.708Z","mtime":"2019-12-13T02:56:46.708Z","ctime":"2019-12-13T02:56:46.708Z","birthtime":"2019-12-13T02:56:46.708Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-12-13 10:57:17,818 INFO 82502 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/jiaoyy/work/egg-example2/app/view/news/list.tpl","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4194304,"ino":37203703,"size":128,"blocks":8,"atimeMs":1576205837755.7117,"mtimeMs":1576205837756.4155,"ctimeMs":1576205837756.4155,"birthtimeMs":1576205643551.4783,"atime":"2019-12-13T02:57:17.756Z","mtime":"2019-12-13T02:57:17.756Z","ctime":"2019-12-13T02:57:17.756Z","birthtime":"2019-12-13T02:54:03.551Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-12-13 10:58:43,119 INFO 82502 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/jiaoyy/work/egg-example2/app/view/news/list.tpl","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4194304,"ino":37203703,"size":184,"blocks":8,"atimeMs":1576205923056.972,"mtimeMs":1576205923057.7163,"ctimeMs":1576205923057.7163,"birthtimeMs":1576205643551.4783,"atime":"2019-12-13T02:58:43.057Z","mtime":"2019-12-13T02:58:43.058Z","ctime":"2019-12-13T02:58:43.058Z","birthtime":"2019-12-13T02:54:03.551Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-12-13 11:00:07,845 INFO 82502 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/jiaoyy/work/egg-example2/app/view/news/list.tpl","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4194304,"ino":37203703,"size":296,"blocks":8,"atimeMs":1576206007781.144,"mtimeMs":1576206007781.9565,"ctimeMs":1576206007781.9565,"birthtimeMs":1576205643551.4783,"atime":"2019-12-13T03:00:07.781Z","mtime":"2019-12-13T03:00:07.782Z","ctime":"2019-12-13T03:00:07.782Z","birthtime":"2019-12-13T02:54:03.551Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-12-13 11:00:29,685 WARN 82502 [agent:development] reload worker because /Users/jiaoyy/work/egg-example2/app/controller/news.js rename
+2019-12-13 11:00:29,481 INFO 82502 [egg-watcher] Recieved a change event from eventSource: {"event":"rename","path":"/Users/jiaoyy/work/egg-example2/app/controller/news.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4194304,"ino":37203969,"size":0,"blocks":0,"atimeMs":1576206029480.9739,"mtimeMs":1576206029418.9663,"ctimeMs":1576206029418.9663,"birthtimeMs":1576206029418.9663,"atime":"2019-12-13T03:00:29.481Z","mtime":"2019-12-13T03:00:29.419Z","ctime":"2019-12-13T03:00:29.419Z","birthtime":"2019-12-13T03:00:29.419Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-12-13 11:00:53,206 WARN 82502 [agent:development] reload worker because /Users/jiaoyy/work/egg-example2/app/controller/news.js change
+2019-12-13 11:00:53,003 INFO 82502 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/jiaoyy/work/egg-example2/app/controller/news.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4194304,"ino":37203969,"size":45,"blocks":8,"atimeMs":1576206052941.2546,"mtimeMs":1576206052943.2651,"ctimeMs":1576206052943.2651,"birthtimeMs":1576206029418.9663,"atime":"2019-12-13T03:00:52.941Z","mtime":"2019-12-13T03:00:52.943Z","ctime":"2019-12-13T03:00:52.943Z","birthtime":"2019-12-13T03:00:29.419Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-12-13 11:02:29,529 WARN 82502 [agent:development] reload worker because /Users/jiaoyy/work/egg-example2/app/controller/news.js change
+2019-12-13 11:02:29,327 INFO 82502 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/jiaoyy/work/egg-example2/app/controller/news.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4194304,"ino":37203969,"size":280,"blocks":8,"atimeMs":1576206149264.8508,"mtimeMs":1576206149265.7004,"ctimeMs":1576206149265.7004,"birthtimeMs":1576206029418.9663,"atime":"2019-12-13T03:02:29.265Z","mtime":"2019-12-13T03:02:29.266Z","ctime":"2019-12-13T03:02:29.266Z","birthtime":"2019-12-13T03:00:29.419Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-12-13 11:03:12,395 WARN 82502 [agent:development] reload worker because /Users/jiaoyy/work/egg-example2/app/controller/news.js change
+2019-12-13 11:03:12,192 INFO 82502 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/jiaoyy/work/egg-example2/app/controller/news.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4194304,"ino":37203969,"size":338,"blocks":8,"atimeMs":1576206192130.6128,"mtimeMs":1576206192131.2827,"ctimeMs":1576206192131.2827,"birthtimeMs":1576206029418.9663,"atime":"2019-12-13T03:03:12.131Z","mtime":"2019-12-13T03:03:12.131Z","ctime":"2019-12-13T03:03:12.131Z","birthtime":"2019-12-13T03:00:29.419Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-12-13 11:03:30,820 WARN 82502 [agent:development] reload worker because /Users/jiaoyy/work/egg-example2/app/controller/news.js change
+2019-12-13 11:03:30,616 INFO 82502 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/jiaoyy/work/egg-example2/app/controller/news.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4194304,"ino":37203969,"size":372,"blocks":8,"atimeMs":1576206210554.5984,"mtimeMs":1576206210555.2368,"ctimeMs":1576206210555.2368,"birthtimeMs":1576206029418.9663,"atime":"2019-12-13T03:03:30.555Z","mtime":"2019-12-13T03:03:30.555Z","ctime":"2019-12-13T03:03:30.555Z","birthtime":"2019-12-13T03:00:29.419Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-12-13 11:04:09,213 WARN 82502 [agent:development] reload worker because /Users/jiaoyy/work/egg-example2/app/router.js change
+2019-12-13 11:04:09,012 INFO 82502 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/jiaoyy/work/egg-example2/app/router.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4194304,"ino":37180833,"size":158,"blocks":8,"atimeMs":1576206248950.8818,"mtimeMs":1576206248951.5618,"ctimeMs":1576206248951.5618,"birthtimeMs":1576204345858.7063,"atime":"2019-12-13T03:04:08.951Z","mtime":"2019-12-13T03:04:08.952Z","ctime":"2019-12-13T03:04:08.952Z","birthtime":"2019-12-13T02:32:25.859Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-12-13 11:04:39,402 INFO 82502 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/jiaoyy/work/egg-example2/app/view/news/list.tpl","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4194304,"ino":37203703,"size":305,"blocks":8,"atimeMs":1576206279339.4941,"mtimeMs":1576206279340.2783,"ctimeMs":1576206279340.2783,"birthtimeMs":1576205643551.4783,"atime":"2019-12-13T03:04:39.339Z","mtime":"2019-12-13T03:04:39.340Z","ctime":"2019-12-13T03:04:39.340Z","birthtime":"2019-12-13T02:54:03.551Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-12-13 11:05:34,755 INFO 82502 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/jiaoyy/work/egg-example2/app/view/news/list.tpl","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4194304,"ino":37203703,"size":337,"blocks":8,"atimeMs":1576206334693.43,"mtimeMs":1576206334693.9832,"ctimeMs":1576206334693.9832,"birthtimeMs":1576205643551.4783,"atime":"2019-12-13T03:05:34.693Z","mtime":"2019-12-13T03:05:34.694Z","ctime":"2019-12-13T03:05:34.694Z","birthtime":"2019-12-13T02:54:03.551Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-12-13 11:05:41,139 INFO 82502 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/jiaoyy/work/egg-example2/app/view/news/list.tpl","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4194304,"ino":37203703,"size":346,"blocks":8,"atimeMs":1576206341127.152,"mtimeMs":1576206341128.0107,"ctimeMs":1576206341128.0107,"birthtimeMs":1576205643551.4783,"atime":"2019-12-13T03:05:41.127Z","mtime":"2019-12-13T03:05:41.128Z","ctime":"2019-12-13T03:05:41.128Z","birthtime":"2019-12-13T02:54:03.551Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-12-13 11:08:15,145 INFO 82771 [egg:logger] init all loggers with options: {"dir":"/Users/jiaoyy/work/egg-example2/logs/egg-example2","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example2-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2019-12-13 11:08:15,153 INFO 82771 [egg:core] dump config after load, 4ms
+2019-12-13 11:08:15,191 INFO 82771 [egg-watcher] Start watching: ["/Users/jiaoyy/work/egg-example2/app","/Users/jiaoyy/work/egg-example2/config","/Users/jiaoyy/work/egg-example2/mocks","/Users/jiaoyy/work/egg-example2/mocks_proxy","/Users/jiaoyy/work/egg-example2/app.js"]
+2019-12-13 11:08:15,191 INFO 82771 [egg-watcher] Start watching: "/Users/jiaoyy/work/egg-example2/app"
+2019-12-13 11:08:15,191 INFO 82771 [egg-watcher] Start watching: "/Users/jiaoyy/work/egg-example2/config"
+2019-12-13 11:08:15,191 INFO 82771 [egg-watcher] Start watching: "/Users/jiaoyy/work/egg-example2/mocks"
+2019-12-13 11:08:15,192 INFO 82771 [egg-watcher] Start watching: "/Users/jiaoyy/work/egg-example2/mocks_proxy"
+2019-12-13 11:08:15,192 INFO 82771 [egg-watcher] Start watching: "/Users/jiaoyy/work/egg-example2/app.js"
+2019-12-13 11:08:15,192 INFO 82771 [egg-watcher:agent] watcher start success
+2019-12-13 11:08:15,224 INFO 82771 [egg:core] dump config after ready, 5ms
+2019-12-13 11:09:51,087 WARN 82771 [agent:development] reload worker because /Users/jiaoyy/work/egg-example2/config/config.default.js change
+2019-12-13 11:09:50,881 INFO 82771 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/jiaoyy/work/egg-example2/app/controller/news.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4194304,"ino":37203969,"size":404,"blocks":8,"atimeMs":1576206590817.972,"mtimeMs":1576206590819.1052,"ctimeMs":1576206590819.1052,"birthtimeMs":1576206029418.9663,"atime":"2019-12-13T03:09:50.818Z","mtime":"2019-12-13T03:09:50.819Z","ctime":"2019-12-13T03:09:50.819Z","birthtime":"2019-12-13T03:00:29.419Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-12-13 11:09:50,883 INFO 82771 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/jiaoyy/work/egg-example2/config/plugin.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4194304,"ino":37203515,"size":74,"blocks":8,"atimeMs":1576206590818.1604,"mtimeMs":1576206590819.1797,"ctimeMs":1576206590819.1797,"birthtimeMs":1576205432322.3523,"atime":"2019-12-13T03:09:50.818Z","mtime":"2019-12-13T03:09:50.819Z","ctime":"2019-12-13T03:09:50.819Z","birthtime":"2019-12-13T02:50:32.322Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-12-13 11:09:50,883 INFO 82771 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/jiaoyy/work/egg-example2/config/config.default.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4194304,"ino":37183163,"size":145,"blocks":8,"atimeMs":1576206590818.269,"mtimeMs":1576206590819.9175,"ctimeMs":1576206590819.9175,"birthtimeMs":1576204475387.3086,"atime":"2019-12-13T03:09:50.818Z","mtime":"2019-12-13T03:09:50.820Z","ctime":"2019-12-13T03:09:50.820Z","birthtime":"2019-12-13T02:34:35.387Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-12-13 11:10:32,909 WARN 82771 [agent:development] reload worker because /Users/jiaoyy/work/egg-example2/app/router.js change
+2019-12-13 11:10:32,708 INFO 82771 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/jiaoyy/work/egg-example2/app/router.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4194304,"ino":37180833,"size":171,"blocks":8,"atimeMs":1576206632646.6357,"mtimeMs":1576206632647.2322,"ctimeMs":1576206632647.2322,"birthtimeMs":1576204345858.7063,"atime":"2019-12-13T03:10:32.647Z","mtime":"2019-12-13T03:10:32.647Z","ctime":"2019-12-13T03:10:32.647Z","birthtime":"2019-12-13T02:32:25.859Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-12-13 11:10:58,573 WARN 82771 [agent:development] reload worker because /Users/jiaoyy/work/egg-example2/app/router.js change
+2019-12-13 11:10:58,370 INFO 82771 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/jiaoyy/work/egg-example2/app/router.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4194304,"ino":37180833,"size":157,"blocks":8,"atimeMs":1576206658256.646,"mtimeMs":1576206658257.3096,"ctimeMs":1576206658257.3096,"birthtimeMs":1576204345858.7063,"atime":"2019-12-13T03:10:58.257Z","mtime":"2019-12-13T03:10:58.257Z","ctime":"2019-12-13T03:10:58.257Z","birthtime":"2019-12-13T02:32:25.859Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-12-13 11:11:02,092 WARN 82771 [agent:development] reload worker because /Users/jiaoyy/work/egg-example2/app/router.js change
+2019-12-13 11:11:01,888 INFO 82771 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/jiaoyy/work/egg-example2/app/router.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4194304,"ino":37180833,"size":158,"blocks":8,"atimeMs":1576206661874.4573,"mtimeMs":1576206661875.0376,"ctimeMs":1576206661875.0376,"birthtimeMs":1576204345858.7063,"atime":"2019-12-13T03:11:01.874Z","mtime":"2019-12-13T03:11:01.875Z","ctime":"2019-12-13T03:11:01.875Z","birthtime":"2019-12-13T02:32:25.859Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-12-13 11:16:58,489 INFO 82771 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/jiaoyy/work/egg-example2/app/view/news/list.tpl","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4194304,"ino":37203703,"size":371,"blocks":8,"atimeMs":1576207018426.6138,"mtimeMs":1576207018427.2275,"ctimeMs":1576207018427.2275,"birthtimeMs":1576205643551.4783,"atime":"2019-12-13T03:16:58.427Z","mtime":"2019-12-13T03:16:58.427Z","ctime":"2019-12-13T03:16:58.427Z","birthtime":"2019-12-13T02:54:03.551Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-12-13 11:17:40,913 INFO 82771 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/jiaoyy/work/egg-example2/app/view/news/list.tpl","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4194304,"ino":37203703,"size":378,"blocks":8,"atimeMs":1576207060851.0115,"mtimeMs":1576207060851.7405,"ctimeMs":1576207060851.7405,"birthtimeMs":1576205643551.4783,"atime":"2019-12-13T03:17:40.851Z","mtime":"2019-12-13T03:17:40.852Z","ctime":"2019-12-13T03:17:40.852Z","birthtime":"2019-12-13T02:54:03.551Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-12-13 11:17:49,371 INFO 82771 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/jiaoyy/work/egg-example2/app/view/news/list.tpl","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4194304,"ino":37203703,"size":403,"blocks":8,"atimeMs":1576207069359.611,"mtimeMs":1576207069360.1978,"ctimeMs":1576207069360.1978,"birthtimeMs":1576205643551.4783,"atime":"2019-12-13T03:17:49.360Z","mtime":"2019-12-13T03:17:49.360Z","ctime":"2019-12-13T03:17:49.360Z","birthtime":"2019-12-13T02:54:03.551Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-12-13 11:20:58,497 WARN 82771 [agent:development] reload worker because /Users/jiaoyy/work/egg-example2/app/controller/news.js change
+2019-12-13 11:20:58,294 INFO 82771 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/jiaoyy/work/egg-example2/app/controller/news.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4194304,"ino":37203969,"size":439,"blocks":8,"atimeMs":1576207258231.6172,"mtimeMs":1576207258232.468,"ctimeMs":1576207258232.468,"birthtimeMs":1576206029418.9663,"atime":"2019-12-13T03:20:58.232Z","mtime":"2019-12-13T03:20:58.232Z","ctime":"2019-12-13T03:20:58.232Z","birthtime":"2019-12-13T03:00:29.419Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-12-13 11:21:13,380 INFO 82771 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/jiaoyy/work/egg-example2/app/view/news/list.tpl","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4194304,"ino":37203703,"size":413,"blocks":8,"atimeMs":1576207273317.2449,"mtimeMs":1576207273318.981,"ctimeMs":1576207273318.981,"birthtimeMs":1576205643551.4783,"atime":"2019-12-13T03:21:13.317Z","mtime":"2019-12-13T03:21:13.319Z","ctime":"2019-12-13T03:21:13.319Z","birthtime":"2019-12-13T02:54:03.551Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-12-13 11:22:17,203 WARN 82771 [agent:development] reload worker because /Users/jiaoyy/work/egg-example2/app/controller/news.js change
+2019-12-13 11:22:17,000 INFO 82771 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/jiaoyy/work/egg-example2/app/controller/news.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4194304,"ino":37203969,"size":441,"blocks":8,"atimeMs":1576207336938.583,"mtimeMs":1576207336939.2307,"ctimeMs":1576207336939.2307,"birthtimeMs":1576206029418.9663,"atime":"2019-12-13T03:22:16.939Z","mtime":"2019-12-13T03:22:16.939Z","ctime":"2019-12-13T03:22:16.939Z","birthtime":"2019-12-13T03:00:29.419Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-12-13 11:22:23,778 INFO 82771 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/jiaoyy/work/egg-example2/app/view/news/list.tpl","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4194304,"ino":37203703,"size":404,"blocks":8,"atimeMs":1576207343767.5002,"mtimeMs":1576207343768.051,"ctimeMs":1576207343768.051,"birthtimeMs":1576205643551.4783,"atime":"2019-12-13T03:22:23.768Z","mtime":"2019-12-13T03:22:23.768Z","ctime":"2019-12-13T03:22:23.768Z","birthtime":"2019-12-13T02:54:03.551Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-12-13 11:22:34,243 WARN 82771 [agent:development] reload worker because /Users/jiaoyy/work/egg-example2/app/controller/news.js change
+2019-12-13 11:22:34,040 INFO 82771 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/jiaoyy/work/egg-example2/app/controller/news.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4194304,"ino":37203969,"size":410,"blocks":8,"atimeMs":1576207354027.7292,"mtimeMs":1576207354028.3508,"ctimeMs":1576207354028.3508,"birthtimeMs":1576206029418.9663,"atime":"2019-12-13T03:22:34.028Z","mtime":"2019-12-13T03:22:34.028Z","ctime":"2019-12-13T03:22:34.028Z","birthtime":"2019-12-13T03:00:29.419Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-12-13 11:26:24,562 INFO 82771 [egg-watcher] Recieved a change event from eventSource: {"event":"rename","path":"/Users/jiaoyy/work/egg-example2/app/service","stat":{"dev":16777220,"mode":16877,"nlink":2,"uid":501,"gid":20,"rdev":0,"blksize":4194304,"ino":37205296,"size":64,"blocks":0,"atimeMs":1576207584560.765,"mtimeMs":1576207584483.5515,"ctimeMs":1576207584483.5515,"birthtimeMs":1576207584483.5515,"atime":"2019-12-13T03:26:24.561Z","mtime":"2019-12-13T03:26:24.484Z","ctime":"2019-12-13T03:26:24.484Z","birthtime":"2019-12-13T03:26:24.484Z"},"remove":false,"isDirectory":true,"isFile":false}
+2019-12-13 11:26:42,423 INFO 82771 [egg-watcher] Recieved a change event from eventSource: {"event":"rename","path":"/Users/jiaoyy/work/egg-example2/app/service/news.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4194304,"ino":37205310,"size":0,"blocks":0,"atimeMs":1576207602360.712,"mtimeMs":1576207602360.712,"ctimeMs":1576207602360.712,"birthtimeMs":1576207602360.712,"atime":"2019-12-13T03:26:42.361Z","mtime":"2019-12-13T03:26:42.361Z","ctime":"2019-12-13T03:26:42.361Z","birthtime":"2019-12-13T03:26:42.361Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-12-13 11:26:42,625 WARN 82771 [agent:development] reload worker because /Users/jiaoyy/work/egg-example2/app/service/news.js rename
+2019-12-13 11:30:06,502 WARN 82771 [agent:development] reload worker because /Users/jiaoyy/work/egg-example2/app/service/news.js change
+2019-12-13 11:30:06,298 INFO 82771 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/jiaoyy/work/egg-example2/app/service/news.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4194304,"ino":37205310,"size":171,"blocks":8,"atimeMs":1576207806236.5544,"mtimeMs":1576207806237.2568,"ctimeMs":1576207806237.2568,"birthtimeMs":1576207602360.712,"atime":"2019-12-13T03:30:06.237Z","mtime":"2019-12-13T03:30:06.237Z","ctime":"2019-12-13T03:30:06.237Z","birthtime":"2019-12-13T03:26:42.361Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-12-13 11:37:42,497 ERROR 82771 nodejs.ClusterClientNoResponseError: client no response in 114799ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/jiaoyy/work/egg-example2/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 82771
+hostname: bogon
+
+2019-12-13 11:42:27,694 WARN 82771 [agent:development] reload worker because /Users/jiaoyy/work/egg-example2/app/service/news.js change
+2019-12-13 11:42:27,494 INFO 82771 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/jiaoyy/work/egg-example2/app/service/news.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4194304,"ino":37205310,"size":395,"blocks":8,"atimeMs":1576208547431.8103,"mtimeMs":1576208547432.5308,"ctimeMs":1576208547432.5308,"birthtimeMs":1576207602360.712,"atime":"2019-12-13T03:42:27.432Z","mtime":"2019-12-13T03:42:27.433Z","ctime":"2019-12-13T03:42:27.433Z","birthtime":"2019-12-13T03:26:42.361Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-12-13 11:43:16,619 WARN 82771 [agent:development] reload worker because /Users/jiaoyy/work/egg-example2/app/service/news.js change
+2019-12-13 11:43:16,415 INFO 82771 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/jiaoyy/work/egg-example2/app/service/news.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4194304,"ino":37205310,"size":446,"blocks":8,"atimeMs":1576208596354.1118,"mtimeMs":1576208596354.7559,"ctimeMs":1576208596354.7559,"birthtimeMs":1576207602360.712,"atime":"2019-12-13T03:43:16.354Z","mtime":"2019-12-13T03:43:16.355Z","ctime":"2019-12-13T03:43:16.355Z","birthtime":"2019-12-13T03:26:42.361Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-12-13 11:43:32,330 WARN 82771 [agent:development] reload worker because /Users/jiaoyy/work/egg-example2/app/service/news.js change
+2019-12-13 11:43:32,129 INFO 82771 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/jiaoyy/work/egg-example2/app/service/news.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4194304,"ino":37205310,"size":476,"blocks":8,"atimeMs":1576208612067.6167,"mtimeMs":1576208612068.1333,"ctimeMs":1576208612068.1333,"birthtimeMs":1576207602360.712,"atime":"2019-12-13T03:43:32.068Z","mtime":"2019-12-13T03:43:32.068Z","ctime":"2019-12-13T03:43:32.068Z","birthtime":"2019-12-13T03:26:42.361Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-12-13 11:45:34,168 INFO 82771 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/jiaoyy/work/egg-example2/app/service/news.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4194304,"ino":37205310,"size":726,"blocks":8,"atimeMs":1576208734106.6077,"mtimeMs":1576208734107.1814,"ctimeMs":1576208734107.1814,"birthtimeMs":1576207602360.712,"atime":"2019-12-13T03:45:34.107Z","mtime":"2019-12-13T03:45:34.107Z","ctime":"2019-12-13T03:45:34.107Z","birthtime":"2019-12-13T03:26:42.361Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-12-13 11:45:34,370 WARN 82771 [agent:development] reload worker because /Users/jiaoyy/work/egg-example2/app/service/news.js change
+2019-12-13 11:46:02,067 WARN 82771 [agent:development] reload worker because /Users/jiaoyy/work/egg-example2/app/service/news.js change
+2019-12-13 11:46:01,865 INFO 82771 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/jiaoyy/work/egg-example2/app/service/news.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4194304,"ino":37205310,"size":773,"blocks":8,"atimeMs":1576208761803.0037,"mtimeMs":1576208761803.815,"ctimeMs":1576208761803.815,"birthtimeMs":1576207602360.712,"atime":"2019-12-13T03:46:01.803Z","mtime":"2019-12-13T03:46:01.804Z","ctime":"2019-12-13T03:46:01.804Z","birthtime":"2019-12-13T03:26:42.361Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-12-13 11:46:54,867 WARN 82771 [agent:development] reload worker because /Users/jiaoyy/work/egg-example2/app/service/news.js change
+2019-12-13 11:46:54,663 INFO 82771 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/jiaoyy/work/egg-example2/app/service/news.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4194304,"ino":37205310,"size":804,"blocks":8,"atimeMs":1576208814601.1504,"mtimeMs":1576208814601.8157,"ctimeMs":1576208814601.8157,"birthtimeMs":1576207602360.712,"atime":"2019-12-13T03:46:54.601Z","mtime":"2019-12-13T03:46:54.602Z","ctime":"2019-12-13T03:46:54.602Z","birthtime":"2019-12-13T03:26:42.361Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-12-13 11:50:01,855 INFO 82771 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/jiaoyy/work/egg-example2/app/controller/news.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4194304,"ino":37203969,"size":543,"blocks":8,"atimeMs":1576209001793.3713,"mtimeMs":1576209001794.1074,"ctimeMs":1576209001794.1074,"birthtimeMs":1576206029418.9663,"atime":"2019-12-13T03:50:01.793Z","mtime":"2019-12-13T03:50:01.794Z","ctime":"2019-12-13T03:50:01.794Z","birthtime":"2019-12-13T03:00:29.419Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-12-13 11:50:02,058 WARN 82771 [agent:development] reload worker because /Users/jiaoyy/work/egg-example2/app/controller/news.js change
+2019-12-13 11:50:44,972 INFO 82771 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/jiaoyy/work/egg-example2/app/controller/news.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4194304,"ino":37203969,"size":606,"blocks":8,"atimeMs":1576209044908.871,"mtimeMs":1576209044909.5408,"ctimeMs":1576209044909.5408,"birthtimeMs":1576206029418.9663,"atime":"2019-12-13T03:50:44.909Z","mtime":"2019-12-13T03:50:44.910Z","ctime":"2019-12-13T03:50:44.910Z","birthtime":"2019-12-13T03:00:29.419Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-12-13 11:50:45,173 WARN 82771 [agent:development] reload worker because /Users/jiaoyy/work/egg-example2/app/controller/news.js change
+2019-12-13 11:51:17,781 WARN 82771 [agent:development] reload worker because /Users/jiaoyy/work/egg-example2/app/controller/news.js change
+2019-12-13 11:51:17,579 INFO 82771 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/jiaoyy/work/egg-example2/app/controller/news.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4194304,"ino":37203969,"size":346,"blocks":8,"atimeMs":1576209077257.9043,"mtimeMs":1576209077258.481,"ctimeMs":1576209077258.481,"birthtimeMs":1576206029418.9663,"atime":"2019-12-13T03:51:17.258Z","mtime":"2019-12-13T03:51:17.258Z","ctime":"2019-12-13T03:51:17.258Z","birthtime":"2019-12-13T03:00:29.419Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-12-13 11:53:27,935 WARN 82771 [agent:development] reload worker because /Users/jiaoyy/work/egg-example2/config/config.default.js change
+2019-12-13 11:53:27,731 INFO 82771 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/jiaoyy/work/egg-example2/config/config.default.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4194304,"ino":37183163,"size":237,"blocks":8,"atimeMs":1576209207667.559,"mtimeMs":1576209207668.2332,"ctimeMs":1576209207668.2332,"birthtimeMs":1576204475387.3086,"atime":"2019-12-13T03:53:27.668Z","mtime":"2019-12-13T03:53:27.668Z","ctime":"2019-12-13T03:53:27.668Z","birthtime":"2019-12-13T02:34:35.387Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-12-13 12:27:16,217 ERROR 82771 nodejs.ClusterClientNoResponseError: client no response in 1786897ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/jiaoyy/work/egg-example2/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 82771
+hostname: bogon
+
+2019-12-13 13:23:35,638 ERROR 82771 nodejs.ClusterClientNoResponseError: client no response in 1755996ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/jiaoyy/work/egg-example2/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 82771
+hostname: bogon
+
+2019-12-13 13:34:09,661 ERROR 82771 nodejs.ClusterClientNoResponseError: client no response in 593988ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/jiaoyy/work/egg-example2/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 82771
+hostname: bogon
+
+2019-12-13 13:56:29,686 ERROR 82771 nodejs.ClusterClientNoResponseError: client no response in 1300007ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/jiaoyy/work/egg-example2/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 82771
+hostname: bogon
+
+2019-12-13 14:08:58,708 ERROR 82771 nodejs.ClusterClientNoResponseError: client no response in 729001ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/jiaoyy/work/egg-example2/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 82771
+hostname: bogon
+
+2019-12-13 16:00:59,853 INFO 87772 [egg:logger] init all loggers with options: {"dir":"/Users/jiaoyy/work/egg-example2/logs/egg-example2","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example2-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2019-12-13 16:00:59,864 INFO 87772 [egg:core] dump config after load, 7ms
+2019-12-13 16:00:59,906 INFO 87772 [egg-watcher] Start watching: ["/Users/jiaoyy/work/egg-example2/app","/Users/jiaoyy/work/egg-example2/config","/Users/jiaoyy/work/egg-example2/mocks","/Users/jiaoyy/work/egg-example2/mocks_proxy","/Users/jiaoyy/work/egg-example2/app.js"]
+2019-12-13 16:00:59,906 INFO 87772 [egg-watcher] Start watching: "/Users/jiaoyy/work/egg-example2/app"
+2019-12-13 16:00:59,906 INFO 87772 [egg-watcher] Start watching: "/Users/jiaoyy/work/egg-example2/config"
+2019-12-13 16:00:59,906 INFO 87772 [egg-watcher] Start watching: "/Users/jiaoyy/work/egg-example2/mocks"
+2019-12-13 16:00:59,906 INFO 87772 [egg-watcher] Start watching: "/Users/jiaoyy/work/egg-example2/mocks_proxy"
+2019-12-13 16:00:59,907 INFO 87772 [egg-watcher] Start watching: "/Users/jiaoyy/work/egg-example2/app.js"
+2019-12-13 16:00:59,907 INFO 87772 [egg-watcher:agent] watcher start success
+2019-12-13 16:00:59,943 INFO 87772 [egg:core] dump config after ready, 3ms
+2019-12-13 16:04:41,206 ERROR 87772 nodejs.ClusterClientNoResponseError: client no response in 120339ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/jiaoyy/work/egg-example2/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 87772
+hostname: bogon
+
+2019-12-13 16:05:05,143 INFO 87997 [egg:logger] init all loggers with options: {"dir":"/Users/jiaoyy/work/egg-example2/logs/egg-example2","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example2-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2019-12-13 16:05:05,153 INFO 87997 [egg:core] dump config after load, 4ms
+2019-12-13 16:05:05,194 INFO 87997 [egg-watcher] Start watching: ["/Users/jiaoyy/work/egg-example2/app","/Users/jiaoyy/work/egg-example2/config","/Users/jiaoyy/work/egg-example2/mocks","/Users/jiaoyy/work/egg-example2/mocks_proxy","/Users/jiaoyy/work/egg-example2/app.js"]
+2019-12-13 16:05:05,194 INFO 87997 [egg-watcher] Start watching: "/Users/jiaoyy/work/egg-example2/app"
+2019-12-13 16:05:05,195 INFO 87997 [egg-watcher] Start watching: "/Users/jiaoyy/work/egg-example2/config"
+2019-12-13 16:05:05,195 INFO 87997 [egg-watcher] Start watching: "/Users/jiaoyy/work/egg-example2/mocks"
+2019-12-13 16:05:05,195 INFO 87997 [egg-watcher] Start watching: "/Users/jiaoyy/work/egg-example2/mocks_proxy"
+2019-12-13 16:05:05,195 INFO 87997 [egg-watcher] Start watching: "/Users/jiaoyy/work/egg-example2/app.js"
+2019-12-13 16:05:05,195 INFO 87997 [egg-watcher:agent] watcher start success
+2019-12-13 16:05:05,231 INFO 87997 [egg:core] dump config after ready, 14ms
+2019-12-13 16:06:59,466 WARN 87997 [agent:development] reload worker because /Users/jiaoyy/work/egg-example2/app/router.js change
+2019-12-13 16:06:59,256 INFO 87997 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/jiaoyy/work/egg-example2/app/controller/search.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4194304,"ino":37215613,"size":102,"blocks":8,"atimeMs":1576224419194.9114,"mtimeMs":1576224419212.3672,"ctimeMs":1576224419212.3672,"birthtimeMs":1576223977420.308,"atime":"2019-12-13T08:06:59.195Z","mtime":"2019-12-13T08:06:59.212Z","ctime":"2019-12-13T08:06:59.212Z","birthtime":"2019-12-13T07:59:37.420Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-12-13 16:06:59,261 INFO 87997 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/jiaoyy/work/egg-example2/app/router.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4194304,"ino":37180833,"size":218,"blocks":8,"atimeMs":1576224419193.2607,"mtimeMs":1576224419194.3289,"ctimeMs":1576224419194.3289,"birthtimeMs":1576204345858.7063,"atime":"2019-12-13T08:06:59.193Z","mtime":"2019-12-13T08:06:59.194Z","ctime":"2019-12-13T08:06:59.194Z","birthtime":"2019-12-13T02:32:25.859Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-12-13 16:09:33,493 WARN 87997 [agent:development] reload worker because /Users/jiaoyy/work/egg-example2/app/router.js change
+2019-12-13 16:09:33,289 INFO 87997 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/jiaoyy/work/egg-example2/app/router.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4194304,"ino":37180833,"size":278,"blocks":8,"atimeMs":1576224573226.4575,"mtimeMs":1576224573227.2258,"ctimeMs":1576224573227.2258,"birthtimeMs":1576204345858.7063,"atime":"2019-12-13T08:09:33.226Z","mtime":"2019-12-13T08:09:33.227Z","ctime":"2019-12-13T08:09:33.227Z","birthtime":"2019-12-13T02:32:25.859Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-12-13 16:09:46,863 INFO 87997 [egg-watcher] Recieved a change event from eventSource: {"event":"rename","path":"/Users/jiaoyy/work/egg-example2/app/controller/user.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4194304,"ino":37216568,"size":0,"blocks":0,"atimeMs":1576224586852.7014,"mtimeMs":1576224586852.7014,"ctimeMs":1576224586852.7014,"birthtimeMs":1576224586852.7014,"atime":"2019-12-13T08:09:46.853Z","mtime":"2019-12-13T08:09:46.853Z","ctime":"2019-12-13T08:09:46.853Z","birthtime":"2019-12-13T08:09:46.853Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-12-13 16:09:47,069 WARN 87997 [agent:development] reload worker because /Users/jiaoyy/work/egg-example2/app/controller/user.js rename
+2019-12-13 16:11:22,916 WARN 87997 [agent:development] reload worker because /Users/jiaoyy/work/egg-example2/app/controller/user.js change
+2019-12-13 16:11:22,712 INFO 87997 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/jiaoyy/work/egg-example2/app/controller/user.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4194304,"ino":37216568,"size":90,"blocks":8,"atimeMs":1576224682651.2415,"mtimeMs":1576224682651.737,"ctimeMs":1576224682651.737,"birthtimeMs":1576224586852.7014,"atime":"2019-12-13T08:11:22.651Z","mtime":"2019-12-13T08:11:22.652Z","ctime":"2019-12-13T08:11:22.652Z","birthtime":"2019-12-13T08:09:46.853Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-12-13 16:12:31,895 INFO 88350 [egg:logger] init all loggers with options: {"dir":"/Users/jiaoyy/work/egg-example2/logs/egg-example2","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example2-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2019-12-13 16:12:31,903 INFO 88350 [egg:core] dump config after load, 3ms
+2019-12-13 16:12:31,938 INFO 88350 [egg-watcher] Start watching: ["/Users/jiaoyy/work/egg-example2/app","/Users/jiaoyy/work/egg-example2/config","/Users/jiaoyy/work/egg-example2/mocks","/Users/jiaoyy/work/egg-example2/mocks_proxy","/Users/jiaoyy/work/egg-example2/app.js"]
+2019-12-13 16:12:31,939 INFO 88350 [egg-watcher] Start watching: "/Users/jiaoyy/work/egg-example2/app"
+2019-12-13 16:12:31,939 INFO 88350 [egg-watcher] Start watching: "/Users/jiaoyy/work/egg-example2/config"
+2019-12-13 16:12:31,939 INFO 88350 [egg-watcher] Start watching: "/Users/jiaoyy/work/egg-example2/mocks"
+2019-12-13 16:12:31,939 INFO 88350 [egg-watcher] Start watching: "/Users/jiaoyy/work/egg-example2/mocks_proxy"
+2019-12-13 16:12:31,939 INFO 88350 [egg-watcher] Start watching: "/Users/jiaoyy/work/egg-example2/app.js"
+2019-12-13 16:12:31,939 INFO 88350 [egg-watcher:agent] watcher start success
+2019-12-13 16:12:31,966 INFO 88350 [egg:core] dump config after ready, 4ms
+2019-12-13 16:13:37,978 INFO 88350 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/jiaoyy/work/egg-example2/app/controller/user.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4194304,"ino":37216568,"size":119,"blocks":8,"atimeMs":1576224817913.2793,"mtimeMs":1576224817913.878,"ctimeMs":1576224817913.878,"birthtimeMs":1576224586852.7014,"atime":"2019-12-13T08:13:37.913Z","mtime":"2019-12-13T08:13:37.914Z","ctime":"2019-12-13T08:13:37.914Z","birthtime":"2019-12-13T08:09:46.853Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-12-13 16:13:38,183 WARN 88350 [agent:development] reload worker because /Users/jiaoyy/work/egg-example2/app/controller/user.js change
+2019-12-13 16:13:58,523 WARN 88350 [agent:development] reload worker because /Users/jiaoyy/work/egg-example2/app/controller/user.js change
+2019-12-13 16:13:58,320 INFO 88350 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/jiaoyy/work/egg-example2/app/controller/user.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4194304,"ino":37216568,"size":144,"blocks":8,"atimeMs":1576224838251.2031,"mtimeMs":1576224838251.7214,"ctimeMs":1576224838251.7214,"birthtimeMs":1576224586852.7014,"atime":"2019-12-13T08:13:58.251Z","mtime":"2019-12-13T08:13:58.252Z","ctime":"2019-12-13T08:13:58.252Z","birthtime":"2019-12-13T08:09:46.853Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-12-13 16:14:24,035 INFO 88350 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/jiaoyy/work/egg-example2/app/controller/user.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4194304,"ino":37216568,"size":90,"blocks":8,"atimeMs":1576224863972.8535,"mtimeMs":1576224863973.5024,"ctimeMs":1576224863973.5024,"birthtimeMs":1576224586852.7014,"atime":"2019-12-13T08:14:23.973Z","mtime":"2019-12-13T08:14:23.974Z","ctime":"2019-12-13T08:14:23.974Z","birthtime":"2019-12-13T08:09:46.853Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-12-13 16:14:24,237 WARN 88350 [agent:development] reload worker because /Users/jiaoyy/work/egg-example2/app/controller/user.js change
+2019-12-13 16:16:45,518 WARN 88350 [agent:development] reload worker because /Users/jiaoyy/work/egg-example2/app/router.js change
+2019-12-13 16:16:45,316 INFO 88350 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/jiaoyy/work/egg-example2/app/router.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4194304,"ino":37180833,"size":319,"blocks":8,"atimeMs":1576225005253.3281,"mtimeMs":1576225005253.9343,"ctimeMs":1576225005253.9343,"birthtimeMs":1576204345858.7063,"atime":"2019-12-13T08:16:45.253Z","mtime":"2019-12-13T08:16:45.254Z","ctime":"2019-12-13T08:16:45.254Z","birthtime":"2019-12-13T02:32:25.859Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-12-13 16:16:51,048 WARN 88350 [agent:development] reload worker because /Users/jiaoyy/work/egg-example2/app/controller/post.js rename
+2019-12-13 16:16:50,845 INFO 88350 [egg-watcher] Recieved a change event from eventSource: {"event":"rename","path":"/Users/jiaoyy/work/egg-example2/app/controller/post.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4194304,"ino":37216838,"size":0,"blocks":0,"atimeMs":1576225010833.372,"mtimeMs":1576225010833.372,"ctimeMs":1576225010833.372,"birthtimeMs":1576225010833.372,"atime":"2019-12-13T08:16:50.833Z","mtime":"2019-12-13T08:16:50.833Z","ctime":"2019-12-13T08:16:50.833Z","birthtime":"2019-12-13T08:16:50.833Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-12-13 16:17:42,791 WARN 88350 [agent:development] reload worker because /Users/jiaoyy/work/egg-example2/app/controller/post.js change
+2019-12-13 16:17:42,586 INFO 88350 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/jiaoyy/work/egg-example2/app/controller/post.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4194304,"ino":37216838,"size":89,"blocks":8,"atimeMs":1576225062525.3474,"mtimeMs":1576225062525.785,"ctimeMs":1576225062525.785,"birthtimeMs":1576225010833.372,"atime":"2019-12-13T08:17:42.525Z","mtime":"2019-12-13T08:17:42.526Z","ctime":"2019-12-13T08:17:42.526Z","birthtime":"2019-12-13T08:16:50.833Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-12-13 16:18:40,061 INFO 88426 [egg:logger] init all loggers with options: {"dir":"/Users/jiaoyy/work/egg-example2/logs/egg-example2","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example2-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2019-12-13 16:18:40,069 INFO 88426 [egg:core] dump config after load, 4ms
+2019-12-13 16:18:40,100 INFO 88426 [egg-watcher] Start watching: ["/Users/jiaoyy/work/egg-example2/app","/Users/jiaoyy/work/egg-example2/config","/Users/jiaoyy/work/egg-example2/mocks","/Users/jiaoyy/work/egg-example2/mocks_proxy","/Users/jiaoyy/work/egg-example2/app.js"]
+2019-12-13 16:18:40,100 INFO 88426 [egg-watcher] Start watching: "/Users/jiaoyy/work/egg-example2/app"
+2019-12-13 16:18:40,101 INFO 88426 [egg-watcher] Start watching: "/Users/jiaoyy/work/egg-example2/config"
+2019-12-13 16:18:40,101 INFO 88426 [egg-watcher] Start watching: "/Users/jiaoyy/work/egg-example2/mocks"
+2019-12-13 16:18:40,101 INFO 88426 [egg-watcher] Start watching: "/Users/jiaoyy/work/egg-example2/mocks_proxy"
+2019-12-13 16:18:40,101 INFO 88426 [egg-watcher] Start watching: "/Users/jiaoyy/work/egg-example2/app.js"
+2019-12-13 16:18:40,102 INFO 88426 [egg-watcher:agent] watcher start success
+2019-12-13 16:18:40,129 INFO 88426 [egg:core] dump config after ready, 4ms
+2019-12-13 16:19:23,795 INFO 88441 [egg:logger] init all loggers with options: {"dir":"/Users/jiaoyy/work/egg-example2/logs/egg-example2","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example2-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2019-12-13 16:19:23,803 INFO 88441 [egg:core] dump config after load, 3ms
+2019-12-13 16:19:23,835 INFO 88441 [egg-watcher] Start watching: ["/Users/jiaoyy/work/egg-example2/app","/Users/jiaoyy/work/egg-example2/config","/Users/jiaoyy/work/egg-example2/mocks","/Users/jiaoyy/work/egg-example2/mocks_proxy","/Users/jiaoyy/work/egg-example2/app.js"]
+2019-12-13 16:19:23,835 INFO 88441 [egg-watcher] Start watching: "/Users/jiaoyy/work/egg-example2/app"
+2019-12-13 16:19:23,836 INFO 88441 [egg-watcher] Start watching: "/Users/jiaoyy/work/egg-example2/config"
+2019-12-13 16:19:23,836 INFO 88441 [egg-watcher] Start watching: "/Users/jiaoyy/work/egg-example2/mocks"
+2019-12-13 16:19:23,836 INFO 88441 [egg-watcher] Start watching: "/Users/jiaoyy/work/egg-example2/mocks_proxy"
+2019-12-13 16:19:23,836 INFO 88441 [egg-watcher] Start watching: "/Users/jiaoyy/work/egg-example2/app.js"
+2019-12-13 16:19:23,836 INFO 88441 [egg-watcher:agent] watcher start success
+2019-12-13 16:19:23,865 INFO 88441 [egg:core] dump config after ready, 4ms
+2019-12-13 16:19:44,761 INFO 88441 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/jiaoyy/work/egg-example2/app/controller/post.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4194304,"ino":37216838,"size":89,"blocks":8,"atimeMs":1576225184669.516,"mtimeMs":1576225184670.058,"ctimeMs":1576225184670.058,"birthtimeMs":1576225010833.372,"atime":"2019-12-13T08:19:44.670Z","mtime":"2019-12-13T08:19:44.670Z","ctime":"2019-12-13T08:19:44.670Z","birthtime":"2019-12-13T08:16:50.833Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-12-13 16:19:44,965 WARN 88441 [agent:development] reload worker because /Users/jiaoyy/work/egg-example2/app/controller/post.js change
+2019-12-13 16:19:50,628 WARN 88441 [agent:development] reload worker because /Users/jiaoyy/work/egg-example2/app/router.js change
+2019-12-13 16:19:50,373 INFO 88441 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/jiaoyy/work/egg-example2/app/router.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4194304,"ino":37180833,"size":319,"blocks":8,"atimeMs":1576225190366.0713,"mtimeMs":1576225190366.6138,"ctimeMs":1576225190366.6138,"birthtimeMs":1576204345858.7063,"atime":"2019-12-13T08:19:50.366Z","mtime":"2019-12-13T08:19:50.367Z","ctime":"2019-12-13T08:19:50.367Z","birthtime":"2019-12-13T02:32:25.859Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-12-13 16:19:50,424 INFO 88441 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/jiaoyy/work/egg-example2/app/router.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4194304,"ino":37180833,"size":319,"blocks":8,"atimeMs":1576225190366.0713,"mtimeMs":1576225190366.6138,"ctimeMs":1576225190366.6138,"birthtimeMs":1576204345858.7063,"atime":"2019-12-13T08:19:50.366Z","mtime":"2019-12-13T08:19:50.367Z","ctime":"2019-12-13T08:19:50.367Z","birthtime":"2019-12-13T02:32:25.859Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-12-13 16:20:40,466 WARN 88441 [agent:development] reload worker because /Users/jiaoyy/work/egg-example2/app/controller/form.js rename
+2019-12-13 16:20:40,264 INFO 88441 [egg-watcher] Recieved a change event from eventSource: {"event":"rename","path":"/Users/jiaoyy/work/egg-example2/app/controller/post.js","remove":true,"isDirectory":false,"isFile":false}
+2019-12-13 16:20:40,265 INFO 88441 [egg-watcher] Recieved a change event from eventSource: {"event":"rename","path":"/Users/jiaoyy/work/egg-example2/app/controller/form.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4194304,"ino":37216838,"size":89,"blocks":8,"atimeMs":1576225213501,"mtimeMs":1576225240180,"ctimeMs":1576225240181.2222,"birthtimeMs":1576225010833.372,"atime":"2019-12-13T08:20:13.501Z","mtime":"2019-12-13T08:20:40.180Z","ctime":"2019-12-13T08:20:40.181Z","birthtime":"2019-12-13T08:16:50.833Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-12-13 16:20:49,419 INFO 88470 [egg:logger] init all loggers with options: {"dir":"/Users/jiaoyy/work/egg-example2/logs/egg-example2","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example2-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2019-12-13 16:20:49,426 INFO 88470 [egg:core] dump config after load, 3ms
+2019-12-13 16:20:49,457 INFO 88470 [egg-watcher] Start watching: ["/Users/jiaoyy/work/egg-example2/app","/Users/jiaoyy/work/egg-example2/config","/Users/jiaoyy/work/egg-example2/mocks","/Users/jiaoyy/work/egg-example2/mocks_proxy","/Users/jiaoyy/work/egg-example2/app.js"]
+2019-12-13 16:20:49,457 INFO 88470 [egg-watcher] Start watching: "/Users/jiaoyy/work/egg-example2/app"
+2019-12-13 16:20:49,458 INFO 88470 [egg-watcher] Start watching: "/Users/jiaoyy/work/egg-example2/config"
+2019-12-13 16:20:49,458 INFO 88470 [egg-watcher] Start watching: "/Users/jiaoyy/work/egg-example2/mocks"
+2019-12-13 16:20:49,458 INFO 88470 [egg-watcher] Start watching: "/Users/jiaoyy/work/egg-example2/mocks_proxy"
+2019-12-13 16:20:49,458 INFO 88470 [egg-watcher] Start watching: "/Users/jiaoyy/work/egg-example2/app.js"
+2019-12-13 16:20:49,458 INFO 88470 [egg-watcher:agent] watcher start success
+2019-12-13 16:20:49,486 INFO 88470 [egg:core] dump config after ready, 4ms
+2019-12-13 16:23:13,019 WARN 88470 [agent:development] reload worker because /Users/jiaoyy/work/egg-example2/app/router.js change
+2019-12-13 16:23:12,812 INFO 88470 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/jiaoyy/work/egg-example2/app/router.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4194304,"ino":37180833,"size":319,"blocks":8,"atimeMs":1576225392749.537,"mtimeMs":1576225392750.4421,"ctimeMs":1576225392750.4421,"birthtimeMs":1576204345858.7063,"atime":"2019-12-13T08:23:12.750Z","mtime":"2019-12-13T08:23:12.750Z","ctime":"2019-12-13T08:23:12.750Z","birthtime":"2019-12-13T02:32:25.859Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-12-13 16:26:14,180 WARN 88470 [agent:development] reload worker because /Users/jiaoyy/work/egg-example2/config/config.default.js change
+2019-12-13 16:26:13,976 INFO 88470 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/jiaoyy/work/egg-example2/config/config.default.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4194304,"ino":37183163,"size":277,"blocks":8,"atimeMs":1576225573912.4355,"mtimeMs":1576225573913.9749,"ctimeMs":1576225573913.9749,"birthtimeMs":1576204475387.3086,"atime":"2019-12-13T08:26:13.912Z","mtime":"2019-12-13T08:26:13.914Z","ctime":"2019-12-13T08:26:13.914Z","birthtime":"2019-12-13T02:34:35.387Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-12-13 16:27:27,869 WARN 88470 [agent:development] reload worker because /Users/jiaoyy/work/egg-example2/app/controller/form.js change
+2019-12-13 16:27:27,663 INFO 88470 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/jiaoyy/work/egg-example2/app/controller/form.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4194304,"ino":37216838,"size":77,"blocks":8,"atimeMs":1576225647599.1792,"mtimeMs":1576225647601.5593,"ctimeMs":1576225647601.5593,"birthtimeMs":1576225010833.372,"atime":"2019-12-13T08:27:27.599Z","mtime":"2019-12-13T08:27:27.602Z","ctime":"2019-12-13T08:27:27.602Z","birthtime":"2019-12-13T08:16:50.833Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-12-13 16:27:32,485 INFO 88470 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/jiaoyy/work/egg-example2/app/controller/form.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4194304,"ino":37216838,"size":76,"blocks":8,"atimeMs":1576225652473.5872,"mtimeMs":1576225652474.1262,"ctimeMs":1576225652474.1262,"birthtimeMs":1576225010833.372,"atime":"2019-12-13T08:27:32.474Z","mtime":"2019-12-13T08:27:32.474Z","ctime":"2019-12-13T08:27:32.474Z","birthtime":"2019-12-13T08:16:50.833Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-12-13 16:27:32,690 WARN 88470 [agent:development] reload worker because /Users/jiaoyy/work/egg-example2/app/controller/form.js change
+2019-12-13 16:27:59,638 WARN 88470 [agent:development] reload worker because /Users/jiaoyy/work/egg-example2/app/controller/form.js change
+2019-12-13 16:27:59,436 INFO 88470 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/jiaoyy/work/egg-example2/app/controller/form.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4194304,"ino":37216838,"size":88,"blocks":8,"atimeMs":1576225679372.9365,"mtimeMs":1576225679373.724,"ctimeMs":1576225679373.724,"birthtimeMs":1576225010833.372,"atime":"2019-12-13T08:27:59.373Z","mtime":"2019-12-13T08:27:59.374Z","ctime":"2019-12-13T08:27:59.374Z","birthtime":"2019-12-13T08:16:50.833Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-12-13 16:30:22,484 WARN 88470 [agent:development] reload worker because /Users/jiaoyy/work/egg-example2/app/controller/form.js change
+2019-12-13 16:30:22,280 INFO 88470 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/jiaoyy/work/egg-example2/app/controller/form.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4194304,"ino":37216838,"size":88,"blocks":8,"atimeMs":1576225822214.1582,"mtimeMs":1576225822214.6975,"ctimeMs":1576225822214.6975,"birthtimeMs":1576225010833.372,"atime":"2019-12-13T08:30:22.214Z","mtime":"2019-12-13T08:30:22.215Z","ctime":"2019-12-13T08:30:22.215Z","birthtime":"2019-12-13T08:16:50.833Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-12-13 16:36:40,848 WARN 88470 [agent:development] reload worker because /Users/jiaoyy/work/egg-example2/app/router.js change
+2019-12-13 16:36:40,647 INFO 88470 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/jiaoyy/work/egg-example2/app/router.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4194304,"ino":37180833,"size":385,"blocks":8,"atimeMs":1576226200582.845,"mtimeMs":1576226200584.8958,"ctimeMs":1576226200584.8958,"birthtimeMs":1576204345858.7063,"atime":"2019-12-13T08:36:40.583Z","mtime":"2019-12-13T08:36:40.585Z","ctime":"2019-12-13T08:36:40.585Z","birthtime":"2019-12-13T02:32:25.859Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-12-13 16:36:43,588 WARN 88470 [agent:development] reload worker because /Users/jiaoyy/work/egg-example2/app/router.js change
+2019-12-13 16:36:43,384 INFO 88470 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/jiaoyy/work/egg-example2/app/router.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4194304,"ino":37180833,"size":386,"blocks":8,"atimeMs":1576226203372.3313,"mtimeMs":1576226203373.0862,"ctimeMs":1576226203373.0862,"birthtimeMs":1576204345858.7063,"atime":"2019-12-13T08:36:43.372Z","mtime":"2019-12-13T08:36:43.373Z","ctime":"2019-12-13T08:36:43.373Z","birthtime":"2019-12-13T02:32:25.859Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-12-13 16:38:38,472 INFO 88470 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/jiaoyy/work/egg-example2/app/router.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4194304,"ino":37180833,"size":432,"blocks":8,"atimeMs":1576226318409.3818,"mtimeMs":1576226318410.1387,"ctimeMs":1576226318410.1387,"birthtimeMs":1576204345858.7063,"atime":"2019-12-13T08:38:38.409Z","mtime":"2019-12-13T08:38:38.410Z","ctime":"2019-12-13T08:38:38.410Z","birthtime":"2019-12-13T02:32:25.859Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-12-13 16:38:38,676 WARN 88470 [agent:development] reload worker because /Users/jiaoyy/work/egg-example2/app/router.js change
+2019-12-13 16:40:40,992 WARN 88470 [agent:development] reload worker because /Users/jiaoyy/work/egg-example2/app/controller/search.js change
+2019-12-13 16:40:40,786 INFO 88470 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/jiaoyy/work/egg-example2/app/controller/search.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4194304,"ino":37215613,"size":103,"blocks":8,"atimeMs":1576226440724.2283,"mtimeMs":1576226440725.0054,"ctimeMs":1576226440725.0054,"birthtimeMs":1576223977420.308,"atime":"2019-12-13T08:40:40.724Z","mtime":"2019-12-13T08:40:40.725Z","ctime":"2019-12-13T08:40:40.725Z","birthtime":"2019-12-13T07:59:37.420Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-12-13 16:41:48,780 WARN 88470 [agent:development] reload worker because /Users/jiaoyy/work/egg-example2/app/controller/search.js change
+2019-12-13 16:41:48,569 INFO 88470 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/jiaoyy/work/egg-example2/app/controller/search.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4194304,"ino":37215613,"size":193,"blocks":8,"atimeMs":1576226508506.4258,"mtimeMs":1576226508507.0725,"ctimeMs":1576226508507.0725,"birthtimeMs":1576223977420.308,"atime":"2019-12-13T08:41:48.506Z","mtime":"2019-12-13T08:41:48.507Z","ctime":"2019-12-13T08:41:48.507Z","birthtime":"2019-12-13T07:59:37.420Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-12-13 16:42:38,065 WARN 88470 [agent:development] reload worker because /Users/jiaoyy/work/egg-example2/app/controller/search.js change
+2019-12-13 16:42:37,864 INFO 88470 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/jiaoyy/work/egg-example2/app/controller/search.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4194304,"ino":37215613,"size":262,"blocks":8,"atimeMs":1576226557802.2864,"mtimeMs":1576226557802.973,"ctimeMs":1576226557802.973,"birthtimeMs":1576223977420.308,"atime":"2019-12-13T08:42:37.802Z","mtime":"2019-12-13T08:42:37.803Z","ctime":"2019-12-13T08:42:37.803Z","birthtime":"2019-12-13T07:59:37.420Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-12-13 16:44:27,873 WARN 88470 [agent:development] reload worker because /Users/jiaoyy/work/egg-example2/app/controller/search.js change
+2019-12-13 16:44:27,672 INFO 88470 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/jiaoyy/work/egg-example2/app/controller/search.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4194304,"ino":37215613,"size":264,"blocks":8,"atimeMs":1576226667609.146,"mtimeMs":1576226667610.0295,"ctimeMs":1576226667610.0295,"birthtimeMs":1576223977420.308,"atime":"2019-12-13T08:44:27.609Z","mtime":"2019-12-13T08:44:27.610Z","ctime":"2019-12-13T08:44:27.610Z","birthtime":"2019-12-13T07:59:37.420Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-12-13 16:52:14,687 INFO 88470 [egg-watcher] Recieved a change event from eventSource: {"event":"rename","path":"/Users/jiaoyy/work/egg-example2/app/middleware","stat":{"dev":16777220,"mode":16877,"nlink":2,"uid":501,"gid":20,"rdev":0,"blksize":4194304,"ino":37233277,"size":64,"blocks":0,"atimeMs":1576227134683.442,"mtimeMs":1576227134621.9404,"ctimeMs":1576227134621.9404,"birthtimeMs":1576227134621.9404,"atime":"2019-12-13T08:52:14.683Z","mtime":"2019-12-13T08:52:14.622Z","ctime":"2019-12-13T08:52:14.622Z","birthtime":"2019-12-13T08:52:14.622Z"},"remove":false,"isDirectory":true,"isFile":false}
+2019-12-13 16:52:52,398 INFO 88470 [egg-watcher] Recieved a change event from eventSource: {"event":"rename","path":"/Users/jiaoyy/work/egg-example2/app/middleware/uppercase.js","stat":{"dev":16777220,"mode":16877,"nlink":2,"uid":501,"gid":20,"rdev":0,"blksize":4194304,"ino":37233299,"size":64,"blocks":0,"atimeMs":1576227172394.7925,"mtimeMs":1576227172314.2559,"ctimeMs":1576227172314.2559,"birthtimeMs":1576227172314.2559,"atime":"2019-12-13T08:52:52.395Z","mtime":"2019-12-13T08:52:52.314Z","ctime":"2019-12-13T08:52:52.314Z","birthtime":"2019-12-13T08:52:52.314Z"},"remove":false,"isDirectory":true,"isFile":false}
+2019-12-13 16:52:57,166 INFO 88470 [egg-watcher] Recieved a change event from eventSource: {"event":"rename","path":"/Users/jiaoyy/work/egg-example2/app/middleware/uppercase.js","remove":true,"isDirectory":true,"isFile":false}
+2019-12-13 16:53:03,560 WARN 88470 [agent:development] reload worker because /Users/jiaoyy/work/egg-example2/app/middleware/uppercase.js rename
+2019-12-13 16:53:03,354 INFO 88470 [egg-watcher] Recieved a change event from eventSource: {"event":"rename","path":"/Users/jiaoyy/work/egg-example2/app/middleware/uppercase.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4194304,"ino":37233313,"size":0,"blocks":0,"atimeMs":1576227183342.7268,"mtimeMs":1576227183342.7268,"ctimeMs":1576227183342.7268,"birthtimeMs":1576227183342.7268,"atime":"2019-12-13T08:53:03.343Z","mtime":"2019-12-13T08:53:03.343Z","ctime":"2019-12-13T08:53:03.343Z","birthtime":"2019-12-13T08:53:03.343Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-12-13 16:53:33,446 WARN 88470 [agent:development] reload worker because /Users/jiaoyy/work/egg-example2/app/middleware/uppercase.js change
+2019-12-13 16:53:33,241 INFO 88470 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/jiaoyy/work/egg-example2/app/middleware/uppercase.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4194304,"ino":37233313,"size":27,"blocks":8,"atimeMs":1576227213179.4778,"mtimeMs":1576227213179.9534,"ctimeMs":1576227213179.9534,"birthtimeMs":1576227183342.7268,"atime":"2019-12-13T08:53:33.179Z","mtime":"2019-12-13T08:53:33.180Z","ctime":"2019-12-13T08:53:33.180Z","birthtime":"2019-12-13T08:53:03.343Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-12-13 16:54:42,628 WARN 88470 [agent:development] reload worker because /Users/jiaoyy/work/egg-example2/app/middleware/uppercase.js change
+2019-12-13 16:54:42,424 INFO 88470 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/jiaoyy/work/egg-example2/app/middleware/uppercase.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4194304,"ino":37233313,"size":157,"blocks":8,"atimeMs":1576227282361.3115,"mtimeMs":1576227282362.0054,"ctimeMs":1576227282362.0054,"birthtimeMs":1576227183342.7268,"atime":"2019-12-13T08:54:42.361Z","mtime":"2019-12-13T08:54:42.362Z","ctime":"2019-12-13T08:54:42.362Z","birthtime":"2019-12-13T08:53:03.343Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-12-13 16:54:56,119 WARN 88470 [agent:development] reload worker because /Users/jiaoyy/work/egg-example2/app/middleware/uppercase.js change
+2019-12-13 16:54:55,911 INFO 88470 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/jiaoyy/work/egg-example2/app/middleware/uppercase.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4194304,"ino":37233313,"size":179,"blocks":8,"atimeMs":1576227295900.2751,"mtimeMs":1576227295900.812,"ctimeMs":1576227295900.812,"birthtimeMs":1576227183342.7268,"atime":"2019-12-13T08:54:55.900Z","mtime":"2019-12-13T08:54:55.901Z","ctime":"2019-12-13T08:54:55.901Z","birthtime":"2019-12-13T08:53:03.343Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-12-13 16:56:00,033 WARN 88470 [agent:development] reload worker because /Users/jiaoyy/work/egg-example2/app/controller/roter.js rename
+2019-12-13 16:55:59,828 INFO 88470 [egg-watcher] Recieved a change event from eventSource: {"event":"rename","path":"/Users/jiaoyy/work/egg-example2/app/controller/roter.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4194304,"ino":37233495,"size":0,"blocks":0,"atimeMs":1576227359828.4478,"mtimeMs":1576227359749.2598,"ctimeMs":1576227359749.2598,"birthtimeMs":1576227359749.2598,"atime":"2019-12-13T08:55:59.828Z","mtime":"2019-12-13T08:55:59.749Z","ctime":"2019-12-13T08:55:59.749Z","birthtime":"2019-12-13T08:55:59.749Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-12-13 16:56:42,272 WARN 88470 [agent:development] reload worker because /Users/jiaoyy/work/egg-example2/app/router.js change
+2019-12-13 16:56:42,071 INFO 88470 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/jiaoyy/work/egg-example2/app/controller/roter.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4194304,"ino":37233495,"size":47,"blocks":8,"atimeMs":1576227402008.338,"mtimeMs":1576227402009.2444,"ctimeMs":1576227402009.2444,"birthtimeMs":1576227359749.2598,"atime":"2019-12-13T08:56:42.008Z","mtime":"2019-12-13T08:56:42.009Z","ctime":"2019-12-13T08:56:42.009Z","birthtime":"2019-12-13T08:55:59.749Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-12-13 16:56:42,072 INFO 88470 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/jiaoyy/work/egg-example2/app/router.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4194304,"ino":37180833,"size":413,"blocks":8,"atimeMs":1576227402008.5386,"mtimeMs":1576227402035.0288,"ctimeMs":1576227402035.0288,"birthtimeMs":1576204345858.7063,"atime":"2019-12-13T08:56:42.009Z","mtime":"2019-12-13T08:56:42.035Z","ctime":"2019-12-13T08:56:42.035Z","birthtime":"2019-12-13T02:32:25.859Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-12-13 16:57:07,681 WARN 88470 [agent:development] reload worker because /Users/jiaoyy/work/egg-example2/app/controller/roter.js change
+2019-12-13 16:57:07,480 INFO 88470 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/jiaoyy/work/egg-example2/app/controller/roter.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4194304,"ino":37233495,"size":95,"blocks":8,"atimeMs":1576227427416.826,"mtimeMs":1576227427417.4336,"ctimeMs":1576227427417.4336,"birthtimeMs":1576227359749.2598,"atime":"2019-12-13T08:57:07.417Z","mtime":"2019-12-13T08:57:07.417Z","ctime":"2019-12-13T08:57:07.417Z","birthtime":"2019-12-13T08:55:59.749Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-12-13 16:58:24,797 WARN 88470 [agent:development] reload worker because /Users/jiaoyy/work/egg-example2/app/controller/roter.js change
+2019-12-13 16:58:24,597 INFO 88470 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/jiaoyy/work/egg-example2/app/controller/roter.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4194304,"ino":37233495,"size":180,"blocks":8,"atimeMs":1576227504537.299,"mtimeMs":1576227504538.015,"ctimeMs":1576227504538.015,"birthtimeMs":1576227359749.2598,"atime":"2019-12-13T08:58:24.537Z","mtime":"2019-12-13T08:58:24.538Z","ctime":"2019-12-13T08:58:24.538Z","birthtime":"2019-12-13T08:55:59.749Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-12-13 16:58:34,288 WARN 88470 [agent:development] reload worker because /Users/jiaoyy/work/egg-example2/app/controller/roter.js change
+2019-12-13 16:58:34,084 INFO 88470 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/jiaoyy/work/egg-example2/app/controller/roter.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4194304,"ino":37233495,"size":206,"blocks":8,"atimeMs":1576227514072.0154,"mtimeMs":1576227514072.5747,"ctimeMs":1576227514072.5747,"birthtimeMs":1576227359749.2598,"atime":"2019-12-13T08:58:34.072Z","mtime":"2019-12-13T08:58:34.073Z","ctime":"2019-12-13T08:58:34.073Z","birthtime":"2019-12-13T08:55:59.749Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-12-13 16:59:52,064 INFO 88470 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/jiaoyy/work/egg-example2/app/controller/roter.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4194304,"ino":37233495,"size":286,"blocks":8,"atimeMs":1576227592001.7236,"mtimeMs":1576227592002.2717,"ctimeMs":1576227592002.2717,"birthtimeMs":1576227359749.2598,"atime":"2019-12-13T08:59:52.002Z","mtime":"2019-12-13T08:59:52.002Z","ctime":"2019-12-13T08:59:52.002Z","birthtime":"2019-12-13T08:55:59.749Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-12-13 16:59:52,269 WARN 88470 [agent:development] reload worker because /Users/jiaoyy/work/egg-example2/app/controller/roter.js change
+2019-12-13 17:01:00,681 WARN 88470 [agent:development] reload worker because /Users/jiaoyy/work/egg-example2/app/controller/roter.js change
+2019-12-13 17:01:00,472 INFO 88470 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/jiaoyy/work/egg-example2/app/controller/roter.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4194304,"ino":37233495,"size":330,"blocks":8,"atimeMs":1576227660408.249,"mtimeMs":1576227660408.8733,"ctimeMs":1576227660408.8733,"birthtimeMs":1576227359749.2598,"atime":"2019-12-13T09:01:00.408Z","mtime":"2019-12-13T09:01:00.409Z","ctime":"2019-12-13T09:01:00.409Z","birthtime":"2019-12-13T08:55:59.749Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-12-13 17:03:41,067 WARN 88470 [agent:development] reload worker because /Users/jiaoyy/work/egg-example2/app/controller/roter.js change
+2019-12-13 17:03:40,866 INFO 88470 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/jiaoyy/work/egg-example2/app/controller/roter.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4194304,"ino":37233495,"size":633,"blocks":8,"atimeMs":1576227820804.9092,"mtimeMs":1576227820805.4563,"ctimeMs":1576227820805.4563,"birthtimeMs":1576227359749.2598,"atime":"2019-12-13T09:03:40.805Z","mtime":"2019-12-13T09:03:40.805Z","ctime":"2019-12-13T09:03:40.805Z","birthtime":"2019-12-13T08:55:59.749Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-12-13 17:04:22,763 INFO 88470 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/jiaoyy/work/egg-example2/app/controller/roter.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4194304,"ino":37233495,"size":695,"blocks":8,"atimeMs":1576227862700.7866,"mtimeMs":1576227862701.7212,"ctimeMs":1576227862701.7212,"birthtimeMs":1576227359749.2598,"atime":"2019-12-13T09:04:22.701Z","mtime":"2019-12-13T09:04:22.702Z","ctime":"2019-12-13T09:04:22.702Z","birthtime":"2019-12-13T08:55:59.749Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-12-13 17:04:22,966 WARN 88470 [agent:development] reload worker because /Users/jiaoyy/work/egg-example2/app/controller/roter.js change
+2019-12-13 17:08:26,827 WARN 88470 [agent:development] reload worker because /Users/jiaoyy/work/egg-example2/app/controller/roter.js change
+2019-12-13 17:08:26,623 INFO 88470 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/jiaoyy/work/egg-example2/app/controller/roter.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4194304,"ino":37233495,"size":788,"blocks":8,"atimeMs":1576228106561.1545,"mtimeMs":1576228106561.983,"ctimeMs":1576228106561.983,"birthtimeMs":1576227359749.2598,"atime":"2019-12-13T09:08:26.561Z","mtime":"2019-12-13T09:08:26.562Z","ctime":"2019-12-13T09:08:26.562Z","birthtime":"2019-12-13T08:55:59.749Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-12-13 17:08:40,952 WARN 88470 [agent:development] reload worker because /Users/jiaoyy/work/egg-example2/app/controller/roter.js change
+2019-12-13 17:08:40,705 INFO 88470 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/jiaoyy/work/egg-example2/app/controller/roter.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4194304,"ino":37233495,"size":796,"blocks":8,"atimeMs":1576228120687.493,"mtimeMs":1576228120688.2034,"ctimeMs":1576228120688.2034,"birthtimeMs":1576227359749.2598,"atime":"2019-12-13T09:08:40.687Z","mtime":"2019-12-13T09:08:40.688Z","ctime":"2019-12-13T09:08:40.688Z","birthtime":"2019-12-13T08:55:59.749Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-12-13 17:08:40,749 INFO 88470 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/jiaoyy/work/egg-example2/app/controller/roter.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4194304,"ino":37233495,"size":796,"blocks":8,"atimeMs":1576228120687.493,"mtimeMs":1576228120688.2034,"ctimeMs":1576228120688.2034,"birthtimeMs":1576227359749.2598,"atime":"2019-12-13T09:08:40.687Z","mtime":"2019-12-13T09:08:40.688Z","ctime":"2019-12-13T09:08:40.688Z","birthtime":"2019-12-13T08:55:59.749Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-12-13 17:13:28,347 WARN 88470 [agent:development] reload worker because /Users/jiaoyy/work/egg-example2/app/controller/roter.js change
+2019-12-13 17:13:28,143 INFO 88470 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/jiaoyy/work/egg-example2/app/controller/roter.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4194304,"ino":37233495,"size":798,"blocks":8,"atimeMs":1576228408081.3367,"mtimeMs":1576228408082.1545,"ctimeMs":1576228408082.1545,"birthtimeMs":1576227359749.2598,"atime":"2019-12-13T09:13:28.081Z","mtime":"2019-12-13T09:13:28.082Z","ctime":"2019-12-13T09:13:28.082Z","birthtime":"2019-12-13T08:55:59.749Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-12-13 17:13:36,102 WARN 88470 [agent:development] reload worker because /Users/jiaoyy/work/egg-example2/app/controller/home.js rename
+2019-12-13 17:13:35,899 INFO 88470 [egg-watcher] Recieved a change event from eventSource: {"event":"rename","path":"/Users/jiaoyy/work/egg-example2/app/controller/home.js","remove":true,"isDirectory":false,"isFile":false}
+2019-12-13 17:13:51,258 WARN 88470 [agent:development] reload worker because /Users/jiaoyy/work/egg-example2/app/controller/search.js rename
+2019-12-13 17:13:51,054 INFO 88470 [egg-watcher] Recieved a change event from eventSource: {"event":"rename","path":"/Users/jiaoyy/work/egg-example2/app/controller/search.js","remove":true,"isDirectory":false,"isFile":false}
+2019-12-13 17:14:00,363 WARN 88470 [agent:development] reload worker because /Users/jiaoyy/work/egg-example2/app/controller/user.js rename
+2019-12-13 17:14:00,158 INFO 88470 [egg-watcher] Recieved a change event from eventSource: {"event":"rename","path":"/Users/jiaoyy/work/egg-example2/app/controller/user.js","remove":true,"isDirectory":false,"isFile":false}
+2019-12-13 17:15:16,653 INFO 88470 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/jiaoyy/work/egg-example2/app/controller/news.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4194304,"ino":37203969,"size":393,"blocks":8,"atimeMs":1576228516590.5437,"mtimeMs":1576228516591.9473,"ctimeMs":1576228516591.9473,"birthtimeMs":1576206029418.9663,"atime":"2019-12-13T09:15:16.591Z","mtime":"2019-12-13T09:15:16.592Z","ctime":"2019-12-13T09:15:16.592Z","birthtime":"2019-12-13T03:00:29.419Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-12-13 17:15:16,858 WARN 88470 [agent:development] reload worker because /Users/jiaoyy/work/egg-example2/app/controller/news.js change
+2019-12-13 17:16:57,986 INFO 88470 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/jiaoyy/work/egg-example2/app/controller/news.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4194304,"ino":37203969,"size":414,"blocks":8,"atimeMs":1576228617923.7585,"mtimeMs":1576228617924.3525,"ctimeMs":1576228617924.3525,"birthtimeMs":1576206029418.9663,"atime":"2019-12-13T09:16:57.924Z","mtime":"2019-12-13T09:16:57.924Z","ctime":"2019-12-13T09:16:57.924Z","birthtime":"2019-12-13T03:00:29.419Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-12-13 17:16:58,194 WARN 88470 [agent:development] reload worker because /Users/jiaoyy/work/egg-example2/app/controller/news.js change
+2019-12-13 17:17:16,802 WARN 88470 [agent:development] reload worker because /Users/jiaoyy/work/egg-example2/app/controller/news.js change
+2019-12-13 17:17:16,601 INFO 88470 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/jiaoyy/work/egg-example2/app/controller/news.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4194304,"ino":37203969,"size":413,"blocks":8,"atimeMs":1576228636539.2522,"mtimeMs":1576228636539.862,"ctimeMs":1576228636539.862,"birthtimeMs":1576206029418.9663,"atime":"2019-12-13T09:17:16.539Z","mtime":"2019-12-13T09:17:16.540Z","ctime":"2019-12-13T09:17:16.540Z","birthtime":"2019-12-13T03:00:29.419Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-12-13 17:17:25,108 WARN 88470 [agent:development] reload worker because /Users/jiaoyy/work/egg-example2/app/controller/form.js rename
+2019-12-13 17:17:24,906 INFO 88470 [egg-watcher] Recieved a change event from eventSource: {"event":"rename","path":"/Users/jiaoyy/work/egg-example2/app/controller/form.js","remove":true,"isDirectory":false,"isFile":false}
+2019-12-13 17:19:13,324 WARN 88470 [agent:development] reload worker because /Users/jiaoyy/work/egg-example2/app/router.js change
+2019-12-13 17:19:13,123 INFO 88470 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/jiaoyy/work/egg-example2/app/router.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4194304,"ino":37180833,"size":415,"blocks":8,"atimeMs":1576228753059.912,"mtimeMs":1576228753061.1956,"ctimeMs":1576228753061.1956,"birthtimeMs":1576204345858.7063,"atime":"2019-12-13T09:19:13.060Z","mtime":"2019-12-13T09:19:13.061Z","ctime":"2019-12-13T09:19:13.061Z","birthtime":"2019-12-13T02:32:25.859Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-12-13 17:21:35,545 WARN 88470 [agent:development] reload worker because /Users/jiaoyy/work/egg-example2/app/router.js change
+2019-12-13 17:21:35,331 INFO 88470 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/jiaoyy/work/egg-example2/app/router.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4194304,"ino":37180833,"size":421,"blocks":8,"atimeMs":1576228895269.8274,"mtimeMs":1576228895270.583,"ctimeMs":1576228895270.583,"birthtimeMs":1576204345858.7063,"atime":"2019-12-13T09:21:35.270Z","mtime":"2019-12-13T09:21:35.271Z","ctime":"2019-12-13T09:21:35.271Z","birthtime":"2019-12-13T02:32:25.859Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-12-13 17:21:40,543 WARN 88470 [agent:development] reload worker because /Users/jiaoyy/work/egg-example2/app/router.js change
+2019-12-13 17:21:40,338 INFO 88470 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/jiaoyy/work/egg-example2/app/router.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4194304,"ino":37180833,"size":353,"blocks":8,"atimeMs":1576228900326.4153,"mtimeMs":1576228900327.0264,"ctimeMs":1576228900327.0264,"birthtimeMs":1576204345858.7063,"atime":"2019-12-13T09:21:40.326Z","mtime":"2019-12-13T09:21:40.327Z","ctime":"2019-12-13T09:21:40.327Z","birthtime":"2019-12-13T02:32:25.859Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-12-13 17:21:54,339 WARN 88470 [agent:development] reload worker because /Users/jiaoyy/work/egg-example2/app/router.js change
+2019-12-13 17:21:54,137 INFO 88470 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/jiaoyy/work/egg-example2/app/router.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4194304,"ino":37180833,"size":380,"blocks":8,"atimeMs":1576228914125.069,"mtimeMs":1576228914125.6763,"ctimeMs":1576228914125.6763,"birthtimeMs":1576204345858.7063,"atime":"2019-12-13T09:21:54.125Z","mtime":"2019-12-13T09:21:54.126Z","ctime":"2019-12-13T09:21:54.126Z","birthtime":"2019-12-13T02:32:25.859Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-12-13 17:22:02,302 WARN 88470 [agent:development] reload worker because /Users/jiaoyy/work/egg-example2/app/router.js change
+2019-12-13 17:22:02,095 INFO 88470 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/jiaoyy/work/egg-example2/app/router.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4194304,"ino":37180833,"size":382,"blocks":8,"atimeMs":1576228922082.5474,"mtimeMs":1576228922083.2407,"ctimeMs":1576228922083.2407,"birthtimeMs":1576204345858.7063,"atime":"2019-12-13T09:22:02.083Z","mtime":"2019-12-13T09:22:02.083Z","ctime":"2019-12-13T09:22:02.083Z","birthtime":"2019-12-13T02:32:25.859Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-12-13 17:23:29,700 WARN 88470 [agent:development] reload worker because /Users/jiaoyy/work/egg-example2/app/controller/routerTest.js rename
+2019-12-13 17:23:29,497 INFO 88470 [egg-watcher] Recieved a change event from eventSource: {"event":"rename","path":"/Users/jiaoyy/work/egg-example2/app/controller/roter.js","remove":true,"isDirectory":false,"isFile":false}
+2019-12-13 17:23:29,497 INFO 88470 [egg-watcher] Recieved a change event from eventSource: {"event":"rename","path":"/Users/jiaoyy/work/egg-example2/app/controller/routerTest.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4194304,"ino":37233495,"size":798,"blocks":8,"atimeMs":1576229009425,"mtimeMs":1576229009425,"ctimeMs":1576229009426.0176,"birthtimeMs":1576227359749.2598,"atime":"2019-12-13T09:23:29.425Z","mtime":"2019-12-13T09:23:29.425Z","ctime":"2019-12-13T09:23:29.426Z","birthtime":"2019-12-13T08:55:59.749Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-12-13 17:23:49,087 INFO 88470 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/jiaoyy/work/egg-example2/app/router.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4194304,"ino":37180833,"size":402,"blocks":8,"atimeMs":1576229029014.8806,"mtimeMs":1576229029015.5762,"ctimeMs":1576229029015.5762,"birthtimeMs":1576204345858.7063,"atime":"2019-12-13T09:23:49.015Z","mtime":"2019-12-13T09:23:49.016Z","ctime":"2019-12-13T09:23:49.016Z","birthtime":"2019-12-13T02:32:25.859Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-12-13 17:23:49,287 WARN 88470 [agent:development] reload worker because /Users/jiaoyy/work/egg-example2/app/router.js change
+2019-12-13 17:24:06,888 INFO 89881 [egg:logger] init all loggers with options: {"dir":"/Users/jiaoyy/work/egg-example2/logs/egg-example2","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example2-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2019-12-13 17:24:06,896 INFO 89881 [egg:core] dump config after load, 5ms
+2019-12-13 17:24:06,933 INFO 89881 [egg-watcher] Start watching: ["/Users/jiaoyy/work/egg-example2/app","/Users/jiaoyy/work/egg-example2/config","/Users/jiaoyy/work/egg-example2/mocks","/Users/jiaoyy/work/egg-example2/mocks_proxy","/Users/jiaoyy/work/egg-example2/app.js"]
+2019-12-13 17:24:06,933 INFO 89881 [egg-watcher] Start watching: "/Users/jiaoyy/work/egg-example2/app"
+2019-12-13 17:24:06,933 INFO 89881 [egg-watcher] Start watching: "/Users/jiaoyy/work/egg-example2/config"
+2019-12-13 17:24:06,933 INFO 89881 [egg-watcher] Start watching: "/Users/jiaoyy/work/egg-example2/mocks"
+2019-12-13 17:24:06,934 INFO 89881 [egg-watcher] Start watching: "/Users/jiaoyy/work/egg-example2/mocks_proxy"
+2019-12-13 17:24:06,934 INFO 89881 [egg-watcher] Start watching: "/Users/jiaoyy/work/egg-example2/app.js"
+2019-12-13 17:24:06,934 INFO 89881 [egg-watcher:agent] watcher start success
+2019-12-13 17:24:06,976 INFO 89881 [egg:core] dump config after ready, 6ms
+2019-12-13 17:39:44,154 INFO 90697 [egg:logger] init all loggers with options: {"dir":"/Users/jiaoyy/work/egg-example2/logs/egg-example2","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example2-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2019-12-13 17:39:44,162 INFO 90697 [egg:core] dump config after load, 3ms
+2019-12-13 17:39:44,201 INFO 90697 [egg-watcher] Start watching: ["/Users/jiaoyy/work/egg-example2/app","/Users/jiaoyy/work/egg-example2/config","/Users/jiaoyy/work/egg-example2/mocks","/Users/jiaoyy/work/egg-example2/mocks_proxy","/Users/jiaoyy/work/egg-example2/app.js"]
+2019-12-13 17:39:44,201 INFO 90697 [egg-watcher] Start watching: "/Users/jiaoyy/work/egg-example2/app"
+2019-12-13 17:39:44,201 INFO 90697 [egg-watcher] Start watching: "/Users/jiaoyy/work/egg-example2/config"
+2019-12-13 17:39:44,201 INFO 90697 [egg-watcher] Start watching: "/Users/jiaoyy/work/egg-example2/mocks"
+2019-12-13 17:39:44,201 INFO 90697 [egg-watcher] Start watching: "/Users/jiaoyy/work/egg-example2/mocks_proxy"
+2019-12-13 17:39:44,201 INFO 90697 [egg-watcher] Start watching: "/Users/jiaoyy/work/egg-example2/app.js"
+2019-12-13 17:39:44,201 INFO 90697 [egg-watcher:agent] watcher start success
+2019-12-13 17:39:44,229 INFO 90697 [egg:core] dump config after ready, 4ms
+2019-12-13 17:40:47,625 INFO 90712 [egg:logger] init all loggers with options: {"dir":"/Users/jiaoyy/work/egg-example2/logs/egg-example2","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example2-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2019-12-13 17:40:47,632 INFO 90712 [egg:core] dump config after load, 4ms
+2019-12-13 17:40:47,669 INFO 90712 [egg-watcher] Start watching: ["/Users/jiaoyy/work/egg-example2/app","/Users/jiaoyy/work/egg-example2/config","/Users/jiaoyy/work/egg-example2/mocks","/Users/jiaoyy/work/egg-example2/mocks_proxy","/Users/jiaoyy/work/egg-example2/app.js"]
+2019-12-13 17:40:47,669 INFO 90712 [egg-watcher] Start watching: "/Users/jiaoyy/work/egg-example2/app"
+2019-12-13 17:40:47,670 INFO 90712 [egg-watcher] Start watching: "/Users/jiaoyy/work/egg-example2/config"
+2019-12-13 17:40:47,670 INFO 90712 [egg-watcher] Start watching: "/Users/jiaoyy/work/egg-example2/mocks"
+2019-12-13 17:40:47,670 INFO 90712 [egg-watcher] Start watching: "/Users/jiaoyy/work/egg-example2/mocks_proxy"
+2019-12-13 17:40:47,670 INFO 90712 [egg-watcher] Start watching: "/Users/jiaoyy/work/egg-example2/app.js"
+2019-12-13 17:40:47,670 INFO 90712 [egg-watcher:agent] watcher start success
+2019-12-13 17:40:47,696 INFO 90712 [egg:core] dump config after ready, 10ms
+2019-12-13 17:42:34,677 INFO 90750 [egg:logger] init all loggers with options: {"dir":"/Users/jiaoyy/work/egg-example2/logs/egg-example2","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example2-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2019-12-13 17:42:34,685 INFO 90750 [egg:core] dump config after load, 4ms
+2019-12-13 17:42:34,723 INFO 90750 [egg-watcher] Start watching: ["/Users/jiaoyy/work/egg-example2/app","/Users/jiaoyy/work/egg-example2/config","/Users/jiaoyy/work/egg-example2/mocks","/Users/jiaoyy/work/egg-example2/mocks_proxy","/Users/jiaoyy/work/egg-example2/app.js"]
+2019-12-13 17:42:34,723 INFO 90750 [egg-watcher] Start watching: "/Users/jiaoyy/work/egg-example2/app"
+2019-12-13 17:42:34,723 INFO 90750 [egg-watcher] Start watching: "/Users/jiaoyy/work/egg-example2/config"
+2019-12-13 17:42:34,723 INFO 90750 [egg-watcher] Start watching: "/Users/jiaoyy/work/egg-example2/mocks"
+2019-12-13 17:42:34,724 INFO 90750 [egg-watcher] Start watching: "/Users/jiaoyy/work/egg-example2/mocks_proxy"
+2019-12-13 17:42:34,724 INFO 90750 [egg-watcher] Start watching: "/Users/jiaoyy/work/egg-example2/app.js"
+2019-12-13 17:42:34,724 INFO 90750 [egg-watcher:agent] watcher start success
+2019-12-13 17:42:34,750 INFO 90750 [egg:core] dump config after ready, 10ms
+2019-12-13 17:44:54,525 INFO 90782 [egg:logger] init all loggers with options: {"dir":"/Users/jiaoyy/work/egg-example2/logs/egg-example2","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example2-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2019-12-13 17:44:54,532 INFO 90782 [egg:core] dump config after load, 3ms
+2019-12-13 17:44:54,571 INFO 90782 [egg-watcher] Start watching: ["/Users/jiaoyy/work/egg-example2/app","/Users/jiaoyy/work/egg-example2/config","/Users/jiaoyy/work/egg-example2/mocks","/Users/jiaoyy/work/egg-example2/mocks_proxy","/Users/jiaoyy/work/egg-example2/app.js"]
+2019-12-13 17:44:54,571 INFO 90782 [egg-watcher] Start watching: "/Users/jiaoyy/work/egg-example2/app"
+2019-12-13 17:44:54,572 INFO 90782 [egg-watcher] Start watching: "/Users/jiaoyy/work/egg-example2/config"
+2019-12-13 17:44:54,572 INFO 90782 [egg-watcher] Start watching: "/Users/jiaoyy/work/egg-example2/mocks"
+2019-12-13 17:44:54,572 INFO 90782 [egg-watcher] Start watching: "/Users/jiaoyy/work/egg-example2/mocks_proxy"
+2019-12-13 17:44:54,572 INFO 90782 [egg-watcher] Start watching: "/Users/jiaoyy/work/egg-example2/app.js"
+2019-12-13 17:44:54,572 INFO 90782 [egg-watcher:agent] watcher start success
+2019-12-13 17:44:54,601 INFO 90782 [egg:core] dump config after ready, 13ms
+2019-12-13 17:45:41,364 INFO 90803 [egg:logger] init all loggers with options: {"dir":"/Users/jiaoyy/work/egg-example2/logs/egg-example2","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example2-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2019-12-13 17:45:41,373 INFO 90803 [egg:core] dump config after load, 4ms
+2019-12-13 17:45:41,411 INFO 90803 [egg-watcher] Start watching: ["/Users/jiaoyy/work/egg-example2/app","/Users/jiaoyy/work/egg-example2/config","/Users/jiaoyy/work/egg-example2/mocks","/Users/jiaoyy/work/egg-example2/mocks_proxy","/Users/jiaoyy/work/egg-example2/app.js"]
+2019-12-13 17:45:41,411 INFO 90803 [egg-watcher] Start watching: "/Users/jiaoyy/work/egg-example2/app"
+2019-12-13 17:45:41,411 INFO 90803 [egg-watcher] Start watching: "/Users/jiaoyy/work/egg-example2/config"
+2019-12-13 17:45:41,411 INFO 90803 [egg-watcher] Start watching: "/Users/jiaoyy/work/egg-example2/mocks"
+2019-12-13 17:45:41,411 INFO 90803 [egg-watcher] Start watching: "/Users/jiaoyy/work/egg-example2/mocks_proxy"
+2019-12-13 17:45:41,412 INFO 90803 [egg-watcher] Start watching: "/Users/jiaoyy/work/egg-example2/app.js"
+2019-12-13 17:45:41,412 INFO 90803 [egg-watcher:agent] watcher start success
+2019-12-13 17:45:41,442 INFO 90803 [egg:core] dump config after ready, 5ms
+2019-12-13 17:46:50,750 INFO 90830 [egg:logger] init all loggers with options: {"dir":"/Users/jiaoyy/work/egg-example2/logs/egg-example2","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example2-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2019-12-13 17:46:50,758 INFO 90830 [egg:core] dump config after load, 4ms
+2019-12-13 17:46:50,809 INFO 90830 [egg-watcher] Start watching: ["/Users/jiaoyy/work/egg-example2/app","/Users/jiaoyy/work/egg-example2/config","/Users/jiaoyy/work/egg-example2/mocks","/Users/jiaoyy/work/egg-example2/mocks_proxy","/Users/jiaoyy/work/egg-example2/app.js"]
+2019-12-13 17:46:50,809 INFO 90830 [egg-watcher] Start watching: "/Users/jiaoyy/work/egg-example2/app"
+2019-12-13 17:46:50,809 INFO 90830 [egg-watcher] Start watching: "/Users/jiaoyy/work/egg-example2/config"
+2019-12-13 17:46:50,809 INFO 90830 [egg-watcher] Start watching: "/Users/jiaoyy/work/egg-example2/mocks"
+2019-12-13 17:46:50,810 INFO 90830 [egg-watcher] Start watching: "/Users/jiaoyy/work/egg-example2/mocks_proxy"
+2019-12-13 17:46:50,810 INFO 90830 [egg-watcher] Start watching: "/Users/jiaoyy/work/egg-example2/app.js"
+2019-12-13 17:46:50,810 INFO 90830 [egg-watcher:agent] watcher start success
+2019-12-13 17:46:50,848 INFO 90830 [egg:core] dump config after ready, 7ms
+2019-12-13 17:53:36,044 INFO 90954 [egg:logger] init all loggers with options: {"dir":"/Users/jiaoyy/work/egg-example2/logs/egg-example2","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example2-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2019-12-13 17:53:36,052 INFO 90954 [egg:core] dump config after load, 4ms
+2019-12-13 17:53:36,091 INFO 90954 [egg-watcher] Start watching: ["/Users/jiaoyy/work/egg-example2/app","/Users/jiaoyy/work/egg-example2/config","/Users/jiaoyy/work/egg-example2/mocks","/Users/jiaoyy/work/egg-example2/mocks_proxy","/Users/jiaoyy/work/egg-example2/app.js"]
+2019-12-13 17:53:36,091 INFO 90954 [egg-watcher] Start watching: "/Users/jiaoyy/work/egg-example2/app"
+2019-12-13 17:53:36,091 INFO 90954 [egg-watcher] Start watching: "/Users/jiaoyy/work/egg-example2/config"
+2019-12-13 17:53:36,091 INFO 90954 [egg-watcher] Start watching: "/Users/jiaoyy/work/egg-example2/mocks"
+2019-12-13 17:53:36,092 INFO 90954 [egg-watcher] Start watching: "/Users/jiaoyy/work/egg-example2/mocks_proxy"
+2019-12-13 17:53:36,092 INFO 90954 [egg-watcher] Start watching: "/Users/jiaoyy/work/egg-example2/app.js"
+2019-12-13 17:53:36,092 INFO 90954 [egg-watcher:agent] watcher start success
+2019-12-13 17:53:36,119 INFO 90954 [egg:core] dump config after ready, 11ms
+2019-12-13 18:25:42,608 ERROR 90954 nodejs.ClusterClientNoResponseError: client no response in 1245585ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/jiaoyy/work/egg-example2/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 90954
+hostname: bogon
+
+2019-12-13 18:33:51,922 INFO 90954 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/jiaoyy/work/egg-example2/app/router.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4194304,"ino":37180833,"size":520,"blocks":8,"atimeMs":1576233231835.9797,"mtimeMs":1576233231837.9495,"ctimeMs":1576233231837.9495,"birthtimeMs":1576204345858.7063,"atime":"2019-12-13T10:33:51.836Z","mtime":"2019-12-13T10:33:51.838Z","ctime":"2019-12-13T10:33:51.838Z","birthtime":"2019-12-13T02:32:25.859Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-12-13 18:33:52,139 WARN 90954 [agent:development] reload worker because /Users/jiaoyy/work/egg-example2/app/router.js change
+2019-12-13 18:33:54,976 INFO 90954 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/jiaoyy/work/egg-example2/app/router.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4194304,"ino":37180833,"size":521,"blocks":8,"atimeMs":1576233234965.56,"mtimeMs":1576233234966.2393,"ctimeMs":1576233234966.2393,"birthtimeMs":1576204345858.7063,"atime":"2019-12-13T10:33:54.966Z","mtime":"2019-12-13T10:33:54.966Z","ctime":"2019-12-13T10:33:54.966Z","birthtime":"2019-12-13T02:32:25.859Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-12-13 18:33:55,180 WARN 90954 [agent:development] reload worker because /Users/jiaoyy/work/egg-example2/app/router.js change
+2019-12-13 18:48:16,520 INFO 91740 [egg:logger] init all loggers with options: {"dir":"/Users/jiaoyy/work/egg-example2/logs/egg-example2","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example2-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2019-12-13 18:48:16,530 INFO 91740 [egg:core] dump config after load, 5ms
+2019-12-13 18:48:16,573 INFO 91740 [egg-watcher] Start watching: ["/Users/jiaoyy/work/egg-example2/app","/Users/jiaoyy/work/egg-example2/config","/Users/jiaoyy/work/egg-example2/mocks","/Users/jiaoyy/work/egg-example2/mocks_proxy","/Users/jiaoyy/work/egg-example2/app.js"]
+2019-12-13 18:48:16,573 INFO 91740 [egg-watcher] Start watching: "/Users/jiaoyy/work/egg-example2/app"
+2019-12-13 18:48:16,574 INFO 91740 [egg-watcher] Start watching: "/Users/jiaoyy/work/egg-example2/config"
+2019-12-13 18:48:16,574 INFO 91740 [egg-watcher] Start watching: "/Users/jiaoyy/work/egg-example2/mocks"
+2019-12-13 18:48:16,574 INFO 91740 [egg-watcher] Start watching: "/Users/jiaoyy/work/egg-example2/mocks_proxy"
+2019-12-13 18:48:16,574 INFO 91740 [egg-watcher] Start watching: "/Users/jiaoyy/work/egg-example2/app.js"
+2019-12-13 18:48:16,574 INFO 91740 [egg-watcher:agent] watcher start success
+2019-12-13 18:48:16,609 INFO 91740 [egg:core] dump config after ready, 5ms
+2019-12-13 19:17:33,915 WARN 91740 [agent:development] reload worker because /Users/jiaoyy/work/egg-example2/app/controller/router.js change
+2019-12-13 19:17:33,710 INFO 91740 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/jiaoyy/work/egg-example2/app/controller/router.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4194304,"ino":37233495,"size":846,"blocks":8,"atimeMs":1576235853626.7495,"mtimeMs":1576235853627.6914,"ctimeMs":1576235853627.6914,"birthtimeMs":1576227359749.2598,"atime":"2019-12-13T11:17:33.627Z","mtime":"2019-12-13T11:17:33.628Z","ctime":"2019-12-13T11:17:33.628Z","birthtime":"2019-12-13T08:55:59.749Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-12-13 19:27:08,704 WARN 91740 [agent:development] reload worker because /Users/jiaoyy/work/egg-example2/app/controller/router.js change
+2019-12-13 19:27:08,498 INFO 91740 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/jiaoyy/work/egg-example2/app/controller/router.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4194304,"ino":37233495,"size":876,"blocks":8,"atimeMs":1576236428433.731,"mtimeMs":1576236428434.8225,"ctimeMs":1576236428434.8225,"birthtimeMs":1576227359749.2598,"atime":"2019-12-13T11:27:08.434Z","mtime":"2019-12-13T11:27:08.435Z","ctime":"2019-12-13T11:27:08.435Z","birthtime":"2019-12-13T08:55:59.749Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-12-13 19:30:27,205 INFO 91740 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/jiaoyy/work/egg-example2/app/controller/router.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4194304,"ino":37233495,"size":933,"blocks":8,"atimeMs":1576236627182.3445,"mtimeMs":1576236627182.99,"ctimeMs":1576236627182.99,"birthtimeMs":1576227359749.2598,"atime":"2019-12-13T11:30:27.182Z","mtime":"2019-12-13T11:30:27.183Z","ctime":"2019-12-13T11:30:27.183Z","birthtime":"2019-12-13T08:55:59.749Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-12-13 19:30:27,206 INFO 91740 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/jiaoyy/work/egg-example2/config/config.default.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4194304,"ino":37183163,"size":81,"blocks":8,"atimeMs":1576236627142.8896,"mtimeMs":1576236627143.8616,"ctimeMs":1576236627143.8616,"birthtimeMs":1576204475387.3086,"atime":"2019-12-13T11:30:27.143Z","mtime":"2019-12-13T11:30:27.144Z","ctime":"2019-12-13T11:30:27.144Z","birthtime":"2019-12-13T02:34:35.387Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-12-13 19:30:27,411 WARN 91740 [agent:development] reload worker because /Users/jiaoyy/work/egg-example2/config/config.default.js change
+2019-12-13 19:31:46,528 WARN 91740 [agent:development] reload worker because /Users/jiaoyy/work/egg-example2/app/controller/router.js change
+2019-12-13 19:31:46,324 INFO 91740 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/jiaoyy/work/egg-example2/app/controller/router.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4194304,"ino":37233495,"size":936,"blocks":8,"atimeMs":1576236706261.5833,"mtimeMs":1576236706262.141,"ctimeMs":1576236706262.141,"birthtimeMs":1576227359749.2598,"atime":"2019-12-13T11:31:46.262Z","mtime":"2019-12-13T11:31:46.262Z","ctime":"2019-12-13T11:31:46.262Z","birthtime":"2019-12-13T08:55:59.749Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-12-13 19:31:52,913 WARN 91740 [agent:development] reload worker because /Users/jiaoyy/work/egg-example2/app/controller/router.js change
+2019-12-13 19:31:52,711 INFO 91740 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/jiaoyy/work/egg-example2/app/controller/router.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4194304,"ino":37233495,"size":933,"blocks":8,"atimeMs":1576236712698.784,"mtimeMs":1576236712699.3113,"ctimeMs":1576236712699.3113,"birthtimeMs":1576227359749.2598,"atime":"2019-12-13T11:31:52.699Z","mtime":"2019-12-13T11:31:52.699Z","ctime":"2019-12-13T11:31:52.699Z","birthtime":"2019-12-13T08:55:59.749Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-12-13 20:13:19,945 ERROR 91740 nodejs.ClusterClientNoResponseError: client no response in 513783ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/jiaoyy/work/egg-example2/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 91740
+hostname: bogon
+
+2019-12-13 20:34:18,426 ERROR 91740 nodejs.ClusterClientNoResponseError: client no response in 1218455ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/jiaoyy/work/egg-example2/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 91740
+hostname: bogon
+
+2019-12-13 20:52:46,563 ERROR 91740 nodejs.ClusterClientNoResponseError: client no response in 1068127ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/jiaoyy/work/egg-example2/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 91740
+hostname: bogon
+
+2019-12-13 21:07:51,975 ERROR 91740 nodejs.ClusterClientNoResponseError: client no response in 865393ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/jiaoyy/work/egg-example2/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 91740
+hostname: bogon
+
+2019-12-13 21:28:32,467 ERROR 91740 nodejs.ClusterClientNoResponseError: client no response in 1200425ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/jiaoyy/work/egg-example2/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 91740
+hostname: bogon
+
+2019-12-13 21:42:56,904 ERROR 91740 nodejs.ClusterClientNoResponseError: client no response in 844309ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/jiaoyy/work/egg-example2/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 91740
+hostname: bogon
+
+2019-12-13 22:02:38,004 ERROR 91740 nodejs.ClusterClientNoResponseError: client no response in 1141076ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/jiaoyy/work/egg-example2/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 91740
+hostname: bogon
+
+2019-12-13 22:17:40,107 ERROR 91740 nodejs.ClusterClientNoResponseError: client no response in 842077ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/jiaoyy/work/egg-example2/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 91740
+hostname: bogon
+
+2019-12-13 22:35:37,647 ERROR 91740 nodejs.ClusterClientNoResponseError: client no response in 1037508ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/jiaoyy/work/egg-example2/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 91740
+hostname: bogon
+
+2019-12-13 22:47:58,048 ERROR 91740 nodejs.ClusterClientNoResponseError: client no response in 720379ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/jiaoyy/work/egg-example2/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 91740
+hostname: bogon
+
+2019-12-13 23:05:39,764 ERROR 91740 nodejs.ClusterClientNoResponseError: client no response in 1021698ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/jiaoyy/work/egg-example2/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 91740
+hostname: bogon
+
+2019-12-13 23:18:09,299 ERROR 91740 nodejs.ClusterClientNoResponseError: client no response in 709490ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/jiaoyy/work/egg-example2/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 91740
+hostname: bogon
+
+2019-12-13 23:39:07,831 ERROR 91740 nodejs.ClusterClientNoResponseError: client no response in 1218507ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/jiaoyy/work/egg-example2/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 91740
+hostname: bogon
+
+2019-12-13 23:51:59,524 ERROR 91740 nodejs.ClusterClientNoResponseError: client no response in 751672ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/jiaoyy/work/egg-example2/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 91740
+hostname: bogon
+
+2019-12-14 00:13:17,979 ERROR 91740 nodejs.ClusterClientNoResponseError: client no response in 1218428ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/jiaoyy/work/egg-example2/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 91740
+hostname: bogon
+
+2019-12-14 00:24:31,543 ERROR 91740 nodejs.ClusterClientNoResponseError: client no response in 633546ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/jiaoyy/work/egg-example2/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 91740
+hostname: bogon
+
+2019-12-14 00:45:18,055 ERROR 91740 nodejs.ClusterClientNoResponseError: client no response in 1206494ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/jiaoyy/work/egg-example2/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 91740
+hostname: bogon
+
+2019-12-14 00:57:04,576 ERROR 91740 nodejs.ClusterClientNoResponseError: client no response in 666497ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/jiaoyy/work/egg-example2/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 91740
+hostname: bogon
+
+2019-12-14 01:18:02,804 ERROR 91740 nodejs.ClusterClientNoResponseError: client no response in 1218205ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/jiaoyy/work/egg-example2/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 91740
+hostname: bogon
+
+2019-12-14 01:29:23,348 ERROR 91740 nodejs.ClusterClientNoResponseError: client no response in 660518ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/jiaoyy/work/egg-example2/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 91740
+hostname: bogon
+
+2019-12-14 01:50:21,886 ERROR 91740 nodejs.ClusterClientNoResponseError: client no response in 1218525ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/jiaoyy/work/egg-example2/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 91740
+hostname: bogon
+
+2019-12-14 02:09:02,457 ERROR 91740 nodejs.ClusterClientNoResponseError: client no response in 1080549ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/jiaoyy/work/egg-example2/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 91740
+hostname: bogon
+
+2019-12-14 02:25:49,922 ERROR 91740 nodejs.ClusterClientNoResponseError: client no response in 967439ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/jiaoyy/work/egg-example2/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 91740
+hostname: bogon
+
+2019-12-14 02:41:20,523 ERROR 91740 nodejs.ClusterClientNoResponseError: client no response in 910585ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/jiaoyy/work/egg-example2/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 91740
+hostname: bogon
+
+2019-12-14 02:59:49,958 ERROR 91740 nodejs.ClusterClientNoResponseError: client no response in 1069371ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/jiaoyy/work/egg-example2/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 91740
+hostname: bogon
+
+2019-12-14 03:14:12,550 ERROR 91740 nodejs.ClusterClientNoResponseError: client no response in 822584ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/jiaoyy/work/egg-example2/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 91740
+hostname: bogon
+
+2019-12-14 03:30:45,780 ERROR 91740 nodejs.ClusterClientNoResponseError: client no response in 953209ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/jiaoyy/work/egg-example2/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 91740
+hostname: bogon
+
+2019-12-14 03:46:32,325 ERROR 91740 nodejs.ClusterClientNoResponseError: client no response in 906513ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/jiaoyy/work/egg-example2/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 91740
+hostname: bogon
+
+2019-12-14 04:01:25,970 ERROR 91740 nodejs.ClusterClientNoResponseError: client no response in 873630ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/jiaoyy/work/egg-example2/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 91740
+hostname: bogon
+
+2019-12-14 04:20:45,233 ERROR 91740 nodejs.ClusterClientNoResponseError: client no response in 1099242ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/jiaoyy/work/egg-example2/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 91740
+hostname: bogon
+
+2019-12-14 04:35:20,417 ERROR 91740 nodejs.ClusterClientNoResponseError: client no response in 835159ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/jiaoyy/work/egg-example2/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 91740
+hostname: bogon
+
+2019-12-14 04:55:58,804 ERROR 91740 nodejs.ClusterClientNoResponseError: client no response in 1218372ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/jiaoyy/work/egg-example2/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 91740
+hostname: bogon
+
+2019-12-14 05:10:00,356 ERROR 91740 nodejs.ClusterClientNoResponseError: client no response in 801538ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/jiaoyy/work/egg-example2/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 91740
+hostname: bogon
+
+2019-12-14 05:29:45,910 ERROR 91740 nodejs.ClusterClientNoResponseError: client no response in 1145545ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/jiaoyy/work/egg-example2/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 91740
+hostname: bogon
+
+2019-12-14 05:44:02,161 ERROR 91740 nodejs.ClusterClientNoResponseError: client no response in 816234ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/jiaoyy/work/egg-example2/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 91740
+hostname: bogon
+
+2019-12-14 06:02:50,719 ERROR 91740 nodejs.ClusterClientNoResponseError: client no response in 1088522ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/jiaoyy/work/egg-example2/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 91740
+hostname: bogon
+
+2019-12-14 06:18:06,114 ERROR 91740 nodejs.ClusterClientNoResponseError: client no response in 895383ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/jiaoyy/work/egg-example2/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 91740
+hostname: bogon
+
+2019-12-14 06:39:04,537 ERROR 91740 nodejs.ClusterClientNoResponseError: client no response in 1218405ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/jiaoyy/work/egg-example2/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 91740
+hostname: bogon
+
+2019-12-14 06:52:53,828 ERROR 91740 nodejs.ClusterClientNoResponseError: client no response in 789271ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/jiaoyy/work/egg-example2/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 91740
+hostname: bogon
+
+2019-12-14 07:13:52,347 ERROR 91740 nodejs.ClusterClientNoResponseError: client no response in 1218494ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/jiaoyy/work/egg-example2/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 91740
+hostname: bogon
+
+2019-12-14 07:30:17,725 ERROR 91740 nodejs.ClusterClientNoResponseError: client no response in 965363ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/jiaoyy/work/egg-example2/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 91740
+hostname: bogon
+
+2019-12-14 07:45:50,201 ERROR 91740 nodejs.ClusterClientNoResponseError: client no response in 892464ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/jiaoyy/work/egg-example2/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 91740
+hostname: bogon
+
+2019-12-14 08:00:44,651 ERROR 91740 nodejs.ClusterClientNoResponseError: client no response in 854433ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/jiaoyy/work/egg-example2/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 91740
+hostname: bogon
+
+2019-12-14 08:19:07,172 ERROR 91740 nodejs.ClusterClientNoResponseError: client no response in 1062499ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/jiaoyy/work/egg-example2/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 91740
+hostname: bogon
+
+2019-12-14 08:32:01,708 ERROR 91740 nodejs.ClusterClientNoResponseError: client no response in 734500ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/jiaoyy/work/egg-example2/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 91740
+hostname: bogon
+
+2019-12-14 08:52:40,237 ERROR 91740 nodejs.ClusterClientNoResponseError: client no response in 1218518ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/jiaoyy/work/egg-example2/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 91740
+hostname: bogon
+
+2019-12-14 09:08:22,622 ERROR 91740 nodejs.ClusterClientNoResponseError: client no response in 902372ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/jiaoyy/work/egg-example2/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 91740
+hostname: bogon
+
+2019-12-14 09:26:05,166 ERROR 91740 nodejs.ClusterClientNoResponseError: client no response in 1022525ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/jiaoyy/work/egg-example2/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 91740
+hostname: bogon
+
+2019-12-14 09:39:25,709 ERROR 91740 nodejs.ClusterClientNoResponseError: client no response in 760517ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/jiaoyy/work/egg-example2/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 91740
+hostname: bogon
+
+2019-12-14 10:00:04,274 ERROR 91740 nodejs.ClusterClientNoResponseError: client no response in 1218537ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/jiaoyy/work/egg-example2/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 91740
+hostname: bogon
+
+2019-12-14 10:16:49,554 ERROR 91740 nodejs.ClusterClientNoResponseError: client no response in 965266ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/jiaoyy/work/egg-example2/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 91740
+hostname: bogon
+
+2019-12-14 10:37:47,539 ERROR 91740 nodejs.ClusterClientNoResponseError: client no response in 1217956ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/jiaoyy/work/egg-example2/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 91740
+hostname: bogon
+
+2019-12-14 10:48:23,040 ERROR 91740 nodejs.ClusterClientNoResponseError: client no response in 595480ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/jiaoyy/work/egg-example2/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 91740
+hostname: bogon
+
+2019-12-14 11:09:21,574 ERROR 91740 nodejs.ClusterClientNoResponseError: client no response in 1218513ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/jiaoyy/work/egg-example2/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 91740
+hostname: bogon
+
+2019-12-14 11:22:41,971 ERROR 91740 nodejs.ClusterClientNoResponseError: client no response in 760379ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/jiaoyy/work/egg-example2/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 91740
+hostname: bogon
+
+2019-12-14 11:45:22,637 WARN 91740 [agent:development] reload worker because /Users/jiaoyy/work/egg-example2/config/plugin.js change
+2019-12-14 11:45:22,427 INFO 91740 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/jiaoyy/work/egg-example2/config/plugin.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4194304,"ino":37203515,"size":144,"blocks":8,"atimeMs":1576295122351.5432,"mtimeMs":1576295122353.403,"ctimeMs":1576295122353.403,"birthtimeMs":1576205432322.3523,"atime":"2019-12-14T03:45:22.352Z","mtime":"2019-12-14T03:45:22.353Z","ctime":"2019-12-14T03:45:22.353Z","birthtime":"2019-12-13T02:50:32.322Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-12-14 11:47:15,596 INFO 98466 [egg:logger] init all loggers with options: {"dir":"/Users/jiaoyy/work/egg-example2/logs/egg-example2","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example2-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2019-12-14 11:47:15,604 INFO 98466 [egg:core] dump config after load, 4ms
+2019-12-14 11:47:15,644 INFO 98466 [egg-watcher] Start watching: ["/Users/jiaoyy/work/egg-example2/app","/Users/jiaoyy/work/egg-example2/config","/Users/jiaoyy/work/egg-example2/mocks","/Users/jiaoyy/work/egg-example2/mocks_proxy","/Users/jiaoyy/work/egg-example2/app.js"]
+2019-12-14 11:47:15,644 INFO 98466 [egg-watcher] Start watching: "/Users/jiaoyy/work/egg-example2/app"
+2019-12-14 11:47:15,645 INFO 98466 [egg-watcher] Start watching: "/Users/jiaoyy/work/egg-example2/config"
+2019-12-14 11:47:15,645 INFO 98466 [egg-watcher] Start watching: "/Users/jiaoyy/work/egg-example2/mocks"
+2019-12-14 11:47:15,645 INFO 98466 [egg-watcher] Start watching: "/Users/jiaoyy/work/egg-example2/mocks_proxy"
+2019-12-14 11:47:15,645 INFO 98466 [egg-watcher] Start watching: "/Users/jiaoyy/work/egg-example2/app.js"
+2019-12-14 11:47:15,645 INFO 98466 [egg-watcher:agent] watcher start success
+2019-12-14 11:47:15,677 INFO 98466 [egg:core] dump config after ready, 5ms
+2019-12-14 11:54:07,633 WARN 98466 [agent:development] reload worker because /Users/jiaoyy/work/egg-example2/app/controller/router.js change
+2019-12-14 11:54:07,426 INFO 98466 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/jiaoyy/work/egg-example2/app/controller/router.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4194304,"ino":37233495,"size":923,"blocks":8,"atimeMs":1576295647349.4438,"mtimeMs":1576295647350.554,"ctimeMs":1576295647350.554,"birthtimeMs":1576227359749.2598,"atime":"2019-12-14T03:54:07.349Z","mtime":"2019-12-14T03:54:07.351Z","ctime":"2019-12-14T03:54:07.351Z","birthtime":"2019-12-13T08:55:59.749Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-12-14 12:02:50,156 WARN 98466 [agent:development] reload worker because /Users/jiaoyy/work/egg-example2/app/controller/router.js change
+2019-12-14 12:02:49,952 INFO 98466 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/jiaoyy/work/egg-example2/app/controller/router.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4194304,"ino":37233495,"size":923,"blocks":8,"atimeMs":1576296169890.3584,"mtimeMs":1576296169891.8474,"ctimeMs":1576296169891.8474,"birthtimeMs":1576227359749.2598,"atime":"2019-12-14T04:02:49.890Z","mtime":"2019-12-14T04:02:49.892Z","ctime":"2019-12-14T04:02:49.892Z","birthtime":"2019-12-13T08:55:59.749Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-12-14 12:43:51,636 ERROR 98466 nodejs.ClusterClientNoResponseError: client no response in 77760ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/jiaoyy/work/egg-example2/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 98466
+hostname: bogon
+
+2019-12-14 13:16:45,051 ERROR 98466 nodejs.ClusterClientNoResponseError: client no response in 1814877ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/jiaoyy/work/egg-example2/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 98466
+hostname: bogon
+
+2019-12-14 13:27:24,446 ERROR 98466 nodejs.ClusterClientNoResponseError: client no response in 599339ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/jiaoyy/work/egg-example2/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 98466
+hostname: bogon
+
+2019-12-14 13:43:43,919 ERROR 98466 nodejs.ClusterClientNoResponseError: client no response in 861771ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Users/jiaoyy/work/egg-example2/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 98466
+hostname: bogon
+
+2019-12-16 10:19:45,266 INFO 2665 [egg:logger] init all loggers with options: {"dir":"/Users/jiaoyy/work/egg-example2/logs/egg-example2","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example2-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2019-12-16 10:19:45,274 INFO 2665 [egg:core] dump config after load, 4ms
+2019-12-16 10:19:45,315 INFO 2665 [egg-watcher] Start watching: ["/Users/jiaoyy/work/egg-example2/app","/Users/jiaoyy/work/egg-example2/config","/Users/jiaoyy/work/egg-example2/mocks","/Users/jiaoyy/work/egg-example2/mocks_proxy","/Users/jiaoyy/work/egg-example2/app.js"]
+2019-12-16 10:19:45,315 INFO 2665 [egg-watcher] Start watching: "/Users/jiaoyy/work/egg-example2/app"
+2019-12-16 10:19:45,315 INFO 2665 [egg-watcher] Start watching: "/Users/jiaoyy/work/egg-example2/config"
+2019-12-16 10:19:45,316 INFO 2665 [egg-watcher] Start watching: "/Users/jiaoyy/work/egg-example2/mocks"
+2019-12-16 10:19:45,316 INFO 2665 [egg-watcher] Start watching: "/Users/jiaoyy/work/egg-example2/mocks_proxy"
+2019-12-16 10:19:45,316 INFO 2665 [egg-watcher] Start watching: "/Users/jiaoyy/work/egg-example2/app.js"
+2019-12-16 10:19:45,316 INFO 2665 [egg-watcher:agent] watcher start success
+2019-12-16 10:19:45,343 INFO 2665 [egg:core] dump config after ready, 4ms

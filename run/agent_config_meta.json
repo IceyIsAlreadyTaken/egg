@@ -1,0 +1,262 @@
+{
+  "keys": "/Users/jiaoyy/work/egg-example2/config/config.default.js",
+  "security": {
+    "csrf": "/Users/jiaoyy/work/egg-example2/config/config.default.js",
+    "domainWhiteList": "/Users/jiaoyy/work/egg-example2/node_modules/egg-security/config/config.default.js",
+    "protocolWhiteList": "/Users/jiaoyy/work/egg-example2/node_modules/egg-security/config/config.default.js",
+    "defaultMiddleware": "/Users/jiaoyy/work/egg-example2/node_modules/egg-security/config/config.default.js",
+    "xframe": {
+      "enable": "/Users/jiaoyy/work/egg-example2/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/jiaoyy/work/egg-example2/node_modules/egg-security/config/config.default.js"
+    },
+    "hsts": {
+      "enable": "/Users/jiaoyy/work/egg-example2/node_modules/egg-security/config/config.local.js",
+      "maxAge": "/Users/jiaoyy/work/egg-example2/node_modules/egg-security/config/config.default.js",
+      "includeSubdomains": "/Users/jiaoyy/work/egg-example2/node_modules/egg-security/config/config.default.js"
+    },
+    "dta": {
+      "enable": "/Users/jiaoyy/work/egg-example2/node_modules/egg-security/config/config.default.js"
+    },
+    "methodnoallow": {
+      "enable": "/Users/jiaoyy/work/egg-example2/node_modules/egg-security/config/config.default.js"
+    },
+    "noopen": {
+      "enable": "/Users/jiaoyy/work/egg-example2/node_modules/egg-security/config/config.default.js"
+    },
+    "nosniff": {
+      "enable": "/Users/jiaoyy/work/egg-example2/node_modules/egg-security/config/config.default.js"
+    },
+    "referrerPolicy": {
+      "enable": "/Users/jiaoyy/work/egg-example2/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/jiaoyy/work/egg-example2/node_modules/egg-security/config/config.default.js"
+    },
+    "xssProtection": {
+      "enable": "/Users/jiaoyy/work/egg-example2/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/jiaoyy/work/egg-example2/node_modules/egg-security/config/config.default.js"
+    },
+    "csp": {
+      "enable": "/Users/jiaoyy/work/egg-example2/node_modules/egg-security/config/config.default.js",
+      "policy": "/Users/jiaoyy/work/egg-example2/node_modules/egg-security/config/config.default.js"
+    },
+    "ssrf": {
+      "ipBlackList": "/Users/jiaoyy/work/egg-example2/node_modules/egg-security/config/config.default.js",
+      "checkAddress": "/Users/jiaoyy/work/egg-example2/node_modules/egg-security/config/config.default.js"
+    }
+  },
+  "session": {
+    "maxAge": "/Users/jiaoyy/work/egg-example2/node_modules/egg-session/config/config.default.js",
+    "key": "/Users/jiaoyy/work/egg-example2/node_modules/egg-session/config/config.default.js",
+    "httpOnly": "/Users/jiaoyy/work/egg-example2/node_modules/egg-session/config/config.default.js",
+    "encrypt": "/Users/jiaoyy/work/egg-example2/node_modules/egg-session/config/config.default.js"
+  },
+  "helper": {
+    "shtml": "/Users/jiaoyy/work/egg-example2/node_modules/egg-security/config/config.default.js"
+  },
+  "jsonp": {
+    "limit": "/Users/jiaoyy/work/egg-example2/node_modules/egg-jsonp/config/config.default.js",
+    "callback": "/Users/jiaoyy/work/egg-example2/node_modules/egg-jsonp/config/config.default.js",
+    "csrf": "/Users/jiaoyy/work/egg-example2/node_modules/egg-jsonp/config/config.default.js"
+  },
+  "onerror": {
+    "errorPageUrl": "/Users/jiaoyy/work/egg-example2/node_modules/egg-onerror/config/config.default.js",
+    "appErrorFilter": "/Users/jiaoyy/work/egg-example2/node_modules/egg-onerror/config/config.default.js",
+    "templatePath": "/Users/jiaoyy/work/egg-example2/node_modules/egg-onerror/config/config.default.js"
+  },
+  "i18n": {
+    "defaultLocale": "/Users/jiaoyy/work/egg-example2/node_modules/egg-i18n/config/config.default.js",
+    "dirs": "/Users/jiaoyy/work/egg-example2/node_modules/egg-i18n/config/config.default.js",
+    "queryField": "/Users/jiaoyy/work/egg-example2/node_modules/egg-i18n/config/config.default.js",
+    "cookieField": "/Users/jiaoyy/work/egg-example2/node_modules/egg-i18n/config/config.default.js",
+    "cookieDomain": "/Users/jiaoyy/work/egg-example2/node_modules/egg-i18n/config/config.default.js",
+    "cookieMaxAge": "/Users/jiaoyy/work/egg-example2/node_modules/egg-i18n/config/config.default.js"
+  },
+  "watcher": {
+    "type": "/Users/jiaoyy/work/egg-example2/node_modules/egg-watcher/config/config.local.js",
+    "eventSources": {
+      "default": "/Users/jiaoyy/work/egg-example2/node_modules/egg-watcher/config/config.default.js",
+      "development": "/Users/jiaoyy/work/egg-example2/node_modules/egg-watcher/config/config.default.js"
+    }
+  },
+  "customLogger": {
+    "scheduleLogger": {
+      "consoleLevel": "/Users/jiaoyy/work/egg-example2/node_modules/egg-schedule/config/config.default.js",
+      "file": "/Users/jiaoyy/work/egg-example2/node_modules/egg-schedule/config/config.default.js"
+    }
+  },
+  "schedule": {
+    "directory": "/Users/jiaoyy/work/egg-example2/node_modules/egg-schedule/config/config.default.js"
+  },
+  "multipart": {
+    "mode": "/Users/jiaoyy/work/egg-example2/node_modules/egg-multipart/config/config.default.js",
+    "autoFields": "/Users/jiaoyy/work/egg-example2/node_modules/egg-multipart/config/config.default.js",
+    "defaultCharset": "/Users/jiaoyy/work/egg-example2/node_modules/egg-multipart/config/config.default.js",
+    "fieldNameSize": "/Users/jiaoyy/work/egg-example2/node_modules/egg-multipart/config/config.default.js",
+    "fieldSize": "/Users/jiaoyy/work/egg-example2/node_modules/egg-multipart/config/config.default.js",
+    "fields": "/Users/jiaoyy/work/egg-example2/node_modules/egg-multipart/config/config.default.js",
+    "fileSize": "/Users/jiaoyy/work/egg-example2/node_modules/egg-multipart/config/config.default.js",
+    "files": "/Users/jiaoyy/work/egg-example2/node_modules/egg-multipart/config/config.default.js",
+    "fileExtensions": "/Users/jiaoyy/work/egg-example2/node_modules/egg-multipart/config/config.default.js",
+    "whitelist": "/Users/jiaoyy/work/egg-example2/node_modules/egg-multipart/config/config.default.js",
+    "tmpdir": "/Users/jiaoyy/work/egg-example2/node_modules/egg-multipart/config/config.default.js",
+    "cleanSchedule": {
+      "cron": "/Users/jiaoyy/work/egg-example2/node_modules/egg-multipart/config/config.default.js"
+    }
+  },
+  "development": {
+    "watchDirs": "/Users/jiaoyy/work/egg-example2/node_modules/egg-development/config/config.default.js",
+    "ignoreDirs": "/Users/jiaoyy/work/egg-example2/node_modules/egg-development/config/config.default.js",
+    "fastReady": "/Users/jiaoyy/work/egg-example2/node_modules/egg-development/config/config.default.js",
+    "reloadOnDebug": "/Users/jiaoyy/work/egg-example2/node_modules/egg-development/config/config.default.js",
+    "overrideDefault": "/Users/jiaoyy/work/egg-example2/node_modules/egg-development/config/config.default.js"
+  },
+  "logrotator": {
+    "filesRotateByHour": "/Users/jiaoyy/work/egg-example2/node_modules/egg-logrotator/config/config.default.js",
+    "hourDelimiter": "/Users/jiaoyy/work/egg-example2/node_modules/egg-logrotator/config/config.default.js",
+    "filesRotateBySize": "/Users/jiaoyy/work/egg-example2/node_modules/egg-logrotator/config/config.default.js",
+    "maxFileSize": "/Users/jiaoyy/work/egg-example2/node_modules/egg-logrotator/config/config.default.js",
+    "maxFiles": "/Users/jiaoyy/work/egg-example2/node_modules/egg-logrotator/config/config.default.js",
+    "rotateDuration": "/Users/jiaoyy/work/egg-example2/node_modules/egg-logrotator/config/config.default.js",
+    "maxDays": "/Users/jiaoyy/work/egg-example2/node_modules/egg-logrotator/config/config.default.js"
+  },
+  "static": {
+    "prefix": "/Users/jiaoyy/work/egg-example2/node_modules/egg-static/config/config.default.js",
+    "dir": "/Users/jiaoyy/work/egg-example2/node_modules/egg-static/config/config.default.js",
+    "dynamic": "/Users/jiaoyy/work/egg-example2/node_modules/egg-static/config/config.default.js",
+    "preload": "/Users/jiaoyy/work/egg-example2/node_modules/egg-static/config/config.default.js",
+    "buffer": "/Users/jiaoyy/work/egg-example2/node_modules/egg-static/config/config.default.js",
+    "maxFiles": "/Users/jiaoyy/work/egg-example2/node_modules/egg-static/config/config.default.js"
+  },
+  "view": {
+    "root": "/Users/jiaoyy/work/egg-example2/node_modules/egg-view/config/config.default.js",
+    "cache": "/Users/jiaoyy/work/egg-example2/node_modules/egg-view/config/config.local.js",
+    "defaultExtension": "/Users/jiaoyy/work/egg-example2/node_modules/egg-view/config/config.default.js",
+    "defaultViewEngine": "/Users/jiaoyy/work/egg-example2/node_modules/egg-view/config/config.default.js",
+    "mapping": "/Users/jiaoyy/work/egg-example2/node_modules/egg-view/config/config.default.js"
+  },
+  "nunjucks": {
+    "autoescape": "/Users/jiaoyy/work/egg-example2/node_modules/egg-view-nunjucks/config/config.default.js",
+    "throwOnUndefined": "/Users/jiaoyy/work/egg-example2/node_modules/egg-view-nunjucks/config/config.default.js",
+    "trimBlocks": "/Users/jiaoyy/work/egg-example2/node_modules/egg-view-nunjucks/config/config.default.js",
+    "lstripBlocks": "/Users/jiaoyy/work/egg-example2/node_modules/egg-view-nunjucks/config/config.default.js",
+    "cache": "/Users/jiaoyy/work/egg-example2/node_modules/egg-view-nunjucks/config/config.local.js"
+  },
+  "validate": "/Users/jiaoyy/work/egg-example2/node_modules/egg-validate/config/config.default.js",
+  "env": "/Users/jiaoyy/work/egg-example2/node_modules/egg/config/config.default.js",
+  "name": "/Users/jiaoyy/work/egg-example2/node_modules/egg/config/config.default.js",
+  "cookies": "/Users/jiaoyy/work/egg-example2/node_modules/egg/config/config.default.js",
+  "proxy": "/Users/jiaoyy/work/egg-example2/node_modules/egg/config/config.default.js",
+  "maxIpsCount": "/Users/jiaoyy/work/egg-example2/node_modules/egg/config/config.default.js",
+  "maxProxyCount": "/Users/jiaoyy/work/egg-example2/node_modules/egg/config/config.default.js",
+  "protocolHeaders": "/Users/jiaoyy/work/egg-example2/node_modules/egg/config/config.default.js",
+  "ipHeaders": "/Users/jiaoyy/work/egg-example2/node_modules/egg/config/config.default.js",
+  "hostHeaders": "/Users/jiaoyy/work/egg-example2/node_modules/egg/config/config.default.js",
+  "pkg": {
+    "name": "/Users/jiaoyy/work/egg-example2/node_modules/egg/config/config.default.js",
+    "version": "/Users/jiaoyy/work/egg-example2/node_modules/egg/config/config.default.js",
+    "description": "/Users/jiaoyy/work/egg-example2/node_modules/egg/config/config.default.js",
+    "main": "/Users/jiaoyy/work/egg-example2/node_modules/egg/config/config.default.js",
+    "scripts": {
+      "test": "/Users/jiaoyy/work/egg-example2/node_modules/egg/config/config.default.js",
+      "dev": "/Users/jiaoyy/work/egg-example2/node_modules/egg/config/config.default.js"
+    },
+    "author": "/Users/jiaoyy/work/egg-example2/node_modules/egg/config/config.default.js",
+    "license": "/Users/jiaoyy/work/egg-example2/node_modules/egg/config/config.default.js",
+    "dependencies": {
+      "egg": "/Users/jiaoyy/work/egg-example2/node_modules/egg/config/config.default.js",
+      "egg-bin": "/Users/jiaoyy/work/egg-example2/node_modules/egg/config/config.default.js",
+      "egg-validate": "/Users/jiaoyy/work/egg-example2/node_modules/egg/config/config.default.js",
+      "egg-view-nunjucks": "/Users/jiaoyy/work/egg-example2/node_modules/egg/config/config.default.js",
+      "moment": "/Users/jiaoyy/work/egg-example2/node_modules/egg/config/config.default.js"
+    }
+  },
+  "baseDir": "/Users/jiaoyy/work/egg-example2/node_modules/egg/config/config.default.js",
+  "HOME": "/Users/jiaoyy/work/egg-example2/node_modules/egg/config/config.default.js",
+  "rundir": "/Users/jiaoyy/work/egg-example2/node_modules/egg/config/config.default.js",
+  "dump": {
+    "ignore": "/Users/jiaoyy/work/egg-example2/node_modules/egg/config/config.default.js"
+  },
+  "confusedConfigurations": {
+    "bodyparser": "/Users/jiaoyy/work/egg-example2/node_modules/egg/config/config.default.js",
+    "notFound": "/Users/jiaoyy/work/egg-example2/node_modules/egg/config/config.default.js",
+    "sitefile": "/Users/jiaoyy/work/egg-example2/node_modules/egg/config/config.default.js",
+    "middlewares": "/Users/jiaoyy/work/egg-example2/node_modules/egg/config/config.default.js",
+    "httpClient": "/Users/jiaoyy/work/egg-example2/node_modules/egg/config/config.default.js"
+  },
+  "notfound": {
+    "pageUrl": "/Users/jiaoyy/work/egg-example2/node_modules/egg/config/config.default.js"
+  },
+  "siteFile": {
+    "/favicon.ico": "/Users/jiaoyy/work/egg-example2/node_modules/egg/config/config.default.js"
+  },
+  "bodyParser": {
+    "enable": "/Users/jiaoyy/work/egg-example2/node_modules/egg/config/config.default.js",
+    "encoding": "/Users/jiaoyy/work/egg-example2/node_modules/egg/config/config.default.js",
+    "formLimit": "/Users/jiaoyy/work/egg-example2/node_modules/egg/config/config.default.js",
+    "jsonLimit": "/Users/jiaoyy/work/egg-example2/node_modules/egg/config/config.default.js",
+    "textLimit": "/Users/jiaoyy/work/egg-example2/node_modules/egg/config/config.default.js",
+    "strict": "/Users/jiaoyy/work/egg-example2/node_modules/egg/config/config.default.js",
+    "queryString": {
+      "arrayLimit": "/Users/jiaoyy/work/egg-example2/node_modules/egg/config/config.default.js",
+      "depth": "/Users/jiaoyy/work/egg-example2/node_modules/egg/config/config.default.js",
+      "parameterLimit": "/Users/jiaoyy/work/egg-example2/node_modules/egg/config/config.default.js"
+    },
+    "onerror": "/Users/jiaoyy/work/egg-example2/node_modules/egg/config/config.default.js"
+  },
+  "logger": {
+    "dir": "/Users/jiaoyy/work/egg-example2/node_modules/egg/config/config.default.js",
+    "encoding": "/Users/jiaoyy/work/egg-example2/node_modules/egg/config/config.default.js",
+    "env": "/Users/jiaoyy/work/egg-example2/node_modules/egg/config/config.default.js",
+    "level": "/Users/jiaoyy/work/egg-example2/node_modules/egg/config/config.default.js",
+    "consoleLevel": "/Users/jiaoyy/work/egg-example2/node_modules/egg/config/config.default.js",
+    "disableConsoleAfterReady": "/Users/jiaoyy/work/egg-example2/node_modules/egg/config/config.default.js",
+    "outputJSON": "/Users/jiaoyy/work/egg-example2/node_modules/egg/config/config.default.js",
+    "buffer": "/Users/jiaoyy/work/egg-example2/node_modules/egg/config/config.default.js",
+    "appLogName": "/Users/jiaoyy/work/egg-example2/node_modules/egg/config/config.default.js",
+    "coreLogName": "/Users/jiaoyy/work/egg-example2/node_modules/egg/config/config.default.js",
+    "agentLogName": "/Users/jiaoyy/work/egg-example2/node_modules/egg/config/config.default.js",
+    "errorLogName": "/Users/jiaoyy/work/egg-example2/node_modules/egg/config/config.default.js",
+    "coreLogger": {
+      "consoleLevel": "/Users/jiaoyy/work/egg-example2/node_modules/egg/config/config.local.js"
+    },
+    "allowDebugAtProd": "/Users/jiaoyy/work/egg-example2/node_modules/egg/config/config.default.js"
+  },
+  "httpclient": {
+    "enableDNSCache": "/Users/jiaoyy/work/egg-example2/node_modules/egg/config/config.default.js",
+    "dnsCacheLookupInterval": "/Users/jiaoyy/work/egg-example2/node_modules/egg/config/config.default.js",
+    "dnsCacheMaxLength": "/Users/jiaoyy/work/egg-example2/node_modules/egg/config/config.default.js",
+    "request": {
+      "timeout": "/Users/jiaoyy/work/egg-example2/node_modules/egg/config/config.default.js"
+    },
+    "httpAgent": {
+      "keepAlive": "/Users/jiaoyy/work/egg-example2/node_modules/egg/config/config.default.js",
+      "freeSocketTimeout": "/Users/jiaoyy/work/egg-example2/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Users/jiaoyy/work/egg-example2/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Users/jiaoyy/work/egg-example2/node_modules/egg/config/config.default.js"
+    },
+    "httpsAgent": {
+      "keepAlive": "/Users/jiaoyy/work/egg-example2/node_modules/egg/config/config.default.js",
+      "freeSocketTimeout": "/Users/jiaoyy/work/egg-example2/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Users/jiaoyy/work/egg-example2/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Users/jiaoyy/work/egg-example2/node_modules/egg/config/config.default.js"
+    }
+  },
+  "meta": {
+    "enable": "/Users/jiaoyy/work/egg-example2/node_modules/egg/config/config.default.js",
+    "logging": "/Users/jiaoyy/work/egg-example2/node_modules/egg/config/config.default.js"
+  },
+  "coreMiddleware": "/Users/jiaoyy/work/egg-example2/node_modules/egg/config/config.default.js",
+  "workerStartTimeout": "/Users/jiaoyy/work/egg-example2/node_modules/egg/config/config.default.js",
+  "serverTimeout": "/Users/jiaoyy/work/egg-example2/node_modules/egg/config/config.default.js",
+  "cluster": {
+    "listen": {
+      "path": "/Users/jiaoyy/work/egg-example2/node_modules/egg/config/config.default.js",
+      "port": "/Users/jiaoyy/work/egg-example2/node_modules/egg/config/config.default.js",
+      "hostname": "/Users/jiaoyy/work/egg-example2/node_modules/egg/config/config.default.js"
+    }
+  },
+  "clusterClient": {
+    "maxWaitTime": "/Users/jiaoyy/work/egg-example2/node_modules/egg/config/config.default.js",
+    "responseTimeout": "/Users/jiaoyy/work/egg-example2/node_modules/egg/config/config.default.js"
+  },
+  "onClientError": "/Users/jiaoyy/work/egg-example2/node_modules/egg/config/config.default.js"
+}

@@ -1,0 +1,19 @@
+{
+  "name": "egg-example2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "egg-bin dev"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "egg": "^2.26.0",
+    "egg-bin": "^4.14.0",
+    "egg-validate": "^2.0.2",
+    "egg-view-nunjucks": "^2.2.0",
+    "moment": "^2.24.0"
+  }
+}

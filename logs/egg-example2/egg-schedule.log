@@ -1,0 +1,246 @@
+2019-12-13 10:44:26,422 INFO 82502 [Timer] /Users/jiaoyy/work/egg-example2/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 63933580ms at 2019-12-14 04:30:00.002
+2019-12-13 10:44:26,422 INFO 82502 [Timer] /Users/jiaoyy/work/egg-example2/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 47733578ms at 2019-12-14 00:00:00.000
+2019-12-13 10:44:26,423 INFO 82502 [Timer] /Users/jiaoyy/work/egg-example2/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 47734578ms at 2019-12-14 00:00:01.001
+2019-12-13 10:44:26,277 INFO 82506 [egg-schedule]: register schedule /Users/jiaoyy/work/egg-example2/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-12-13 10:44:26,277 INFO 82506 [egg-schedule]: register schedule /Users/jiaoyy/work/egg-example2/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-12-13 10:44:26,277 INFO 82506 [egg-schedule]: register schedule /Users/jiaoyy/work/egg-example2/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-12-13 10:50:33,639 INFO 82596 [egg-schedule]: register schedule /Users/jiaoyy/work/egg-example2/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-12-13 10:50:33,639 INFO 82596 [egg-schedule]: register schedule /Users/jiaoyy/work/egg-example2/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-12-13 10:50:33,639 INFO 82596 [egg-schedule]: register schedule /Users/jiaoyy/work/egg-example2/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-12-13 10:51:38,006 INFO 82605 [egg-schedule]: register schedule /Users/jiaoyy/work/egg-example2/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-12-13 10:51:38,006 INFO 82605 [egg-schedule]: register schedule /Users/jiaoyy/work/egg-example2/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-12-13 10:51:38,006 INFO 82605 [egg-schedule]: register schedule /Users/jiaoyy/work/egg-example2/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-12-13 10:52:57,331 INFO 82615 [egg-schedule]: register schedule /Users/jiaoyy/work/egg-example2/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-12-13 10:52:57,331 INFO 82615 [egg-schedule]: register schedule /Users/jiaoyy/work/egg-example2/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-12-13 10:52:57,331 INFO 82615 [egg-schedule]: register schedule /Users/jiaoyy/work/egg-example2/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-12-13 11:00:30,550 INFO 82697 [egg-schedule]: register schedule /Users/jiaoyy/work/egg-example2/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-12-13 11:00:30,550 INFO 82697 [egg-schedule]: register schedule /Users/jiaoyy/work/egg-example2/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-12-13 11:00:30,550 INFO 82697 [egg-schedule]: register schedule /Users/jiaoyy/work/egg-example2/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-12-13 11:00:53,789 INFO 82704 [egg-schedule]: register schedule /Users/jiaoyy/work/egg-example2/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-12-13 11:00:53,790 INFO 82704 [egg-schedule]: register schedule /Users/jiaoyy/work/egg-example2/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-12-13 11:00:53,790 INFO 82704 [egg-schedule]: register schedule /Users/jiaoyy/work/egg-example2/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-12-13 11:02:30,123 INFO 82716 [egg-schedule]: register schedule /Users/jiaoyy/work/egg-example2/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-12-13 11:02:30,123 INFO 82716 [egg-schedule]: register schedule /Users/jiaoyy/work/egg-example2/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-12-13 11:02:30,123 INFO 82716 [egg-schedule]: register schedule /Users/jiaoyy/work/egg-example2/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-12-13 11:03:12,982 INFO 82721 [egg-schedule]: register schedule /Users/jiaoyy/work/egg-example2/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-12-13 11:03:12,982 INFO 82721 [egg-schedule]: register schedule /Users/jiaoyy/work/egg-example2/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-12-13 11:03:12,982 INFO 82721 [egg-schedule]: register schedule /Users/jiaoyy/work/egg-example2/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-12-13 11:03:31,403 INFO 82724 [egg-schedule]: register schedule /Users/jiaoyy/work/egg-example2/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-12-13 11:03:31,403 INFO 82724 [egg-schedule]: register schedule /Users/jiaoyy/work/egg-example2/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-12-13 11:03:31,403 INFO 82724 [egg-schedule]: register schedule /Users/jiaoyy/work/egg-example2/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-12-13 11:04:09,797 INFO 82729 [egg-schedule]: register schedule /Users/jiaoyy/work/egg-example2/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-12-13 11:04:09,797 INFO 82729 [egg-schedule]: register schedule /Users/jiaoyy/work/egg-example2/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-12-13 11:04:09,798 INFO 82729 [egg-schedule]: register schedule /Users/jiaoyy/work/egg-example2/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-12-13 11:08:16,024 INFO 82771 [Timer] /Users/jiaoyy/work/egg-example2/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 62503979ms at 2019-12-14 04:30:00.003
+2019-12-13 11:08:16,024 INFO 82771 [Timer] /Users/jiaoyy/work/egg-example2/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 46303976ms at 2019-12-14 00:00:00.000
+2019-12-13 11:08:16,025 INFO 82771 [Timer] /Users/jiaoyy/work/egg-example2/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 46304976ms at 2019-12-14 00:00:01.001
+2019-12-13 11:08:15,895 INFO 82775 [egg-schedule]: register schedule /Users/jiaoyy/work/egg-example2/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-12-13 11:08:15,895 INFO 82775 [egg-schedule]: register schedule /Users/jiaoyy/work/egg-example2/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-12-13 11:08:15,895 INFO 82775 [egg-schedule]: register schedule /Users/jiaoyy/work/egg-example2/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-12-13 11:09:52,324 INFO 82790 [egg-schedule]: register schedule /Users/jiaoyy/work/egg-example2/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-12-13 11:09:52,324 INFO 82790 [egg-schedule]: register schedule /Users/jiaoyy/work/egg-example2/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-12-13 11:09:52,324 INFO 82790 [egg-schedule]: register schedule /Users/jiaoyy/work/egg-example2/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-12-13 11:10:33,461 INFO 82797 [egg-schedule]: register schedule /Users/jiaoyy/work/egg-example2/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-12-13 11:10:33,461 INFO 82797 [egg-schedule]: register schedule /Users/jiaoyy/work/egg-example2/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-12-13 11:10:33,461 INFO 82797 [egg-schedule]: register schedule /Users/jiaoyy/work/egg-example2/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-12-13 11:11:02,654 INFO 82802 [egg-schedule]: register schedule /Users/jiaoyy/work/egg-example2/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-12-13 11:11:02,654 INFO 82802 [egg-schedule]: register schedule /Users/jiaoyy/work/egg-example2/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-12-13 11:11:02,654 INFO 82802 [egg-schedule]: register schedule /Users/jiaoyy/work/egg-example2/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-12-13 11:20:59,618 INFO 82888 [egg-schedule]: register schedule /Users/jiaoyy/work/egg-example2/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-12-13 11:20:59,618 INFO 82888 [egg-schedule]: register schedule /Users/jiaoyy/work/egg-example2/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-12-13 11:20:59,618 INFO 82888 [egg-schedule]: register schedule /Users/jiaoyy/work/egg-example2/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-12-13 11:22:17,928 INFO 82899 [egg-schedule]: register schedule /Users/jiaoyy/work/egg-example2/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-12-13 11:22:17,928 INFO 82899 [egg-schedule]: register schedule /Users/jiaoyy/work/egg-example2/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-12-13 11:22:17,928 INFO 82899 [egg-schedule]: register schedule /Users/jiaoyy/work/egg-example2/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-12-13 11:22:34,915 INFO 82904 [egg-schedule]: register schedule /Users/jiaoyy/work/egg-example2/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-12-13 11:22:34,915 INFO 82904 [egg-schedule]: register schedule /Users/jiaoyy/work/egg-example2/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-12-13 11:22:34,915 INFO 82904 [egg-schedule]: register schedule /Users/jiaoyy/work/egg-example2/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-12-13 11:26:43,923 INFO 83380 [egg-schedule]: register schedule /Users/jiaoyy/work/egg-example2/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-12-13 11:26:43,923 INFO 83380 [egg-schedule]: register schedule /Users/jiaoyy/work/egg-example2/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-12-13 11:26:43,923 INFO 83380 [egg-schedule]: register schedule /Users/jiaoyy/work/egg-example2/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-12-13 11:30:07,553 INFO 83410 [egg-schedule]: register schedule /Users/jiaoyy/work/egg-example2/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-12-13 11:30:07,553 INFO 83410 [egg-schedule]: register schedule /Users/jiaoyy/work/egg-example2/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-12-13 11:30:07,553 INFO 83410 [egg-schedule]: register schedule /Users/jiaoyy/work/egg-example2/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-12-13 11:42:28,904 INFO 83931 [egg-schedule]: register schedule /Users/jiaoyy/work/egg-example2/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-12-13 11:42:28,904 INFO 83931 [egg-schedule]: register schedule /Users/jiaoyy/work/egg-example2/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-12-13 11:42:28,904 INFO 83931 [egg-schedule]: register schedule /Users/jiaoyy/work/egg-example2/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-12-13 11:43:17,180 INFO 83939 [egg-schedule]: register schedule /Users/jiaoyy/work/egg-example2/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-12-13 11:43:17,180 INFO 83939 [egg-schedule]: register schedule /Users/jiaoyy/work/egg-example2/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-12-13 11:43:17,180 INFO 83939 [egg-schedule]: register schedule /Users/jiaoyy/work/egg-example2/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-12-13 11:43:32,944 INFO 83942 [egg-schedule]: register schedule /Users/jiaoyy/work/egg-example2/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-12-13 11:43:32,944 INFO 83942 [egg-schedule]: register schedule /Users/jiaoyy/work/egg-example2/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-12-13 11:43:32,944 INFO 83942 [egg-schedule]: register schedule /Users/jiaoyy/work/egg-example2/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-12-13 11:45:34,929 INFO 83955 [egg-schedule]: register schedule /Users/jiaoyy/work/egg-example2/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-12-13 11:45:34,929 INFO 83955 [egg-schedule]: register schedule /Users/jiaoyy/work/egg-example2/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-12-13 11:45:34,929 INFO 83955 [egg-schedule]: register schedule /Users/jiaoyy/work/egg-example2/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-12-13 11:46:02,628 INFO 83959 [egg-schedule]: register schedule /Users/jiaoyy/work/egg-example2/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-12-13 11:46:02,628 INFO 83959 [egg-schedule]: register schedule /Users/jiaoyy/work/egg-example2/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-12-13 11:46:02,628 INFO 83959 [egg-schedule]: register schedule /Users/jiaoyy/work/egg-example2/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-12-13 11:46:55,398 INFO 83965 [egg-schedule]: register schedule /Users/jiaoyy/work/egg-example2/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-12-13 11:46:55,398 INFO 83965 [egg-schedule]: register schedule /Users/jiaoyy/work/egg-example2/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-12-13 11:46:55,398 INFO 83965 [egg-schedule]: register schedule /Users/jiaoyy/work/egg-example2/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-12-13 11:50:03,243 INFO 83988 [egg-schedule]: register schedule /Users/jiaoyy/work/egg-example2/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-12-13 11:50:03,243 INFO 83988 [egg-schedule]: register schedule /Users/jiaoyy/work/egg-example2/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-12-13 11:50:03,243 INFO 83988 [egg-schedule]: register schedule /Users/jiaoyy/work/egg-example2/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-12-13 11:50:45,756 INFO 83993 [egg-schedule]: register schedule /Users/jiaoyy/work/egg-example2/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-12-13 11:50:45,756 INFO 83993 [egg-schedule]: register schedule /Users/jiaoyy/work/egg-example2/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-12-13 11:50:45,756 INFO 83993 [egg-schedule]: register schedule /Users/jiaoyy/work/egg-example2/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-12-13 11:51:18,362 INFO 83997 [egg-schedule]: register schedule /Users/jiaoyy/work/egg-example2/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-12-13 11:51:18,362 INFO 83997 [egg-schedule]: register schedule /Users/jiaoyy/work/egg-example2/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-12-13 11:51:18,362 INFO 83997 [egg-schedule]: register schedule /Users/jiaoyy/work/egg-example2/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-12-13 11:53:29,118 INFO 84021 [egg-schedule]: register schedule /Users/jiaoyy/work/egg-example2/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-12-13 11:53:29,118 INFO 84021 [egg-schedule]: register schedule /Users/jiaoyy/work/egg-example2/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-12-13 11:53:29,118 INFO 84021 [egg-schedule]: register schedule /Users/jiaoyy/work/egg-example2/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-12-13 16:01:00,852 INFO 87772 [Timer] /Users/jiaoyy/work/egg-example2/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 44939151ms at 2019-12-14 04:30:00.003
+2019-12-13 16:01:00,853 INFO 87772 [Timer] /Users/jiaoyy/work/egg-example2/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 28739148ms at 2019-12-14 00:00:00.001
+2019-12-13 16:01:00,853 INFO 87772 [Timer] /Users/jiaoyy/work/egg-example2/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 28740147ms at 2019-12-14 00:00:01.000
+2019-12-13 16:01:00,706 INFO 87776 [egg-schedule]: register schedule /Users/jiaoyy/work/egg-example2/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-12-13 16:01:00,706 INFO 87776 [egg-schedule]: register schedule /Users/jiaoyy/work/egg-example2/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-12-13 16:01:00,706 INFO 87776 [egg-schedule]: register schedule /Users/jiaoyy/work/egg-example2/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-12-13 16:05:06,019 INFO 88001 [egg-schedule]: register schedule /Users/jiaoyy/work/egg-example2/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-12-13 16:05:06,019 INFO 88001 [egg-schedule]: register schedule /Users/jiaoyy/work/egg-example2/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-12-13 16:05:06,019 INFO 88001 [egg-schedule]: register schedule /Users/jiaoyy/work/egg-example2/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-12-13 16:05:06,204 INFO 87997 [Timer] /Users/jiaoyy/work/egg-example2/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 44693800ms at 2019-12-14 04:30:00.003
+2019-12-13 16:05:06,204 INFO 87997 [Timer] /Users/jiaoyy/work/egg-example2/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 28493796ms at 2019-12-14 00:00:00.000
+2019-12-13 16:05:06,205 INFO 87997 [Timer] /Users/jiaoyy/work/egg-example2/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 28494796ms at 2019-12-14 00:00:01.001
+2019-12-13 16:07:00,637 INFO 88279 [egg-schedule]: register schedule /Users/jiaoyy/work/egg-example2/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-12-13 16:07:00,637 INFO 88279 [egg-schedule]: register schedule /Users/jiaoyy/work/egg-example2/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-12-13 16:07:00,637 INFO 88279 [egg-schedule]: register schedule /Users/jiaoyy/work/egg-example2/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-12-13 16:11:23,992 INFO 88334 [egg-schedule]: register schedule /Users/jiaoyy/work/egg-example2/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-12-13 16:11:23,992 INFO 88334 [egg-schedule]: register schedule /Users/jiaoyy/work/egg-example2/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-12-13 16:11:23,992 INFO 88334 [egg-schedule]: register schedule /Users/jiaoyy/work/egg-example2/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-12-13 16:12:32,585 INFO 88350 [Timer] /Users/jiaoyy/work/egg-example2/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 44247420ms at 2019-12-14 04:30:00.004
+2019-12-13 16:12:32,585 INFO 88350 [Timer] /Users/jiaoyy/work/egg-example2/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 28047415ms at 2019-12-14 00:00:00.000
+2019-12-13 16:12:32,586 INFO 88350 [Timer] /Users/jiaoyy/work/egg-example2/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 28048415ms at 2019-12-14 00:00:01.001
+2019-12-13 16:12:32,510 INFO 88351 [egg-schedule]: register schedule /Users/jiaoyy/work/egg-example2/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-12-13 16:12:32,510 INFO 88351 [egg-schedule]: register schedule /Users/jiaoyy/work/egg-example2/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-12-13 16:12:32,510 INFO 88351 [egg-schedule]: register schedule /Users/jiaoyy/work/egg-example2/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-12-13 16:13:38,727 INFO 88367 [egg-schedule]: register schedule /Users/jiaoyy/work/egg-example2/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-12-13 16:13:38,727 INFO 88367 [egg-schedule]: register schedule /Users/jiaoyy/work/egg-example2/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-12-13 16:13:38,727 INFO 88367 [egg-schedule]: register schedule /Users/jiaoyy/work/egg-example2/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-12-13 16:13:59,083 INFO 88370 [egg-schedule]: register schedule /Users/jiaoyy/work/egg-example2/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-12-13 16:13:59,083 INFO 88370 [egg-schedule]: register schedule /Users/jiaoyy/work/egg-example2/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-12-13 16:13:59,083 INFO 88370 [egg-schedule]: register schedule /Users/jiaoyy/work/egg-example2/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-12-13 16:14:24,816 INFO 88374 [egg-schedule]: register schedule /Users/jiaoyy/work/egg-example2/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-12-13 16:14:24,816 INFO 88374 [egg-schedule]: register schedule /Users/jiaoyy/work/egg-example2/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-12-13 16:14:24,816 INFO 88374 [egg-schedule]: register schedule /Users/jiaoyy/work/egg-example2/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-12-13 16:19:24,472 INFO 88441 [Timer] /Users/jiaoyy/work/egg-example2/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 43835530ms at 2019-12-14 04:30:00.002
+2019-12-13 16:19:24,473 INFO 88441 [Timer] /Users/jiaoyy/work/egg-example2/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 27635528ms at 2019-12-14 00:00:00.001
+2019-12-13 16:19:24,473 INFO 88441 [Timer] /Users/jiaoyy/work/egg-example2/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 27636527ms at 2019-12-14 00:00:01.000
+2019-12-13 16:19:24,402 INFO 88442 [egg-schedule]: register schedule /Users/jiaoyy/work/egg-example2/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-12-13 16:19:24,402 INFO 88442 [egg-schedule]: register schedule /Users/jiaoyy/work/egg-example2/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-12-13 16:19:24,402 INFO 88442 [egg-schedule]: register schedule /Users/jiaoyy/work/egg-example2/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-12-13 16:19:45,609 INFO 88450 [egg-schedule]: register schedule /Users/jiaoyy/work/egg-example2/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-12-13 16:19:45,609 INFO 88450 [egg-schedule]: register schedule /Users/jiaoyy/work/egg-example2/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-12-13 16:19:45,609 INFO 88450 [egg-schedule]: register schedule /Users/jiaoyy/work/egg-example2/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-12-13 16:20:41,265 INFO 88461 [egg-schedule]: register schedule /Users/jiaoyy/work/egg-example2/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-12-13 16:20:41,265 INFO 88461 [egg-schedule]: register schedule /Users/jiaoyy/work/egg-example2/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-12-13 16:20:41,265 INFO 88461 [egg-schedule]: register schedule /Users/jiaoyy/work/egg-example2/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-12-13 16:20:50,088 INFO 88470 [Timer] /Users/jiaoyy/work/egg-example2/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 43749915ms at 2019-12-14 04:30:00.003
+2019-12-13 16:20:50,088 INFO 88470 [Timer] /Users/jiaoyy/work/egg-example2/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 27549912ms at 2019-12-14 00:00:00.000
+2019-12-13 16:20:50,089 INFO 88470 [Timer] /Users/jiaoyy/work/egg-example2/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 27550912ms at 2019-12-14 00:00:01.001
+2019-12-13 16:20:50,019 INFO 88471 [egg-schedule]: register schedule /Users/jiaoyy/work/egg-example2/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-12-13 16:20:50,019 INFO 88471 [egg-schedule]: register schedule /Users/jiaoyy/work/egg-example2/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-12-13 16:20:50,019 INFO 88471 [egg-schedule]: register schedule /Users/jiaoyy/work/egg-example2/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-12-13 16:23:14,278 INFO 88566 [egg-schedule]: register schedule /Users/jiaoyy/work/egg-example2/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-12-13 16:23:14,278 INFO 88566 [egg-schedule]: register schedule /Users/jiaoyy/work/egg-example2/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-12-13 16:23:14,278 INFO 88566 [egg-schedule]: register schedule /Users/jiaoyy/work/egg-example2/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-12-13 16:26:15,364 INFO 88603 [egg-schedule]: register schedule /Users/jiaoyy/work/egg-example2/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-12-13 16:26:15,364 INFO 88603 [egg-schedule]: register schedule /Users/jiaoyy/work/egg-example2/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-12-13 16:26:15,364 INFO 88603 [egg-schedule]: register schedule /Users/jiaoyy/work/egg-example2/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-12-13 16:27:28,909 INFO 88617 [egg-schedule]: register schedule /Users/jiaoyy/work/egg-example2/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-12-13 16:27:28,909 INFO 88617 [egg-schedule]: register schedule /Users/jiaoyy/work/egg-example2/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-12-13 16:27:28,909 INFO 88617 [egg-schedule]: register schedule /Users/jiaoyy/work/egg-example2/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-12-13 16:27:33,306 INFO 88618 [egg-schedule]: register schedule /Users/jiaoyy/work/egg-example2/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-12-13 16:27:33,306 INFO 88618 [egg-schedule]: register schedule /Users/jiaoyy/work/egg-example2/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-12-13 16:27:33,306 INFO 88618 [egg-schedule]: register schedule /Users/jiaoyy/work/egg-example2/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-12-13 16:28:00,761 INFO 88623 [egg-schedule]: register schedule /Users/jiaoyy/work/egg-example2/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-12-13 16:28:00,761 INFO 88623 [egg-schedule]: register schedule /Users/jiaoyy/work/egg-example2/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-12-13 16:28:00,761 INFO 88623 [egg-schedule]: register schedule /Users/jiaoyy/work/egg-example2/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-12-13 16:30:23,613 INFO 88948 [egg-schedule]: register schedule /Users/jiaoyy/work/egg-example2/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-12-13 16:30:23,613 INFO 88948 [egg-schedule]: register schedule /Users/jiaoyy/work/egg-example2/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-12-13 16:30:23,613 INFO 88948 [egg-schedule]: register schedule /Users/jiaoyy/work/egg-example2/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-12-13 16:36:42,076 INFO 89133 [egg-schedule]: register schedule /Users/jiaoyy/work/egg-example2/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-12-13 16:36:42,076 INFO 89133 [egg-schedule]: register schedule /Users/jiaoyy/work/egg-example2/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-12-13 16:36:42,076 INFO 89133 [egg-schedule]: register schedule /Users/jiaoyy/work/egg-example2/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-12-13 16:36:44,136 INFO 89134 [egg-schedule]: register schedule /Users/jiaoyy/work/egg-example2/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-12-13 16:36:44,136 INFO 89134 [egg-schedule]: register schedule /Users/jiaoyy/work/egg-example2/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-12-13 16:36:44,136 INFO 89134 [egg-schedule]: register schedule /Users/jiaoyy/work/egg-example2/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-12-13 16:38:39,285 INFO 89150 [egg-schedule]: register schedule /Users/jiaoyy/work/egg-example2/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-12-13 16:38:39,285 INFO 89150 [egg-schedule]: register schedule /Users/jiaoyy/work/egg-example2/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-12-13 16:38:39,285 INFO 89150 [egg-schedule]: register schedule /Users/jiaoyy/work/egg-example2/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-12-13 16:41:49,329 INFO 89179 [egg-schedule]: register schedule /Users/jiaoyy/work/egg-example2/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-12-13 16:41:49,329 INFO 89179 [egg-schedule]: register schedule /Users/jiaoyy/work/egg-example2/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-12-13 16:41:49,329 INFO 89179 [egg-schedule]: register schedule /Users/jiaoyy/work/egg-example2/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-12-13 16:42:38,642 INFO 89185 [egg-schedule]: register schedule /Users/jiaoyy/work/egg-example2/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-12-13 16:42:38,642 INFO 89185 [egg-schedule]: register schedule /Users/jiaoyy/work/egg-example2/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-12-13 16:42:38,642 INFO 89185 [egg-schedule]: register schedule /Users/jiaoyy/work/egg-example2/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-12-13 16:44:29,059 INFO 89205 [egg-schedule]: register schedule /Users/jiaoyy/work/egg-example2/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-12-13 16:44:29,059 INFO 89205 [egg-schedule]: register schedule /Users/jiaoyy/work/egg-example2/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-12-13 16:44:29,059 INFO 89205 [egg-schedule]: register schedule /Users/jiaoyy/work/egg-example2/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-12-13 16:53:05,023 INFO 89274 [egg-schedule]: register schedule /Users/jiaoyy/work/egg-example2/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-12-13 16:53:05,023 INFO 89274 [egg-schedule]: register schedule /Users/jiaoyy/work/egg-example2/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-12-13 16:53:05,023 INFO 89274 [egg-schedule]: register schedule /Users/jiaoyy/work/egg-example2/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-12-13 16:53:34,611 INFO 89280 [egg-schedule]: register schedule /Users/jiaoyy/work/egg-example2/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-12-13 16:53:34,611 INFO 89280 [egg-schedule]: register schedule /Users/jiaoyy/work/egg-example2/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-12-13 16:53:34,611 INFO 89280 [egg-schedule]: register schedule /Users/jiaoyy/work/egg-example2/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-12-13 16:54:43,756 INFO 89289 [egg-schedule]: register schedule /Users/jiaoyy/work/egg-example2/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-12-13 16:54:43,756 INFO 89289 [egg-schedule]: register schedule /Users/jiaoyy/work/egg-example2/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-12-13 16:54:43,756 INFO 89289 [egg-schedule]: register schedule /Users/jiaoyy/work/egg-example2/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-12-13 16:54:57,241 INFO 89291 [egg-schedule]: register schedule /Users/jiaoyy/work/egg-example2/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-12-13 16:54:57,241 INFO 89291 [egg-schedule]: register schedule /Users/jiaoyy/work/egg-example2/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-12-13 16:54:57,241 INFO 89291 [egg-schedule]: register schedule /Users/jiaoyy/work/egg-example2/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-12-13 16:56:00,986 INFO 89304 [egg-schedule]: register schedule /Users/jiaoyy/work/egg-example2/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-12-13 16:56:00,986 INFO 89304 [egg-schedule]: register schedule /Users/jiaoyy/work/egg-example2/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-12-13 16:56:00,987 INFO 89304 [egg-schedule]: register schedule /Users/jiaoyy/work/egg-example2/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-12-13 17:53:36,891 INFO 90954 [Timer] /Users/jiaoyy/work/egg-example2/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 38183111ms at 2019-12-14 04:30:00.002
+2019-12-13 17:53:36,891 INFO 90954 [Timer] /Users/jiaoyy/work/egg-example2/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 21983109ms at 2019-12-14 00:00:00.000
+2019-12-13 17:53:36,891 INFO 90954 [Timer] /Users/jiaoyy/work/egg-example2/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 21984109ms at 2019-12-14 00:00:01.000
+2019-12-13 17:53:36,767 INFO 90958 [egg-schedule]: register schedule /Users/jiaoyy/work/egg-example2/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-12-13 17:53:36,767 INFO 90958 [egg-schedule]: register schedule /Users/jiaoyy/work/egg-example2/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-12-13 17:53:36,767 INFO 90958 [egg-schedule]: register schedule /Users/jiaoyy/work/egg-example2/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-12-13 18:33:53,358 INFO 91626 [egg-schedule]: register schedule /Users/jiaoyy/work/egg-example2/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-12-13 18:33:53,358 INFO 91626 [egg-schedule]: register schedule /Users/jiaoyy/work/egg-example2/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-12-13 18:33:53,358 INFO 91626 [egg-schedule]: register schedule /Users/jiaoyy/work/egg-example2/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-12-13 18:33:55,775 INFO 91627 [egg-schedule]: register schedule /Users/jiaoyy/work/egg-example2/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-12-13 18:33:55,775 INFO 91627 [egg-schedule]: register schedule /Users/jiaoyy/work/egg-example2/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-12-13 18:33:55,775 INFO 91627 [egg-schedule]: register schedule /Users/jiaoyy/work/egg-example2/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-12-13 18:48:17,910 INFO 91740 [Timer] /Users/jiaoyy/work/egg-example2/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 34902093ms at 2019-12-14 04:30:00.003
+2019-12-13 18:48:17,911 INFO 91740 [Timer] /Users/jiaoyy/work/egg-example2/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 18702089ms at 2019-12-14 00:00:00.000
+2019-12-13 18:48:17,914 INFO 91740 [Timer] /Users/jiaoyy/work/egg-example2/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 18703088ms at 2019-12-14 00:00:01.001
+2019-12-13 18:48:17,798 INFO 91744 [egg-schedule]: register schedule /Users/jiaoyy/work/egg-example2/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-12-13 18:48:17,798 INFO 91744 [egg-schedule]: register schedule /Users/jiaoyy/work/egg-example2/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-12-13 18:48:17,798 INFO 91744 [egg-schedule]: register schedule /Users/jiaoyy/work/egg-example2/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-12-13 19:17:35,195 INFO 93861 [egg-schedule]: register schedule /Users/jiaoyy/work/egg-example2/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-12-13 19:17:35,195 INFO 93861 [egg-schedule]: register schedule /Users/jiaoyy/work/egg-example2/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-12-13 19:17:35,195 INFO 93861 [egg-schedule]: register schedule /Users/jiaoyy/work/egg-example2/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-12-13 19:27:09,836 INFO 94403 [egg-schedule]: register schedule /Users/jiaoyy/work/egg-example2/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-12-13 19:27:09,836 INFO 94403 [egg-schedule]: register schedule /Users/jiaoyy/work/egg-example2/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-12-13 19:27:09,836 INFO 94403 [egg-schedule]: register schedule /Users/jiaoyy/work/egg-example2/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-12-13 19:30:28,537 INFO 94434 [egg-schedule]: register schedule /Users/jiaoyy/work/egg-example2/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-12-13 19:30:28,537 INFO 94434 [egg-schedule]: register schedule /Users/jiaoyy/work/egg-example2/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-12-13 19:30:28,537 INFO 94434 [egg-schedule]: register schedule /Users/jiaoyy/work/egg-example2/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-12-13 19:31:47,148 INFO 94455 [egg-schedule]: register schedule /Users/jiaoyy/work/egg-example2/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-12-13 19:31:47,148 INFO 94455 [egg-schedule]: register schedule /Users/jiaoyy/work/egg-example2/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-12-13 19:31:47,148 INFO 94455 [egg-schedule]: register schedule /Users/jiaoyy/work/egg-example2/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-12-13 19:31:53,478 INFO 94456 [egg-schedule]: register schedule /Users/jiaoyy/work/egg-example2/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-12-13 19:31:53,478 INFO 94456 [egg-schedule]: register schedule /Users/jiaoyy/work/egg-example2/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-12-13 19:31:53,478 INFO 94456 [egg-schedule]: register schedule /Users/jiaoyy/work/egg-example2/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-12-14 11:47:16,520 INFO 98466 [Timer] /Users/jiaoyy/work/egg-example2/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 60163483ms at 2019-12-15 04:30:00.003
+2019-12-14 11:47:16,520 INFO 98466 [Timer] /Users/jiaoyy/work/egg-example2/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 43963480ms at 2019-12-15 00:00:00.000
+2019-12-14 11:47:16,521 INFO 98466 [Timer] /Users/jiaoyy/work/egg-example2/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 43964480ms at 2019-12-15 00:00:01.001
+2019-12-14 11:47:16,381 INFO 98471 [egg-schedule]: register schedule /Users/jiaoyy/work/egg-example2/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-12-14 11:47:16,381 INFO 98471 [egg-schedule]: register schedule /Users/jiaoyy/work/egg-example2/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-12-14 11:47:16,381 INFO 98471 [egg-schedule]: register schedule /Users/jiaoyy/work/egg-example2/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-12-14 11:54:08,845 INFO 98522 [egg-schedule]: register schedule /Users/jiaoyy/work/egg-example2/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-12-14 11:54:08,845 INFO 98522 [egg-schedule]: register schedule /Users/jiaoyy/work/egg-example2/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-12-14 11:54:08,845 INFO 98522 [egg-schedule]: register schedule /Users/jiaoyy/work/egg-example2/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-12-14 12:02:51,410 INFO 98592 [egg-schedule]: register schedule /Users/jiaoyy/work/egg-example2/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-12-14 12:02:51,410 INFO 98592 [egg-schedule]: register schedule /Users/jiaoyy/work/egg-example2/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-12-14 12:02:51,410 INFO 98592 [egg-schedule]: register schedule /Users/jiaoyy/work/egg-example2/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-12-16 10:19:46,186 INFO 2665 [Timer] /Users/jiaoyy/work/egg-example2/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 65413817ms at 2019-12-17 04:30:00.003
+2019-12-16 10:19:46,186 INFO 2665 [Timer] /Users/jiaoyy/work/egg-example2/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 49213814ms at 2019-12-17 00:00:00.000
+2019-12-16 10:19:46,187 INFO 2665 [Timer] /Users/jiaoyy/work/egg-example2/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 49214814ms at 2019-12-17 00:00:01.001
+2019-12-16 10:19:46,060 INFO 2669 [egg-schedule]: register schedule /Users/jiaoyy/work/egg-example2/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-12-16 10:19:46,060 INFO 2669 [egg-schedule]: register schedule /Users/jiaoyy/work/egg-example2/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-12-16 10:19:46,060 INFO 2669 [egg-schedule]: register schedule /Users/jiaoyy/work/egg-example2/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
